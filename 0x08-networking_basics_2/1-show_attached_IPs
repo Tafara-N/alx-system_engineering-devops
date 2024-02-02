@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
 # A Bash script that displays all active IPv4 IPs on the machine it’s executed on
 hostname -I
 hostname -i
-
