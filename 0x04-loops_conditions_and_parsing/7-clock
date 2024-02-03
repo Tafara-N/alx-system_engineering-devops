@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # A script that displays the time, 12 hours and 59 minutes
 #   Hours from 0 to 12
 #   Minutes from 1 to 59
@@ -16,3 +17,4 @@ do
   done
   (( hour++ ))
 done
+
