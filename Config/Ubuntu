@@ -89,6 +89,10 @@ AppData >> Local >> nvim >> lua >> config >> options.lua
 
 7. sudo mv betty /bin/
 
+## Batcat command (cat)
+
+1. Add alias bat="batcat" in your .bashrc or .zshrc
+
 ## Langauages
 
 ## Python
