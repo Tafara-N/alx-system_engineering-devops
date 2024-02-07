@@ -161,7 +161,7 @@ Visit the Go website and copy the link of the version you want
 
 3. sudo mv go /usr/local
 
-Edit into you .bashrc or .zshrc files
+Add into your .bashrc or .zshrc files
 
 4. export PATH=$PATH:/usr/local/go/bin
 
@@ -207,7 +207,19 @@ To have multiple versions of Ruby for different projects.
 
 2. Inside the .ruby-version file >> the version you want only, eg 3.3.0
 
-## Terminal Set Upi
+# Node.js
+
+Visit (https://github.com/nvm-sh/nvm)
+
+1. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+2. nvm install node
+
+To switch between installed versions
+
+1. nvm alias default (version you want)
+
+## Terminal Set Up
 
 Install Oh My ZSH
 
@@ -223,7 +235,7 @@ Install Powerlevel Plug themes
 
 3. source .zshrc
 
-Plugins
+## Plugins
 
 1. git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
