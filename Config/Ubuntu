@@ -145,6 +145,14 @@ nproc
 
 7. sudo make install
 
+Extras: Importing my own modules
+
+PATH to the directory of the modules
+
+export PYTHONPATH=/home/tafara/Documents/Code/Programs/Python/Codes/Modules:${PYTHONPATH}
+
+echo $PYTHONPATH
+
 ## Java
 
 1. sudo apt-get update
