@@ -101,7 +101,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-<img src="images/osi.png" alt="OSI model" type="image/png">
+<img src="images/tcp_udp.jpg" alt="TCP/UDP" type="image/jpg">
 
 Questions:
 
@@ -172,6 +172,8 @@ What is an IP address?
 - File: `2-MAC_and_IP_address`
 
 ### 3. UDP and TCP
+
+<img src="images/osi.png" alt="OSI model" type="image/png">
 
 Let’s fill the empty parts in the drawing above.
 
