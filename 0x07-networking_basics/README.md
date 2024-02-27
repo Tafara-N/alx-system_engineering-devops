@@ -173,7 +173,7 @@ What is an IP address?
 
 ### 3. UDP and TCP
 
-<img src="images/osi.png" alt="OSI model" type="image/png">
+<img src="images/TCP.jpg" alt="UDP and TCP" type="image/jpg">
 
 Let’s fill the empty parts in the drawing above.
 
