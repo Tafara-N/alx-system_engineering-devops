@@ -124,7 +124,7 @@ How is the OSI model organized?
 
 ### 1. Types of network
 
-<img src="images/osi.png" alt="OSI model" type="image/png">
+<img src="images/networks.jpg" alt="Types of network" type="image/jpg">
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
