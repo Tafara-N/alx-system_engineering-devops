@@ -181,7 +181,7 @@ File: `6-phone_number.rb`
 
 ### 7. OMG WHY ARE YOU SHOUTING?
 
-
+![OMG WHY ARE YOU SHOUTING](https://intranet.alxswe.com/images/contents/sysadmin/projects/78/shouting.jpg)
 
 Requirement:
 
