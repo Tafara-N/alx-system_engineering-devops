@@ -152,7 +152,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2. MAC and IP address
 
-<img src="images/osi.png" alt="OSI model" type="image/png">
+<img src="images/mac_address.jpg" alt="MAC and Ip address" type="image/jpg">
 
 Questions:
 
