@@ -101,7 +101,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-![TCP/UDP]()
+<img src="images/osi.png" alt="OSI model" type="image/png">
 
 Questions:
 
@@ -124,7 +124,7 @@ How is the OSI model organized?
 
 ### 1. Types of network
 
-![Network Types]()
+<img src="images/osi.png" alt="OSI model" type="image/png">
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -152,7 +152,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2. MAC and IP address
 
-![MAC and IP]()
+<img src="images/osi.png" alt="OSI model" type="image/png">
 
 Questions:
 
@@ -250,7 +250,7 @@ sylvain@ubuntu$
 
 ### 5. Is the host on the network
 
-
+<img src="images/giphy.gif" alt="Boat" type="image/gif">
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
