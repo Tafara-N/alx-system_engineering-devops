@@ -43,8 +43,6 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ### 0. Simply matching School
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240228%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240228T094015Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f94a1311ee383f0ba27f05c0fcf193b4b2ccdbc160cdeea9c2805c33281a8a4c">
-
 Requirements:
 
 - The regular expression must match `School`
@@ -63,76 +61,67 @@ sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
 $
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `0-simply_match_school.rb`
 
-1. Repetition Token #0
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-
+### 1. Repetition Token #0
 
 Requirements:
 
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Repo:
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 1-repetition_token_0.rb
-    
-2. Repetition Token #1
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+File: `1-repetition_token_0.rb`
 
+### 2. Repetition Token #1
 
 Requirements:
 
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `2-repetition_token_1.rb`
 
-3. Repetition Token #2
-
-
+### 3. Repetition Token #2
 
 Requirements:
 
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `3-repetition_token_2.rb`
 
 ### 4. Repetition Token #3
 
-
-
 Requirements:
 
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Your regex should not contain square brackets
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- Your regex should not contain square brackets
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `4-repetition_token_3.rb`
 
 ### 5. Not quite HBTN yet
 
 Requirements:
 
-The regular expression must be exactly matching a string that starts with h ends with n and can have any single character in between
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- The regular expression must be exactly matching a string that starts with `h` ends with `n` and can have any single character in between
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
 Example:
 
 ```
@@ -148,18 +137,19 @@ sylvain@ubuntu$
 $
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `5-beginning_and_end.rb`
 
 ### 6. Call me maybe
 
-This task is brought to you by a professional advisor Neha Jain, Senior Software Engineer at LinkedIn.
+This task is brought to you by a professional advisor [Neha Jain](https://intranet.alxswe.com/rltoken/GqwvXAvTXR_JXqyTvZ4AzQ), Senior Software Engineer at LinkedIn.
 
 Requirement:
 
-The regular expression must match a 10 digit phone number
+- The regular expression must match a 10 digit phone number
+
 Example:
 
 ```
@@ -174,9 +164,9 @@ $
 sylvain@ubuntu$
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `6-phone_number.rb`
 
 ### 7. OMG WHY ARE YOU SHOUTING?
@@ -199,9 +189,9 @@ $
 sylvain@ubuntu$
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `7-OMG_WHY_ARE_YOU_SHOUTING.rb`
 
 ### 8. Textme
@@ -238,7 +228,7 @@ $ ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-64-11 mdr: 2016-02-01 11:00:00 Sent SM
 $
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
 File: `100-textme.rb`
