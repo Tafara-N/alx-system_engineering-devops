@@ -41,31 +41,33 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # More Info  
 For those who want to know more and learn about all signals, check out [this article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
 
-Tasks
-0. What is my PID
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+## Tasks
+
+### 0. What is my PID
+
 Write a Bash script that displays its own PID.
 
+```
 sylvain@ubuntu$ ./0-what-is-my-pid
 4120
 sylvain@ubuntu$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 0-what-is-my-pid
-    
-1. List your processes
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `0-what-is-my-pid`
+
+### 1. List your processes
+
 Write a Bash script that displays a list of currently running processes.
 
 Requirements:
+- Must show all processes, for all users, including those which might not have a TTY
+- Display in a user-oriented format
+- Show process hierarchy
 
-Must show all processes, for all users, including those which might not have a TTY
-Display in a user-oriented format
-Show process hierarchy
+```
 sylvain@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
@@ -118,42 +120,45 @@ root       378  0.0  0.2  49904  1088 ?        Ss   Feb13   0:00 /lib/systemd/sy
 root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
 statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L
 sylvain@ubuntu$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 1-list_your_processes
-    
-2. Show your Bash PID
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `1-list_your_processes`
+
+### 2. Show your Bash PID
+
+Using your previous exercise command, write a Bash script that displays lines containing the `bash` word, thus allowing you to easily get the PID of your Bash process.
 
 Requirements:
 
-You cannot use pgrep
-The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error here)
+- You cannot use `pgrep`
+- The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error [here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw))
+
+```
 sylvain@ubuntu$ sylvain@ubuntu$ ./2-show_your_bash_pid
 sylvain   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
 sylvain   4477  0.0  0.2  11120  1352 pts/0    S+   03:40   0:00              \_ bash ./2-show_your_bash_PID
 sylvain   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                  \_ grep bash
-sylvain@ubuntu$ 
-Here we can see that my Bash PID is 4404.
+sylvain@ubuntu$
+```
 
-Repo:
+Here we can see that my Bash PID is `4404`.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 2-show_your_bash_pid
-    
-3. Show your Bash PID made easy
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `2-show_your_bash_pid`
+
+### 3. Show your Bash PID made easy
+
+Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word `bash`.
 
 Requirements:
+- You cannot use `ps`
 
-You cannot use ps
+```
 sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4555 bash
@@ -161,24 +166,25 @@ sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4557 bash
 sylvain@ubuntu$ 
+```
+
 Here we can see that:
+- For the first iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4555`
+- For the second iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4557`
 
-For the first iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4555
-For the second iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4557
-Repo:
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `3-show_your_bash_pid_made_easy`
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 3-show_your_bash_pid_made_easy
-    
-4. To infinity and beyond
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that displays To infinity and beyond indefinitely.
+### 4. To infinity and beyond
+
+Write a Bash script that displays `To infinity and beyond` indefinitely.
 
 Requirements:
+- In between each iteration of the loop, add a `sleep 2`
 
-In between each iteration of the loop, add a sleep 2
+```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
@@ -186,27 +192,28 @@ To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 ^C
-sylvain@ubuntu$ 
-Note that I ctrl+c (killed) the Bash script in the example.
+sylvain@ubuntu$
+```
 
-Repo:
+Note that I `ctrl+c` (killed) the Bash script in the example.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 4-to_infinity_and_beyond
-    
-5. Don't stop me now!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `4-to_infinity_and_beyond`
 
-Write a Bash script that stops 4-to_infinity_and_beyond process.
+### 5. Don't stop me now!
+
+We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this.
+
+Write a Bash script that stops `4-to_infinity_and_beyond` process.
 
 Requirements:
+- You must use `kill`
 
-You must use kill
 Terminal #0
 
+```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
@@ -224,28 +231,33 @@ To infinity and beyond
 To infinity and beyond
 Terminated
 sylvain@ubuntu$ 
+```
+
 Terminal #1
 
+```
 sylvain@ubuntu$ ./5-dont_stop_me_now 
-sylvain@ubuntu$ 
-I opened 2 terminals in this example, started by running my 4-to_infinity_and_beyond Bash script in terminal #0 and then moved on terminal #1 to run 5-dont_stop_me_now. We can then see in terminal #0 that my process has been terminated.
+sylvain@ubuntu$
+```
 
-Repo:
+I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `5-dont_stop_me_now`. We can then see in terminal #0 that my process has been terminated.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 5-dont_stop_me_now
-    
-6. Stop me if you can
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that stops 4-to_infinity_and_beyond process.
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `5-dont_stop_me_now`
+
+### 6. Stop me if you can
+
+Write a Bash script that stops `4-to_infinity_and_beyond` process.
 
 Requirements:
 
-You cannot use kill or killall
+- You cannot use `kill` or `killall`
+
 Terminal #0
 
+```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
@@ -259,31 +271,36 @@ To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 Terminated
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
+
 Terminal #1
 
+```
 sylvain@ubuntu$ ./6-stop_me_if_you_can
-sylvain@ubuntu$ 
-I opened 2 terminals in this example, started by running my 4-to_infinity_and_beyond Bash script in terminal #0 and then moved on terminal #1 to run 6-stop_me_if_you_can. We can then see in terminal #0 that my process has been terminated.
+sylvain@ubuntu$
+```
 
-Repo:
+I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `6-stop_me_if_you_can`. We can then see in terminal #0 that my process has been terminated.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 6-stop_me_if_you_can
-    
-7. Highlander
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `6-stop_me_if_you_can`
+
+### 7. Highlander
+
 Write a Bash script that displays:
 
-To infinity and beyond indefinitely
-With a sleep 2 in between each iteration
-I am invincible!!! when receiving a SIGTERM signal
-Make a copy of your 6-stop_me_if_you_can script, name it 67-stop_me_if_you_can, that kills the 7-highlander process instead of the 4-to_infinity_and_beyond one.
+- To infinity and beyond indefinitely
+- With a `sleep 2` in between each iteration
+- `I am invincible!!!` when receiving a `SIGTERM` signal
+
+Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
 
 Terminal #0
 
+```
 sylvain@ubuntu$ ./7-highlander
 To infinity and beyond
 To infinity and beyond
@@ -296,46 +313,53 @@ To infinity and beyond
 I am invincible!!!
 To infinity and beyond
 ^C
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
+
 Terminal #1
 
 sylvain@ubuntu$ ./67-stop_me_if_you_can 
 sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$ ./67-stop_me_if_you_can
-sylvain@ubuntu$ 
-I started 7-highlander in Terminal #0 and then run 67-stop_me_if_you_can in terminal #1, for every iteration we can see I am invincible!!! appearing in terminal #0.
+sylvain@ubuntu$
+```
 
-Repo:
+I started `7-highlander` in Terminal #0 and then run `67-stop_me_if_you_can` in terminal #1, for every iteration we can see `I am invincible!!!` appearing in terminal #0.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: 7-highlander
-    
-8. Beheaded process
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that kills the process 7-highlander.
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `7-highlander`
+
+### 8. Beheaded process
+
+Write a Bash script that kills the process `7-highlander`.
 
 Terminal #0
 
+```
 sylvain@ubuntu$ ./7-highlander 
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 Killed
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
+
 Terminal #1
 
+```
 sylvain@ubuntu$ ./8-beheaded_process
-sylvain@ubuntu$ 
-I started 7-highlander in Terminal #0 and then run 8-beheaded_process in terminal #1 and we can see that the 7-highlander has been killed.
+sylvain@ubuntu$
+```
 
-Repo:
+I started `7-highlander` in Terminal #0 and then run `8-beheaded_process` in terminal #1 and we can see that the `7-highlander` has been killed.
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: `8-beheaded_process`
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `8-beheaded_process`
 
 ### 9. Process and PID file
 
@@ -347,7 +371,7 @@ Write a Bash script that:
 - Displays `Y U no love me?!` when receiving a SIGINT signal
 - Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-![Process and PID](https://imgur.com/gallery/4OrZLHZ)
+![Process and PID]()
 
 ```
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
@@ -386,10 +410,10 @@ sylvain@ubuntu$
 
 Starting `100-process_and_pid_file` in the terminal #0 and then killing it in the terminal #1.
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: `100-process_and_pid_file`
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `100-process_and_pid_file`
 
 ### 10. Manage my process
 
@@ -463,10 +487,10 @@ I am alive!
 sylvain@ubuntu$
 ```
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: `101-manage_my_process, manage_my_process`
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `101-manage_my_process, manage_my_process`
 
 ### 11. Zombie
 
@@ -524,7 +548,7 @@ sylvain@ubuntu$
 
 In Terminal #0, I start by compiling `102-zombie.c` and executing `zombie` which creates 5 zombie processes. In Terminal #1, I display the list of processes and look for lines containing `Z+.*<defunct>` which catches zombie process.
 
-Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x05-processes_and_signals
-File: `102-zombie.c`
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `102-zombie.c`
