@@ -92,7 +92,7 @@ It is organized from the lowest level to the highest level:
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-![OSI]()
+![OSI](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/osi.png)
 
 In this project we will mainly focus on:
 
@@ -101,7 +101,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-![TCP/UDP]()
+![TCP/UDP](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/tcp_udp.jpg)
 
 Questions:
 
@@ -124,7 +124,7 @@ How is the OSI model organized?
 
 ### 1. Types of network
 
-![Types of network]()
+![Types of network](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/networks.jpg)
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -152,7 +152,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2. MAC and IP address
 
-![MAC and IP address]()
+![MAC and IP address](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/mac_address.jpg)
 
 Questions:
 
@@ -173,7 +173,7 @@ What is an IP address?
 
 ### 3. UDP and TCP
 
-![UDP and TCP]()
+![UDP and TCP](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/TCP.jpg)
 
 Let’s fill the empty parts in the drawing above.
 
