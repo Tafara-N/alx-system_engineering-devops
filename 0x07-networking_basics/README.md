@@ -92,7 +92,7 @@ It is organized from the lowest level to the highest level:
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-<img src="images/osi.png" alt="OSI model" type="image/png">
+![OSI]()
 
 In this project we will mainly focus on:
 
@@ -101,7 +101,7 @@ In this project we will mainly focus on:
 
 The image bellow describes more concretely how you can relate to every level.
 
-<img src="images/tcp_udp.jpg" alt="TCP/UDP" type="image/jpg">
+![TCP/UDP]()
 
 Questions:
 
@@ -124,7 +124,7 @@ How is the OSI model organized?
 
 ### 1. Types of network
 
-<img src="images/networks.jpg" alt="Types of network" type="image/jpg">
+![Types of network]()
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -152,7 +152,7 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2. MAC and IP address
 
-<img src="images/mac_address.jpg" alt="MAC and Ip address" type="image/jpg">
+![MAC and IP address]()
 
 Questions:
 
@@ -173,7 +173,7 @@ What is an IP address?
 
 ### 3. UDP and TCP
 
-<img src="https://github.com/Tafara-N/alx-system_engineering-devops/blob/main/0x07-networking_basics/images/TCP.jpg" alt="UDP and TCP" type="image/jpg">
+![UDP and TCP]()
 
 Let’s fill the empty parts in the drawing above.
 
@@ -252,7 +252,7 @@ sylvain@ubuntu$
 
 ### 5. Is the host on the network
 
-<img src="images/giphy.gif" loop="infinite" type="image/gif">
+![Is the host on the network](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x07-networking_basics/images/giphy.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
