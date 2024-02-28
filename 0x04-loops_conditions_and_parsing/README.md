@@ -1,46 +1,48 @@
-About Bash projects
+# About **Bash** projects  
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-Background Context
+# Background Context
 
+## Resources  
+## Read or watch:
 
-Resources
-Read or watch:
+- [Loops sample](https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw)
+- [Variable assignment and arithmetic](https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA)
+- [Comparison operators]()
+- [File test operators](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
+- [Make your scripts portable](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
 
-Loops sample
-Variable assignment and arithmetic
-Comparison operators
-File test operators
-Make your scripts portable
-man or help:
+**man or help**:
 
-env
-cut
-for
-while
-until
-if
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- `env`
+- `cut`
+- `for`
+- `while`
+- `until`
+- `if`
 
-General
-How to create SSH keys
-What is the advantage of using #!/usr/bin/env bash over #!/bin/bash
-How to use while, until and for loops
-How to use if, else, elif and case condition statements
-How to use the cut command
-What are files and other comparison operators, and how to use them
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be interpreted on Ubuntu 20.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-You are not allowed to use awk
-Your Bash script must pass Shellcheck (version 0.7.0) without any error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
+## Learning Objectives  
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/UnkzDNdH09TFJ0-Y56azyg), **without the help of Google:**
+
+## General
+- How to create SSH keys
+- What is the advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`
+- How to use `while`, `until` and `for` loops
+- How to use `if`, `else`, `elif` and `case` condition statements
+- How to use the `cut` command
+- What are files and other comparison operators, and how to use them
+
+## Requirements  
+## General
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be interpreted on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- All your Bash script files must be executable
+- You are not allowed to use `awk`
+- Your Bash script must pass `Shellcheck` (version 0.7.0) without any error
+- The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
+- The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 # More Info  
 ## Shellcheck  
@@ -60,42 +62,43 @@ Passing `Shellcheck`:
 
 For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse https://github.com/koalaman/shellcheck/wiki/SC2034.
 
-Tasks
-0. Create a SSH RSA key pair
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+## Tasks  
+### 0. Create a SSH RSA key pair
+
 Read for this task:
 
-Linux and Mac OS users
-Windows users
-man: ssh-keygen
+- [Linux and Mac OS users](https://intranet.alxswe.com/rltoken/Cy1plV2eR3VphjPqliXB8A)
+- [Windows users](https://intranet.alxswe.com/rltoken/074M_gTsD34x3Q6MX55PDw)
 
-You will soon have to manage your own servers concept page hosted on remote data centers. We need to set them up with your RSA public key so that you can access them via SSH.
+man: `ssh-keygen`
+
+You will soon have to manage your own **servers** concept page hosted on remote [data centers](https://intranet.alxswe.com/rltoken/nDPzEm5SYxcdGxP_OpVYXQ). We need to set them up with your RSA public key so that you can access them via SSH.
 
 Create a RSA key pair.
 
 Requirements:
 
-Share your public key in your answer file 0-RSA_public_key.pub
-Fill the SSH public key field of your intranet profile with the public key you just generated
-Keep the private key to yourself in a secure location, you will use it later to connect to your servers using SSH. Some storing ideas are Dropbox, Google Drive, password manager, USB key. Failing to do so will prevent you to access your servers, which will prevent you from doing your projects
-If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
+- Share your public key in your answer file `0-RSA_public_key.pub`
+- Fill the `SSH public key` field of your intranet profile with the public key you just generated
+- **Keep the private key to yourself in a secure location**, you will use it later to connect to your servers using SSH. Some storing ideas are Dropbox, Google Drive, password manager, USB key. Failing to do so will prevent you to access your servers, which will prevent you from doing your projects
+- If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
+
 SSH and RSA keys will be covered in depth in a later project.
 
 **Repo:**
-
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 0-RSA_public_key.pub
-    
-1. For Best School loop
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that displays Best School 10 times.
+- File: `0-RSA_public_key.pub`
+
+### 1. For Best School loop
+
+Write a Bash script that displays `Best School` 10 times.
 
 Requirement:
 
-You must use the for loop (while and until are forbidden)
+You must use the `for` loop (`while` and `until` are forbidden)
+
+```
 sylvain@ubuntu$ head -n 2 1-for_best_school 
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
@@ -111,24 +114,27 @@ Best School
 Best School
 Best School
 sylvain@ubuntu$ 
+```
+
 Note that:
 
-The first line of my Bash script starts with #!/usr/bin/env bash
-The second line of my Bash scripts is a comment explaining what it is doing
-**Repo:**
+- The first line of my Bash script starts with `#!/usr/bin/env bash`
+- The second line of my Bash scripts is a comment explaining what it is doing
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 1-for_best_school
-    
-2. While Best School loop
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that displays Best School 10 times.
+- File: `1-for_best_school`
+
+### 2. While Best School loop
+
+Write a Bash script that displays `Best School` 10 times.
 
 Requirements:
 
-You must use the while loop (for and until are forbidden)
+- You must use the `while` loop (`for` and `until` are forbidden)
+
+```
 sylvain@ubuntu$ ./2-while_best_school
 Best School
 Best School
@@ -148,13 +154,15 @@ sylvain@ubuntu$
 - Directory: `0x04-loops_conditions_and_parsing`
 - File: `2-while_best_school`
 
-3. Until Best School loop
+### 3. Until Best School loop
 
-Write a Bash script that displays Best School 10 times.
+Write a Bash script that displays `Best School` 10 times.
 
 Requirements:
 
-You must use the until loop (for and while are forbidden)
+- You must use the until loop (`for` and `while` are forbidden)
+
+```
 sylvain@ubuntu$ ./3-until_best_school
 Best School
 Best School
@@ -176,12 +184,14 @@ sylvain@ubuntu$
 
 ### 4. If 9, say Hi!
 
-Write a Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
+Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line.
 
 Requirements:
 
-You must use the while loop (for and until are forbidden)
-You must use the if statement
+- You must use the `while` loop (`for` and `until` are forbidden)
+- You must use the `if` statement
+
+```
 sylvain@ubuntu$ ./4-if_9_say_hi
 Best School
 Best School
@@ -194,25 +204,28 @@ Best School
 Best School
 Hi
 Best School
-sylvain@ubuntu$ 
-**Repo:**
+sylvain@ubuntu$
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 4-if_9_say_hi
-    
-5. 4 bad luck, 8 is your chance
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+- File: `4-if_9_say_hi`
+
+### 5. 4 bad luck, 8 is your chance
+
 Write a Bash script that loops from 1 to 10 and:
 
-displays bad luck for the 4th loop iteration
-displays good luck for the 8th loop iteration
-displays Best School for the other iterations
+- displays `bad luck` for the 4th loop iteration
+- displays `good luck` for the 8th loop iteration
+- displays `Best School` for the other iterations
+
 Requirements:
 
-You must use the while loop (for and until are forbidden)
-You must use the if, elif and else statements
+- You must use the `while` loop (`for` and `until` are forbidden)
+- You must use the `if`, `elif` and `else` statements
+
+```
 sylvain@ubuntu$ ./5-4_bad_luck_8_is_your_chance
 Best School
 Best School
@@ -224,29 +237,33 @@ Best School
 good luck
 Best School
 Best School
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
+
 For the most curious:
 
-8 in the Chinese culture
-4 in the Chinese culture
-**Repo:**
+- [8 in the Chinese culture](https://intranet.alxswe.com/rltoken/3DKWikCCFAmt7JJt7Bv12w)
+- [4 in the Chinese culture](https://intranet.alxswe.com/rltoken/WwpjD57ABmwWSfdUVcBhNg)
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 5-4_bad_luck_8_is_your_chance
-    
-6. Superstitious numbers
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+- File: `5-4_bad_luck_8_is_your_chance`
+
+### 6. Superstitious numbers
+
 Write a Bash script that displays numbers from 1 to 20 and:
 
-displays 4 and then bad luck from China for the 4th loop iteration
-displays 9 and then bad luck from Japan for the 9th loop iteration
-displays 17 and then bad luck from Italy for the 17th loop iteration
+- displays `4` and then `bad luck from China` for the 4th loop iteration
+- displays `9` and then `bad luck from Japan` for the 9th loop iteration
+- displays `17` and then `bad luck from Italy` for the 17th loop iteration
+
 Requirements:
 
-You must use the while loop (for and until are forbidden)
-You must use the case statement
+- You must use the `while` loop (`for` and `until` are forbidden)
+- You must use the `case` statement
+
+```
 sylvain@ubuntu$ ./6-superstitious_numbers
 1
 2
@@ -272,24 +289,27 @@ bad luck from Italy
 19
 20
 sylvain@ubuntu$ 
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 6-superstitious_numbers
-    
-7. Clock
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+- File: `6-superstitious_numbers`
+
+### 7. Clock
+
 Write a Bash script that displays the time for 12 hours and 59 minutes:
 
-display hours from 0 to 12
-display minutes from 1 to 59
+- display hours from 0 to 12
+- display minutes from 1 to 59
+
 Requirements:
 
-You must use the while loop (for and until are forbidden)
-Note that in this example, we only display the first 70 lines using the head command.
+- You must use the `while` loop (`for` and `until` are forbidden)
 
+Note that in this example, we only display the first 70 lines using the `head` command.
+
+```
 sylvain@ubuntu$ ./7-clock | head -n 70
 Hour: 0
 1
@@ -361,25 +381,28 @@ Hour: 1
 7
 8
 9
-sylvain@ubuntu$ 
-**Repo:**
+sylvain@ubuntu$
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 7-clock
-    
-8. For ls
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+- File: `7-clock`
+
+### 8. For ls
+
 Write a Bash script that displays:
 
-The content of the current directory
-In a list format
-Where only the part of the name after the first dash is displayed (refer to the example)
+- The content of the current directory
+- In a list format
+- Where only the part of the name after the first dash is displayed (refer to the example)
+
 Requirements:
 
-You must use the for loop (while and until are forbidden)
-Do not display hidden files
+- You must use the `for` loop (`while` and `until` are forbidden)
+- Do not display hidden files
+
+```
 sylvain@ubuntu$ ls
 100-read_and_cut              1-for_best_school         6-superstitious_numbers
 101-tell_the_story_of_passwd  2-while_best_school       7-clock
@@ -401,29 +424,31 @@ superstitious_numbers
 clock
 for_ls
 to_file_or_not_to_file
-sylvain@ubuntu$ 
-**Repo:**
+sylvain@ubuntu$
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 8-for_ls
-    
-9. To file, or not to file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Bash script that gives you information about the school file.
+- File: `8-for_ls`
+
+### 9. To file, or not to file
+
+Write a Bash script that gives you information about the `school` file.
 
 Requirements:
 
-You must use if and, else (case is forbidden)
-Your Bash script should check if the file exists and print:
-if the file exists: school file exists
-if the file does not exist: school file does not exist
-If the file exists, print:
-if the file is empty: school file is empty
-if the file is not empty: school file is not empty
-if the file is a regular - File: school is a regular file
-if the file is not a regular - File: (nothing)
+- You must use `if` and, `else` (`case` is forbidden)
+- Your Bash script should check if the file exists and print:
+    - if the file exists: `school file exists`
+    - if the file does not exist: `school file does not exist`
+- If the file exists, print:
+    - if the file is empty: `school file is empty`
+    - if the file is not empty: `school file is not empty`
+    - if the file is a regular file: `school is a regular file`
+    - if the file is not a regular file: (nothing)
+
+```
 sylvain@ubuntu$ file school
 school: cannot open `school' (No such file or directory)
 sylvain@ubuntu$ ./9-to_file_or_not_to_file 
@@ -443,25 +468,27 @@ sylvain@ubuntu$ mkdir school
 sylvain@ubuntu$ ./9-to_file_or_not_to_file 
 school file exists
 school file is not empty
-sylvain@ubuntu$ 
-**Repo:**
+sylvain@ubuntu$
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
-- File: 9-to_file_or_not_to_file
-    
-10. FizzBuzz
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+- File: `9-to_file_or_not_to_file`
+
+### 10. FizzBuzz
+
 Write a Bash script that displays numbers from 1 to 100.
 
 Requirements:
 
-Displays FizzBuzz when the number is a multiple of 3 and 5
-Displays Fizz when the number is multiple of 3
-Displays Buzz when the number is a multiple of 5
-Otherwise, displays the number
-In a list format
+- Displays `FizzBuzz` when the number is a multiple of 3 and 5
+- Displays `Fizz` when the number is multiple of 3
+- Displays `Buzz` when the number is a multiple of 5
+- Otherwise, displays the number
+- In a list format
+
+```
 sylvain@ubuntu$ ./10-fizzbuzz | head -20
 1
 2
@@ -483,7 +510,9 @@ FizzBuzz
 Fizz
 19
 Buzz
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
+
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -504,7 +533,7 @@ Your script should only display:
 
 Requirements:
 
-- You must use the while loop (`for` and `until` are forbidden)
+- You must use the `while` loop (`for` and `until` are forbidden)
 
 ```
 sylvain@ubuntu$ cat /etc/passwd
