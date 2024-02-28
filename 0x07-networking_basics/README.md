@@ -173,7 +173,7 @@ What is an IP address?
 
 ### 3. UDP and TCP
 
-<img src="images/TCP.jpg" alt="UDP and TCP" type="image/jpg">
+<img src="https://github.com/Tafara-N/alx-system_engineering-devops/blob/main/0x07-networking_basics/images/TCP.jpg" alt="UDP and TCP" type="image/jpg">
 
 Let’s fill the empty parts in the drawing above.
 
