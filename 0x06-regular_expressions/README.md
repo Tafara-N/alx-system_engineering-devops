@@ -43,6 +43,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ### 0. Simply matching School
 
+![Simply matching School](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/0-simply_match_school.png)
+
 Requirements:
 
 - The regular expression must match `School`
