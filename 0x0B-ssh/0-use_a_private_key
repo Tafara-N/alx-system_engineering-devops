@@ -2,4 +2,5 @@
 
 # Uses ssh to connect to my server using the private key ~/.ssh/school with user ubuntu
 
-ssh ~/.ssh/school ubuntu@100.26.159.205
+ssh -i ~/.ssh/school ubuntu@100.26.159.205
+
