@@ -6,3 +6,4 @@
 #	Key passphrase 'betty'
 
 ssh-keygen -t rsa -b 4096 -f school -N "betty"
+
