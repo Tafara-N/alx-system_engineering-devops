@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Script configures a new Ubuntu machine to Perform a '301-redirection'
+
+# Updating packages before installing
+sudo apt-get update
+sudo apt-get install -y nginx
+
+# Creats an index.html page
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+# Performs a '301 Redirection'
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/samuelogboye permanent;"
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+# Restarts Nginx service
+sudo service nginx restart
+
