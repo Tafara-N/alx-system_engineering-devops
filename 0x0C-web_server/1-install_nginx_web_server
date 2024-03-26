@@ -1,22 +1,14 @@
 #!/usr/bin/env bash
 # Update the package repository and install Nginx
 
-apt-get update
+apt-get -y update
 apt-get -y install nginx
 
-# Creates a simple HTML file with "Hello World!"
-echo "Hello World!" > /var/www/html/index.html
+# Allowing 'HTTP'
+ufw allow 'Nginx HTTP'
 
-# Checking if Nginx is already running and starting it if not
-if ! pgrep -x nginx > /dev/null; then
-    /etc/init.d/nginx start
-fi
+# Output 'Hello world'
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
-# Configuring Nginx to listen on port 80
-sed -i 's/listen 80 default_server;/listen 80;/g' /etc/nginx/sites-available/default
+service nginx start
 
-# Restarting Nginx (without using the systemctl)
-/etc/init.d/nginx restart
-
-# Cleaning up
-unset DEBIAN_FRONTEND
