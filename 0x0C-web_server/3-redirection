@@ -9,9 +9,8 @@ sudo apt-get install -y nginx
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Performs a '301 Redirection'
-string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/samuelogboye permanent;"
-sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+replacement_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/tafaranyamhunga permanent;"
+sudo sed -i "s/server_name _;/$replacement_string/" /etc/nginx/sites-enabled/default
 
 # Restarts Nginx service
 sudo service nginx restart
-
