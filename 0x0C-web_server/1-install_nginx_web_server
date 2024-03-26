@@ -8,7 +8,7 @@ apt-get -y install nginx
 echo "Hello World!" > /var/www/html/index.html
 
 # Checking if Nginx is already running and starting it if not
-if ! ps aux | grep -q '[n]ginx'; then
+if ! pgrep -x nginx > /dev/null; then
     /etc/init.d/nginx start
 fi
 
@@ -20,4 +20,3 @@ sed -i 's/listen 80 default_server;/listen 80;/g' /etc/nginx/sites-available/def
 
 # Cleaning up
 unset DEBIAN_FRONTEND
-
