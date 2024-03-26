@@ -9,17 +9,17 @@ sudo apt-get install -y nginx
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Performs a 'moved permanently redirection' (301)
-new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/samuelogboye permanent;"
-sudo sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-enabled/default
+replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Tafara-N permanent;"
+sudo sed -i "s/server_name _;/$replacement/" /etc/nginx/sites-enabled/default
 
 # Creats a '404 Custom error page'
 sudo touch /var/www/html/404.html
 echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
 
 
-new_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+replacement="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
 
-sudo sed -i "s/listen 80 default_server;/$new_string/" /etc/nginx/sites-enabled/default
+sudo sed -i "s/listen 80 default_server;/$replacement/" /etc/nginx/sites-enabled/default
 
 # Tests syntax errors
 sudo nginx -t
