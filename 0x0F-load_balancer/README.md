@@ -44,15 +44,17 @@ Write 0-custom_http_response_header so that it configures a brand new Ubuntu mac
 Ignore SC2154 for shellcheck
 Example:
 
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145 | grep X-Served-By
 X-Served-By: 03-web-01
 sylvain@ubuntu$ curl -sI 54.89.38.100 | grep X-Served-By
 X-Served-By: 03-web-02
 sylvain@ubuntu$
+```
+
 If your server’s hostnames are not properly configured ([STUDENT_ID]-web-01 and [STUDENT_ID]-web-02.), follow this tutorial.
 
 Repo:
-
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0F-load_balancer
 File: `0-custom_http_response_header`
