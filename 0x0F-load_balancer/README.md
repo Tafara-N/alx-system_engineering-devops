@@ -55,10 +55,10 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0F-load_balancer
-File: 0-custom_http_response_header
+File: `0-custom_http_response_header`
 
-1. Install your load balancer
-mandatory
+### 1. Install your load balancer
+
 Install and configure HAproxy on your lb-01 server.
 
 Requirements:
