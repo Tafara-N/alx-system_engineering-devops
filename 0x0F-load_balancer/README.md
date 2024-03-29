@@ -99,7 +99,7 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0F-load_balancer
-File: 1-install_load_balancer
+File: `1-install_load_balancer`
 
 2. Add a custom HTTP header with Puppet
 
