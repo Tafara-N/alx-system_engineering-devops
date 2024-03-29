@@ -1,4 +1,4 @@
-Background Context
+# Background Context
 You have been given 2 additional servers:
 
 gc-[STUDENT_ID]-web-02-XXXXXXXXXX
@@ -7,8 +7,8 @@ Let’s improve our web stack so that there is redundancy for our web servers. T
 
 For this project, you will need to write Bash scripts to automate your work. All scripts must be designed to configure a brand new Ubuntu server to match the task requirements.
 
-Resources
-Read or watch:
+# Resources
+## Read or watch:
 
 Introduction to load-balancing and HAproxy
 HTTP header
@@ -23,14 +23,10 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.7) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-Your servers
-Name	Username	IP	State
-512861-web-01	ubuntu	100.26.159.205	running
-512861-web-02	ubuntu	54.237.14.183	running
-512861-lb-01	ubuntu	54.146.88.247	running
-Tasks
-0. Double the number of webservers
-mandatory
+
+## Tasks
+### 0. Double the number of webservers
+
 In this first task you need to configure web-02 to be identical to web-01. Fortunately, you built a Bash script during your web server project, and they’ll now come in handy to easily configure web-02. Remember, always try to automate your work!
 
 Since we’re placing our web servers behind a load balancer for this project, we want to add a custom Nginx response header. The goal here is to be able to track which web server is answering our HTTP requests, to understand and track the way a load balancer works. More in the coming tasks.
