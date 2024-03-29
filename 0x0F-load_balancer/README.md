@@ -70,6 +70,7 @@ Make sure that your servers are configured with the right hostnames: [STUDENT_ID
 For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements
 Example:
 
+```
 sylvain@ubuntu$ curl -Is 54.210.47.110
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
