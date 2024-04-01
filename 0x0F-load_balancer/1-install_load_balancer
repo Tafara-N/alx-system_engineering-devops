@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# Installing  HAproxy load balancer
+
+# Function to install HAProxy
+function install() {
+	command -v "$1" &> /dev/null
+
+	#shellcheck disable=SC2181
+	if [ $? -ne 0 ]; then
+		echo -e "	Installing: $1\n"
+		sudo apt-get update -y -qq && \
+			sudo apt-get install -y "$1" -qq
+		echo -e "\n"
+	else
+		echo -e "	${1} is already installed.\n"
+	fi
+}
+
+install haproxy
+
+echo -e "\nSetting up some minor stuff.\n"
+
+# Backing up default server config files
+sudo cp /etc/haproxy/haproxy.cfg haproxy_default.backup
+
+server_config=\
+"
+defaults
+  mode http
+  timeout client 15s
+  timeout connect 10s
+  timeout server 15s
+  timeout http-request 10s
+
+frontend tafara-frontend
+    bind *:80
+    default_backend tafara-backend
+
+backend tafara-backend
+    balance roundrobin
+    server 469644-web-01 35.174.185.85:80 check
+    server 469644-web-02 100.25.222.44:80 check
+"
+
+# Shellcheck disable=SC2154
+echo "$server_config" | sudo dd status=none of=/etc/haproxy/haproxy.cfg
+
+# Enabling HAProxy to start
+echo "ENABLED=1" | sudo dd status=none of=/etc/default/haproxy
+
+echo "Roundrobin configured n web-01 and web-02"
+
+if [ "$(pgrep -c haproxy)" -le 0 ]; then
+	sudo service haproxy start
+else
+	sudo service haproxy restart
+fi
