@@ -5,23 +5,29 @@
 sudo apt-get update
 sudo apt-get install -y nginx
 
-# Creats an index.html page
-echo "Hello World!" | sudo tee /var/www/html/index.html
+sudo service nginx start
 
-# Performs a 'moved permanently redirection' (301)
-replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Tafara-N permanent;"
-sudo sed -i "s/server_name _;/$replacement/" /etc/nginx/sites-enabled/default
+# Allowing nginx on firewall
+sudo ufw allow 'Nginx HTTP'
 
-# Creats a '404 Custom error page'
-sudo touch /var/www/html/404.html
-echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+# Giving user ownership to website files for easy editing
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www
 
+# Backing up default index files
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
 
-replacement="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+# Creating new index.html file
+echo -e "Hello World!" > /var/www/html/index.nginx-debian.html
 
-sudo sed -i "s/listen 80 default_server;/$replacement/" /etc/nginx/sites-enabled/default
+# Setting up /redirect_me to a youtube video
+sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 
-# Tests syntax errors
-sudo nginx -t
+# Setting up a 404 page
+echo "Ceci n'est pas une page" >> /var/www/html/error_404.html
+sudo sed -i '25i\	error_page 404 /error_404.html;' /etc/nginx/sites-available/default
 
+# Restarting nginx
 sudo service nginx restart
+
+echo -e "Done setting up"
