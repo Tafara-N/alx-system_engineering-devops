@@ -1,0 +1,79 @@
+#!/usr/bin/env bash
+# Duplicating web-01 to web-02
+
+# To the the script run in action, uncomment the line below
+#set -x
+
+function install() {
+	command -v "$1" &> /dev/null
+
+	# Shellcheck disable=SC2181
+	if [ $? -ne 0 ]; then
+		echo -e "	Installing: $1$\n"
+		sudo apt-get update -y -qq && \
+			sudo apt-get install -y "$1" -qq
+		echo -e "\n"
+	else
+		echo -e "	${1} is already installed.\n"
+	fi
+}
+
+install nginx
+
+# Allowing Nginx through firewall
+sudo ufw allow 'Nginx HTTP'
+
+# Giving user ownership to website files for easy editing
+if [ -d "/var/www" ]; then
+	sudo chown -R "$USER":"$USER" /var/www
+	sudo chmod -R 755 /var/www
+else
+	sudo mkdir -p /var/www
+	sudo chown -R "$USER":"$USER" /var/www
+	sudo chmod -R 755 /var/www
+fi
+
+# Creating directories if they are not present
+for directory in /var/www/{html,error}; do
+	if ! [ -d "$directory" ]; then
+		mkdir -p "$directory"
+	fi
+done
+
+# Creating new index.html
+echo "Hello World!" > /var/www/html/index.html
+
+# Creating a new error page
+echo "Ceci n'est pas une page" > /var/www/html/error_404.html
+
+# Backing up default server config files
+sudo cp /etc/nginx/sites-enabled/default nginx-sites-enabled_default.backup
+
+server_config=\
+"server {
+		listen 80 default_server;
+		listen [::]:80 default_server;
+		root /var/www/html;
+		index index.html index.htm index.nginx-debian.html
+		server_name_;
+		add_header X-Served-By \$hostname;
+		location / {
+			try_files \$uri \$uri/ =404;
+		}
+		if (\$request_filename ~ redirect_me){
+			rewrite ^ https://th3-gr00t.tk/ permanent;
+		}
+		error_page 404 /error_404.html;
+		location = /error_404.html {
+			internal;
+		}
+}"
+
+#shellcheck disable=SC2154
+echo "$server_config" | sudo dd status=none of=/etc/nginx/sites-enabled/default
+
+if [ "$(pgrep -c nginx)" -le 0 ]; then
+	sudo service nginx start
+else
+	sudo service nginx restart
+fi
