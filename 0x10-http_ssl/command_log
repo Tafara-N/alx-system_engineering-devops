@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+sudo apt-get update ; sudo apt-get -y upgrade
+sudo apt-get -y install snapd
+sudo apt-get -y remove certbot
+sudo apt-get -y install certbot
+sudo service haproxy stop
+sudo certbot certonly --standalone --preferred-challenges http --http-01-port 80 -d www.tafaranyamhunga.tech
+sudo ls /etc/letsencrypt/live/www.tafaranyamhunga.tech
+sudo mkdir -p /etc/haproxy/certs
+DOMAIN='www.tafaranyamhunga.tech' sudo -E bash -c 'cat /etc/letsencrypt/live/$DOMAIN/fullchain.pem /etc/letsencrypt/live/$DOMAIN/privkey.pem > /etc/haproxy/certs/$DOMAIN.pem'
+sudo chmod -R go-rwx /etc/haproxy/certs
+sudo service haproxy start
+sudo service haproxy status
+echo -e "Done...!\n"
+
