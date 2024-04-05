@@ -1,28 +1,28 @@
+# Background Context  
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/244/zPVRKhPsUP5lK.gif)
 
-Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using ssh. But contrary to level 2, you will not connect using a password but an RSA key. We’ve configured your server with the public key you created in the first task of a previous project shared in your intranet profile.
+Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using `ssh`. But contrary to level 2, you will not connect using a password but an RSA key. We’ve configured your server with the public key you created in the first task of a [previous project](https://intranet.alxswe.com/rltoken/UQIQV4HJGvBv0qrHhlDFaQ) shared in your intranet profile.
 
-You can access your server information in the my servers section of the intranet, each line with contains the IP and username you should use to connect via ssh.
+You can access your server information in the [my servers](https://intranet.alxswe.com/rltoken/e2_s_pXwBVuYbhrvoesfrg) section of the intranet, each line with contains the IP and username you should use to connect via ssh.
 
 Note: Your server is configured with an Ubuntu 20.04 LTS environment.
 
-Resources
-Read or watch:
+# Resources
+## Read or watch:
+- [What is a (physical) server - text](https://intranet.alxswe.com/rltoken/dkgW9lKiBRiUZHfq0MDJuw)
+- [What is a (physical) server - video](https://intranet.alxswe.com/rltoken/AxFcTdcXUCsrVp01X_EbFA)
+- [SSH essentials](https://intranet.alxswe.com/rltoken/ux0eM1QU9reNyG45b0erAQ)
+- [SSH Config File](https://intranet.alxswe.com/rltoken/Rc9FpSy4ZaQWPlcWLinbNw)
+- [Public Key Authentication for SSH](https://intranet.alxswe.com/rltoken/tOcxk5mtkedBM0WxyDZxTw)
+- [How Secure Shell Works](https://intranet.alxswe.com/rltoken/j0atjRrVfZ6F810qmPfAzA)
+- [SSH Crash Course](https://intranet.alxswe.com/rltoken/FKqd8CjxExmpWGu6xGavKw) (Long, but highly informative. Watch this if configuring SSH is still confusing. It may be helpful to watch at x1.25 speed or above.)
 
-What is a (physical) server - text
-What is a (physical) server - video
-SSH essentials
-SSH Config File
-Public Key Authentication for SSH
-How Secure Shell Works
-SSH Crash Course (Long, but highly informative. Watch this if configuring SSH is still confusing. It may be helpful to watch at x1.25 speed or above.)
-For reference:
-
-Understanding the SSH Encryption and Connection Process
-Secure Shell Wiki
-IETF RFC 4251 (Description of the SSH Protocol)
-Internet Engineering Task Force
-Request for Comments
+**For reference:**
+- [Understanding the SSH Encryption and Connection Process](https://intranet.alxswe.com/rltoken/JB-Vi4dR3q6nF4MBhsn8kQ)
+- [Secure Shell Wiki](https://intranet.alxswe.com/rltoken/SpiYWE79Yfr_vWDg42dzCw)
+- [IETF RFC 4251 (Description of the SSH Protocol)](https://intranet.alxswe.com/rltoken/f2O0OQq9tch2MYeNAzkg5w)
+- [Internet Engineering Task Force](https://intranet.alxswe.com/rltoken/gd1W1UvB0KeJVWwM8BLvhA)
+- [Request for Comments](https://intranet.alxswe.com/rltoken/jb-IrnQnUh-PsEDlbAU0Kw)
 
 **man or help:**
 - `ssh`
@@ -30,7 +30,7 @@ Request for Comments
 - `env`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/0Wgw_i87NIVCfUcRzdZgkg), **without the help of Google:**
 
 ## General
 - What is a server
@@ -51,15 +51,15 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 ## Tasks
+
 ### 0. Use a private key
 
-Write a Bash script that uses ssh to connect to your server using the private key ~/.ssh/school with the user ubuntu.
+Write a Bash script that uses `ssh` to connect to your server using the private key `~/.ssh/school` with the user `ubuntu`.
 
 Requirements:
-
-Only use ssh single-character flags
-You cannot use -l
-You do not need to handle the case of a private key protected by a passphrase
+- Only use `ssh` single-character flags
+- You cannot use `-l`
+- You do not need to handle the case of a private key protected by a passphrase
 
 ```
 sylvain@ubuntu$ ./0-use_a_private_key
@@ -78,10 +78,10 @@ sylvain@ubuntu$
 Write a Bash script that creates an RSA key pair.
 
 Requirements:
+- Name of the created private key must be `school`
+- Number of bits in the created key to be created 4096
+- The created key must be protected by the passphrase `betty`
 
-Name of the created private key must be school
-Number of bits in the created key to be created 4096
-The created key must be protected by the passphrase betty
 Example:
 
 ```
@@ -121,8 +121,9 @@ Your machine has an SSH configuration file for the local SSH client, let’s con
 
 Requirements:
 
-Your SSH client configuration must be configured to use the private key ~/.ssh/school
-Your SSH client configuration must be configured to refuse to authenticate using a password
+ -Your SSH client configuration must be configured to use the private key `~/.ssh/school`
+- Your SSH client configuration must be configured to refuse to authenticate using a password
+
 Example:
 
 ```
@@ -169,7 +170,7 @@ debug1: Sending env LANG = en_US.UTF-8
 ubuntu@magic-server:~$
 ```
 
-In the example above, we can see that ssh tries to authenticate using school and does not try to authenticate using a password. You can replace 98.98.98.98 by the IP of your server for testing purposes.
+In the example above, we can see that `ssh` tries to authenticate using `school` and does not try to authenticate using a password. You can replace `98.98.98.98` by the IP of your server for testing purposes.
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
@@ -180,7 +181,7 @@ In the example above, we can see that ssh tries to authenticate using school and
 
 Now that you have successfully connected to your server, we would also like to join the party.
 
-Add the SSH public key below to your server so that we can connect using the ubuntu user.
+Add the SSH public key below to your server so that we can connect using the `ubuntu` user.
 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId/Kawz35ESampIqHSOTJmbQ8UlxdJuk0gAXKk3Ncle4safGYqM/VeDK3LN5iAJxf4kcaxNtS3eVxWBE5iF3FbIjOqwxw5Lf5sRa5yXxA8HfWidhbIG5TqKL922hPgsCGABIrXRlfZYeC0FEuPWdr6smOElSVvIXthRWp9cr685KdCI+COxlj1RdVsvIo+zunmLACF9PYdjB2s96Fn0ocD3c5SGLvDOFCyvDojSAOyE70ebIElnskKsDTGwfT4P6jh9OBzTyQEIS2jOaE5RQq4IB4DsMhvbjDSQrP0MdCLgwkN
@@ -195,9 +196,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId
 Let’s practice using Puppet to make changes to our configuration file. Just as in the previous configuration file task, we’d like you to set up your client SSH configuration file so that you can connect to a server without typing a password.
 
 Requirements:
+- Your SSH client configuration must be configured to use the private key `~/.ssh/school`
+- Your SSH client configuration must be configured to refuse to authenticate using a password
 
-Your SSH client configuration must be configured to use the private key `~/.ssh/school`
-Your SSH client configuration must be configured to refuse to authenticate using a password
 Example:
 
 ```
