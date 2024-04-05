@@ -2,4 +2,4 @@
 # Configuring servers to listen on port 80 for all servers active IPv4 IPs
 sudo sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
 sudo service nginx restart
-echo "" | sudo dd status=none of=/run/nginx.pid
+sudo kill -9 "$(cat /var/run/nginx.pid)"
