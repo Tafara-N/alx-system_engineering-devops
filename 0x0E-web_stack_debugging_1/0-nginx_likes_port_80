@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Configuring servers to listen on port 80 for all servers active IPv4 IPs
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
