@@ -14,9 +14,9 @@
 ## Tasks
 ### 0. Run software as another user
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/eaeff07a715ff880b1ceb8e863a1d141a74a7f85.png)
+![](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x12-web_stack_debugging_2/images/great_power.png)
 
-The user `roo`t is, on Linux, the “superuser”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the `root` user, as if you fat finger a command and for example run `rm -rf /`, there is no comeback. That’s why it is preferable to run as a privileged user, meaning that the user also has the ability to perform tasks that the `root` user can do, just need to use a specific command that you need to discover.
+The user `root` is, on Linux, the “superuser”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the `root` user, as if you fat finger a command and for example run `rm -rf /`, there is no comeback. That’s why it is preferable to run as a privileged user, meaning that the user also has the ability to perform tasks that the `root` user can do, just need to use a specific command that you need to discover.
 
 For the containers that you are given in this project as well as the checker, everything is run under the `root` user, which has the ability to run anything as another user.
 
@@ -28,6 +28,7 @@ Requirements:
 
 Example:
 
+```
 root@ubuntu:~# whoami
 root
 root@ubuntu:~# ./0-iamsomeoneelse www-data
