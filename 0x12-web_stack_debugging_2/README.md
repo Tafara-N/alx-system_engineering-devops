@@ -62,14 +62,15 @@ root@ab6f4542747e:~#
 root@ab6f4542747e:~# nc -z 0 8080 ; echo $?
 0
 root@ab6f4542747e:~#
-Repo:
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x12-web_stack_debugging_2`
-- File: 1-run_nginx_as_nginx
+- File: `1-run_nginx_as_nginx`
 
-2. 7 lines or less
-#advanced
+### 2. 7 lines or less
+
 Using what you did for task #1, make your fix short and sweet.
 
 Requirements:
