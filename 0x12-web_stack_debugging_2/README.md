@@ -81,8 +81,8 @@ You cannot use ;
 You cannot use &&
 You cannot use wget
 You cannot execute your previous answer file (Do not include the name of the previous script in this one)
-Repo:
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x12-web_stack_debugging_2`
-- File: 100-fix_in_7_lines_or_less
+- File: `100-fix_in_7_lines_or_less`
