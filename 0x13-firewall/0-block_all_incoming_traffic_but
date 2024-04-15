@@ -1,0 +1,28 @@
+#!/usr/bin/bash
+
+echo -e "Updating and upgrading packages...\n"
+sudo apt-get update && sudo apt-get upgrade -y
+
+echo -e "Installing UFW (Firewall)...\n"
+sudo apt-get install ufw -y
+
+echo -e "Checking ufw status...\n"
+sudo ufw status
+
+echo -e "Setting up UFW...\n"
+# Denying incoming and Allowing outgoing traffic
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Open and allow certain Ports
+sudo ufw allow 22  # (SSH)
+sudo ufw allow 80  # (HTTP)
+sudo ufw allow 443  # (HTTPS SSL)
+
+# Enable UFW
+sudo ufw enable
+
+echo -e "Checking ufw status...\n"
+sudo ufw status
+
+echo -e "Firewall setup and enabled...\n"
