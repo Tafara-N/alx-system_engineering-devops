@@ -38,16 +38,9 @@ Containers on demand cannot be used for this project (Docker container limitatio
 
 Be very careful with firewall rules! For instance, if you ever deny port 22/TCP and log out of your server, you will not be able to reconnect to your server via SSH, and we will not be able to recover it. When you install UFW, port 22 is blocked by default, so you should unblock it immediately before logging out of your server.
 
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Your servers
-Name Username IP State
-512861-web-01 ubuntu 100.26.159.205 running
-512861-web-02 ubuntu 54.237.14.183 running
-512861-lb-01 ubuntu 54.146.88.247 running
-Tasks 0. Block all incoming traffic but
-mandatory
-Let’s install the ufw firewall and setup a few rules on web-01.
+### Tasks 0. Block all incoming traffic but
+
+Let’s install the `ufw` firewall and setup a few rules on `web-01`.
 
 Requirements:
 
