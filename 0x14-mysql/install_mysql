@@ -13,5 +13,8 @@ sudo apt-get update
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C
 sudo apt-get update
 
+echo -e "Checking MySQL Versions...\n"
+sudo apt-cache policy mysql-server
+
 echo -e "Installing MySQL 5.7...\n"
 sudo apt install mysql-client=5.7.42-1ubuntu18.04 mysql-community-server=5.7.42-1ubuntu18.04 mysql-server=5.7.42-1ubuntu18.04
