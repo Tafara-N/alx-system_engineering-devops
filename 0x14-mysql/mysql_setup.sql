@@ -1,4 +1,8 @@
--- Script to create a MySQL user and database
+-- Script to create MySQL users 'holberton_user' and 'replica_user'
+--	Database: 'tyrell_corp' and Table: 'nexus6'
+
+SHOW VARIABLES LIKE 'validate_password%';
+SET GLOBAL validate_password_policy=LOW;
 CREATE USER 'holberton_user'@'localhost'
 IDENTIFIED BY 'projectcorrection280hbtn';
 
@@ -21,6 +25,8 @@ GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
 GRANT SELECT ON mysql.user TO 'holberton_user'@'localhost';
 CREATE USER 'web-02'@'54.237.14.183' IDENTIFIED BY 'web_02_passwd';
 GRANT REPLICATION SLAVE ON *.* TO 'web-02'@'54.237.14.183';
+
+SET GLOBAL validate_password_policy=MEDIUM;
 
 FLUSH PRIVILEGES;
 EXIT;
