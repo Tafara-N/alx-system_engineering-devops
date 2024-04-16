@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+echo -e "Updating Packages...\n"
+sudo apt-get update && sudo apt-get upgrade -y
+
+echo -e "Downloading MySQL...\n"
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+sudo apt-get update
+
+# If you get any errors about missing keys, you can add them with the following command:
+# Replace <B7B3B788A8D3785C> with the missing key you received on your machine
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C
+sudo apt-get update
+
+echo -e "Installing MySQL 5.7...\n"
+sudo apt install mysql-client=5.7.42-1ubuntu18.04 mysql-community-server=5.7.42-1ubuntu18.04 mysql-server=5.7.42-1ubuntu18.04
