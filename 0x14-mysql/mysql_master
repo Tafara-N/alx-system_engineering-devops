@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 echo -e "Allowing Port 3306...\n"
-sudo ufw allow from 54.237.14.183 to any port 3306
+sudo ufw allow 3306
 sudo udw enable
 sudo ufw reload
 
