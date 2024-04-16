@@ -14,7 +14,7 @@ config_data=\
 
 [mysqld]
 server-id       = 1
-log_bin         = /var/log/mysql/mysql-bin.log
+log-bin         = /var/log/mysql/mysql-bin.log
 binlog_do_db    = tyrell_corp
 pid-file        = /var/run/mysqld/mysqld.pid
 socket          = /var/run/mysqld/mysqld.sock
