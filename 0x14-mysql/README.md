@@ -50,7 +50,7 @@ ubuntu@229-web-01:~$
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 
 1. Let us in!
 mandatory
@@ -72,7 +72,7 @@ ubuntu@229-web-01:~$
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 
 2. If only you could see what I've seen with your eyes
 mandatory
@@ -92,7 +92,7 @@ ubuntu@229-web-01:~$
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 
 3. Quite an experience to live in fear, isn't it?
 mandatory
@@ -116,7 +116,7 @@ ubuntu@229-web-01:~$
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 
 4. Setup a Primary-Replica infrastructure using MySQL
 mandatory
@@ -225,7 +225,7 @@ mysql>
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
 
 5. MySQL backup
@@ -301,5 +301,5 @@ ubuntu@03-web-01:~$
 **Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
-Directory: 0x14-mysql
+- Directory: `0x14-mysql`
 File: 5-mysql_backup
