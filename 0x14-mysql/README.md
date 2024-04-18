@@ -129,7 +129,7 @@ ubuntu@229-web-01:~$
 
 ### 4. Setup a Primary-Replica infrastructure using MySQL
 
-![]()
+![](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x14-mysql/images/mysql.gif)
 
 Having a replica member on for your MySQL database has 2 advantages:
 
