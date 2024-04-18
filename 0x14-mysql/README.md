@@ -249,7 +249,7 @@ mysql>
 
 ### 5. MySQL backup
 
-![]()
+![Flooded Datacenter](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x14-mysql/images/flooded_data_center.mp4)
 
 What if the data center where both your primary and replica database servers are hosted are down because of a power outage or even worse: flooding, fire? Then all your data would inaccessible or lost. That’s why you want to backup and store them in a different system in another physical location. This can be achieved by dumping your MySQL data, compressing them and storing them in a different data center.
 
