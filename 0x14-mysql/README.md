@@ -1,16 +1,16 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
 
-Resources
-Read or watch:
+# Resources
+## Read or watch:
+- [What is a primary-replica cluster]()
+- [MySQL primary replica setup]()
+- [Build a robust database backup strategy]()
 
-What is a primary-replica cluster
-MySQL primary replica setup
-Build a robust database backup strategy
-man or help:
+**man or help:**
+- `mysqldump`
 
-mysqldump
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 General
 What is the main role of a database
@@ -34,10 +34,10 @@ Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 Your servers
-Name	Username	IP	State	
-512861-web-01	ubuntu	100.26.159.205	running	
-512861-web-02	ubuntu	54.237.14.183	running	
-512861-lb-01	ubuntu	54.146.88.247	running	
+Name	Username	IP	State
+512861-web-01	ubuntu	100.26.159.205	running
+512861-web-02	ubuntu	54.237.14.183	running
+512861-lb-01	ubuntu	54.146.88.247	running
 Tasks
 0. Install MySQL
 mandatory
@@ -55,7 +55,7 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
- 
+
 1. Let us in!
 mandatory
 In order for us to verify that your servers are properly configured, we need you to create a user and password for both MySQL databases which will allow the checker access to them.
@@ -77,7 +77,7 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
- 
+
 2. If only you could see what I've seen with your eyes
 mandatory
 In order for you to set up replication, you’ll need to have a database with at least one table and one row in your primary MySQL server (web-01) to replicate from.
@@ -97,7 +97,7 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
- 
+
 3. Quite an experience to live in fear, isn't it?
 mandatory
 Before you get started with your primary-replica synchronization, you need one more thing in place. On your primary MySQL server (web-01), create a new user for the replica server.
@@ -121,7 +121,7 @@ Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
- 
+
 4. Setup a Primary-Replica infrastructure using MySQL
 mandatory
 
@@ -143,7 +143,7 @@ Example:
 
 web-01
 ubuntu@web-01:~$ mysql -uholberton_user -p
-Enter password: 
+Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 1467
 Server version: 5.5.49-0ubuntu0.14.04.1-log (Ubuntu)
@@ -164,10 +164,10 @@ mysql> show master status;
 +------------------+----------+--------------------+------------------+
 1 row in set (0.00 sec)
 
-mysql> 
+mysql>
 web-02
 root@web-02:/home/ubuntu# mysql -uholberton_user -p
-Enter password: 
+Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 53
 Server version: 5.5.49-0ubuntu0.14.04.1-log (Ubuntu)
@@ -194,44 +194,44 @@ mysql> show slave status\G
         Relay_Master_Log_File: mysql-bin.000009
              Slave_IO_Running: Yes
             Slave_SQL_Running: Yes
-              Replicate_Do_DB: 
-          Replicate_Ignore_DB: 
-           Replicate_Do_Table: 
-       Replicate_Ignore_Table: 
-      Replicate_Wild_Do_Table: 
-  Replicate_Wild_Ignore_Table: 
+              Replicate_Do_DB:
+          Replicate_Ignore_DB:
+           Replicate_Do_Table:
+       Replicate_Ignore_Table:
+      Replicate_Wild_Do_Table:
+  Replicate_Wild_Ignore_Table:
                    Last_Errno: 0
-                   Last_Error: 
+                   Last_Error:
                  Skip_Counter: 0
           Exec_Master_Log_Pos: 107
               Relay_Log_Space: 452
               Until_Condition: None
-               Until_Log_File: 
+               Until_Log_File:
                 Until_Log_Pos: 0
            Master_SSL_Allowed: No
-           Master_SSL_CA_File: 
-           Master_SSL_CA_Path: 
-              Master_SSL_Cert: 
-            Master_SSL_Cipher: 
-               Master_SSL_Key: 
+           Master_SSL_CA_File:
+           Master_SSL_CA_Path:
+              Master_SSL_Cert:
+            Master_SSL_Cipher:
+               Master_SSL_Key:
         Seconds_Behind_Master: 0
 Master_SSL_Verify_Server_Cert: No
                 Last_IO_Errno: 0
-                Last_IO_Error: 
+                Last_IO_Error:
                Last_SQL_Errno: 0
-               Last_SQL_Error: 
-  Replicate_Ignore_Server_Ids: 
+               Last_SQL_Error:
+  Replicate_Ignore_Server_Ids:
              Master_Server_Id: 1
 1 row in set (0.00 sec)
 
-mysql> 
+mysql>
 
 Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x14-mysql
 File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
- 
+
 5. MySQL backup
 mandatory
 
