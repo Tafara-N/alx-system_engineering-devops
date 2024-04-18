@@ -29,14 +29,11 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 - Your Bash script must pass `Shellcheck` (version `0.3.7-5~ubuntu16.04.1` via `apt-get`) without any error
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
-Your servers
-Name	Username	IP	State
-512861-web-01	ubuntu	100.26.159.205	running
-512861-web-02	ubuntu	54.237.14.183	running
-512861-lb-01	ubuntu	54.146.88.247	running
-Tasks
-0. Install MySQL
-mandatory
+
+# Tasks
+
+## 0. Install MySQL
+
 First things first, let’s get MySQL installed on both your web-01 and web-02 servers.
 
 MySQL distribution must be 5.7.x
