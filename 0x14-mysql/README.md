@@ -32,7 +32,7 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 
 # Tasks
 
-## 0. Install MySQL
+### 0. Install MySQL
 
 First things first, let’s get MySQL installed on both your web-01 and web-02 servers.
 
@@ -52,8 +52,8 @@ ubuntu@229-web-01:~$
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x14-mysql`
 
-1. Let us in!
-mandatory
+### 1. Let us in!
+
 In order for us to verify that your servers are properly configured, we need you to create a user and password for both MySQL databases which will allow the checker access to them.
 
 Create a MySQL user named holberton_user on both web-01 and web-02 with the host name set to localhost and the password projectcorrection280hbtn. This will allow us to access the replication status on both servers.
