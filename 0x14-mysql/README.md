@@ -94,8 +94,9 @@ Enter password:
 |  1 | Leon  |
 +----+-------+
 ubuntu@229-web-01:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x14-mysql`
 
