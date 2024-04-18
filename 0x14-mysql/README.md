@@ -142,12 +142,16 @@ Having a replica member on for your MySQL database has 2 advantages:
 - Setup replication for the MySQL database named `tyrell_corp`
 - Provide your MySQL primary configuration as answer file(`my.cnf` or `mysqld.cnf`) with the name `4-mysql_configuration_primary`
 - Provide your MySQL replica configuration as an answer file with the name `4-mysql_configuration_replica`
-Tips:
-Once MySQL replication is setup, add a new record in your table via MySQL on web-01 and check if the record has been replicated in MySQL web-02. If you see it, it means your replication is working!
-Make sure that UFW is allowing connections on port 3306 (default MySQL port) otherwise replication will not work.
+
+# Tips:
+- Once MySQL replication is setup, add a new record in your table via MySQL on `web-01` and check if the record has been replicated in MySQL `web-02`. If you see it, it means your replication is working!
+- **Make sure that UFW is allowing connections on port 3306 (default MySQL port) otherwise replication will not work.**
+
 Example:
 
-web-01
+# `web-01`
+
+```
 ubuntu@web-01:~$ mysql -uholberton_user -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -171,7 +175,12 @@ mysql> show master status;
 1 row in set (0.00 sec)
 
 mysql>
-web-02
+```
+
+
+# `web-02`
+
+```
 root@web-02:/home/ubuntu# mysql -uholberton_user -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -231,15 +240,15 @@ Master_SSL_Verify_Server_Cert: No
 1 row in set (0.00 sec)
 
 mysql>
+```
 
 **Repo:**
-
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x14-mysql`
-File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
+- File: `4-mysql_configuration_primary, 4-mysql_configuration_replica`
 
-5. MySQL backup
-mandatory
+### 5. MySQL backup
+
 
 
 What if the data center where both your primary and replica database servers are hosted are down because of a power outage or even worse: flooding, fire? Then all your data would inaccessible or lost. That’s why you want to backup and store them in a different system in another physical location. This can be achieved by dumping your MySQL data, compressing them and storing them in a different data center.
