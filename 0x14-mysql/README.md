@@ -39,14 +39,17 @@ First things first, let’s get MySQL installed on both your web-01 and web-02 s
 MySQL distribution must be 5.7.x
 Make sure that task #3 of your SSH project is completed for web-01 and web-02. The checker will connect to your servers to check MySQL status
 Please make sure you have your README.md pushed to GitHub.
+
 Example:
 
+```
 ubuntu@229-web-01:~$ mysql --version
 mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
 ubuntu@229-web-01:~$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
+**Repo:**
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 
 1. Let us in!
@@ -66,9 +69,9 @@ Enter password:
 | GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost' |
 +-----------------------------------------------------------------+
 ubuntu@229-web-01:~$
-Repo:
+**Repo:**
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 
 2. If only you could see what I've seen with your eyes
@@ -86,9 +89,9 @@ Enter password:
 |  1 | Leon  |
 +----+-------+
 ubuntu@229-web-01:~$
-Repo:
+**Repo:**
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 
 3. Quite an experience to live in fear, isn't it?
@@ -110,9 +113,9 @@ ubuntu@229-web-01:~$ mysql -uholberton_user -p -e 'SELECT user, Repl_slave_priv 
 | replica_user     | Y               |
 +------------------+-----------------+
 ubuntu@229-web-01:~$
-Repo:
+**Repo:**
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 
 4. Setup a Primary-Replica infrastructure using MySQL
@@ -219,9 +222,9 @@ Master_SSL_Verify_Server_Cert: No
 
 mysql>
 
-Repo:
+**Repo:**
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
 
@@ -295,8 +298,8 @@ ubuntu@03-web-01:~$
 ubuntu@03-web-01:~$ file 01-03-2017.tar.gz
 01-03-2017.tar.gz: gzip compressed data, from Unix, last modified: Wed Mar  1 23:38:09 2017
 ubuntu@03-web-01:~$
-Repo:
+**Repo:**
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: `alx-system_engineering-devops`
 Directory: 0x14-mysql
 File: 5-mysql_backup
