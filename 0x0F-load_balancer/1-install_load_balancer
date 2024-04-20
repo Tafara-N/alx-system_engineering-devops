@@ -38,8 +38,8 @@ frontend tafara-frontend
 
 backend tafara-backend
     balance roundrobin
-    server 512861-web-01 100.26.159.205:80 check
-    server 512861-web-02 54.237.14.183:80 check
+    server 512861-web-01 18.204.8.46:80 check
+    server 512861-web-02 34.203.77.40:80 check
 "
 
 # Shellcheck disable=SC2154
