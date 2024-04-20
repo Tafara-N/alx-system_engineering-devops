@@ -23,8 +23,8 @@ CREATE USER 'replica_user'@'%' IDENTIFIED BY 'replica_user_passwd';
 GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
 
 GRANT SELECT ON mysql.user TO 'holberton_user'@'localhost';
-CREATE USER 'web-02'@'54.237.14.183' IDENTIFIED BY 'web_02_passwd';
-GRANT REPLICATION SLAVE ON *.* TO 'web-02'@'54.237.14.183';
+CREATE USER 'web-02'@'34.203.77.40' IDENTIFIED BY 'web_02_passwd';
+GRANT REPLICATION SLAVE ON *.* TO 'web-02'@'34.203.77.40';
 
 SET GLOBAL validate_password_policy=MEDIUM;
 
