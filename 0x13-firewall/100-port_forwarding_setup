@@ -1,3 +1,11 @@
+# Edit the "/etc/ufw/before.rules" file
+
+# Add these line, explained in detail below:
+# *nat
+# :PREROUTING ACCEPT [0:0]
+# -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+# COMMIT
+
 #
 # rules.before
 #
