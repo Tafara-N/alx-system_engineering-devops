@@ -12,7 +12,7 @@ sudo ufw allow 'Nginx HTTP'
 sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 755 /var/www/
 
-# Backing up the default index
+# Backing up the default index.nginx-debian.html file
 cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.backup
 
 # Creating new index.html file
