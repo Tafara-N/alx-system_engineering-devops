@@ -3,31 +3,29 @@
 
 # Updating packages before installing
 sudo apt-get update
-sudo apt-get install -y nginx
+# sudo apt-get install -y nginx
 
+# Starting and Allowing 'Nginx HTTP'
 sudo service nginx start
-
-# Allowing nginx on firewall
 sudo ufw allow 'Nginx HTTP'
 
-# Giving user ownership to website files for easy editing
+# Giving the user ownership to website files for easy editing
 sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 755 /var/www
 
-# Backing up default index files
-cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
+# Backing up the default index.nginx-debian.html file
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.backup
 
 # Creating new index.html file
 echo -e "Hello World!" > /var/www/html/index.nginx-debian.html
 
-# Setting up /redirect_me to a youtube video
+# Setting up /redirect_me to a Youtube video
 sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 
-# Setting up a 404 page
+# Setting up a 404 error page
 echo "Ceci n'est pas une page" >> /var/www/html/error_404.html
 sudo sed -i '25i\	error_page 404 /error_404.html;' /etc/nginx/sites-available/default
 
-# Restarting nginx
 sudo service nginx restart
 
-echo -e "Done setting up"
+echo -e "Done configuring Nginx!...\n"
