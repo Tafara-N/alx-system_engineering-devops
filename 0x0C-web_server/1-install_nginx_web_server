@@ -4,10 +4,18 @@
 sudo apt-get -y update
 sudo apt-get -y install nginx
 
-# Allowing 'HTTP'
+# Starting and Allowing 'Nginx HTTP'
+sudo service nginx start
 sudo ufw allow 'Nginx HTTP'
 
-# Output 'Hello world'
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
+# Giving the user ownership to website files for easy editing
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www/
 
-sudo service nginx start
+# Backing up the default index
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.backup
+
+# Creating new index.html file
+echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
+
+sudo service nginx restart
