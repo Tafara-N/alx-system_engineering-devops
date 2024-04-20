@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# One line command to install MySQL 5.7
+
+sudo wget -O mysql57 https://raw.githubusercontent.com/nuuxcode/alx-system_engineering-devops/master/scripts/mysql57 && sudo chmod +x mysql57 &&  sudo ./mysql57
