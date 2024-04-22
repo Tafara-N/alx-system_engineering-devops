@@ -12,24 +12,15 @@ import csv
 import requests
 import sys
 
-if __name__ == '__main__':
-    user = sys.argv[1]
-    url_user = 'https://jsonplaceholder.typicode.com/users/' + user
-    response = requests.get(url_user)
-    """ Whatever you want to do with the responseponse """
+if __name__ == "__main__":
+    user_id = sys.argv[1]
+    url_user = "https://jsonplaceholder.typicode.com/"
+    user = requests.get(url_user + "users/{}".format(user_id)).json()
+    username = user.get("username")
+    todos = requests.get(url_user + "todos", params={"userId": user_id}).json()
 
-    user_name = response.json().get('username')
-    task = url_user + '/todos'
-    response = requests.get(task)
-    tasks = response.json()
-
-    with open('{}.csv'.format(user), 'w') as csvfile:
-        for task in tasks:
-            complete = task.get('complete')
-            """ Completed task """
-
-            title_task = task.get('title')
-            """ Task done """
-
-            csvfile.write('"{}","{}","{}","{}"\n'.format(
-                user, user_name, complete, title_task))
+    with open("{}.csv".format(user_id), "w", newline="") as csvfile:
+        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+        [writer.writerow(
+            [user_id, username, t.get("completed"), t.get("title")]
+         ) for t in todos]
