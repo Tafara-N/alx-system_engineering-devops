@@ -136,31 +136,35 @@ sylvain@ubuntu$ cat 2.csv
 "2","Antonette","False","doloremque quibusdam asperiores libero corrupti illum qui omnis"
 "2","Antonette","True","totam atque quo nesciunt"
 sylvain@ubuntu$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x15-api`
-File: 1-export_to_CSV.py
+- File: `1-export_to_CSV.py`
 
-2. Export to JSON
-mandatory
+### 2. Export to JSON
+
 Using what you did in the task #0, extend your Python script to export data in the JSON format.
 
 Requirements:
 
-Records all tasks that are owned by this employee
-Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}
-File name must be: USER_ID.json
+- Records all tasks that are owned by this employee
+- Format must be: `{ "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}`
+- File name must be: `USER_ID.json`
+
 Example:
 
+```
 sylvain@ubuntu$ python3 2-export_to_JSON.py 2
 sylvain@ubuntu$ cat 2.json
 {"2": [{"task": "suscipit repellat esse quibusdam voluptatem incidunt", "completed": false, "username": "Antonette"}, {"task": "distinctio vitae autem nihil ut molestias quo", "completed": true, "username": "Antonette"}, {"task": "et itaque necessitatibus maxime molestiae qui quas velit", "completed": false, "username": "Antonette"}, {"task": "adipisci non ad dicta qui amet quaerat doloribus ea", "completed": false, "username": "Antonette"}, {"task": "voluptas quo tenetur perspiciatis explicabo natus", "completed": true, "username": "Antonette"}, {"task": "aliquam aut quasi", "completed": true, "username": "Antonette"}, {"task": "veritatis pariatur delectus", "completed": true, "username": "Antonette"}, {"task": "nesciunt totam sit blanditiis sit", "completed": false, "username": "Antonette"}, {"task": "laborum aut in quam", "completed": false, "username": "Antonette"}, {"task": "nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis", "completed": true, "username": "Antonette"}, {"task": "repudiandae totam in est sint facere fuga", "completed": false, "username": "Antonette"}, {"task": "earum doloribus ea doloremque quis", "completed": false, "username": "Antonette"}, {"task": "sint sit aut vero", "completed": false, "username": "Antonette"}, {"task": "porro aut necessitatibus eaque distinctio", "completed": false, "username": "Antonette"}, {"task": "repellendus veritatis molestias dicta incidunt", "completed": true, "username": "Antonette"}, {"task": "excepturi deleniti adipisci voluptatem et neque optio illum ad", "completed": true, "username": "Antonette"}, {"task": "sunt cum tempora", "completed": false, "username": "Antonette"}, {"task": "totam quia non", "completed": false, "username": "Antonette"}, {"task": "doloremque quibusdam asperiores libero corrupti illum qui omnis", "completed": false, "username": "Antonette"}, {"task": "totam atque quo nesciunt", "completed": true, "username": "Antonette"}]}sylvain@ubuntu$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x15-api`
--  File: `2-export_to_JSON.py`
+- File: `2-export_to_JSON.py`
 
 ### 3. Dictionary of list of dictionaries
 
