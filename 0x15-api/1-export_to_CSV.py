@@ -15,13 +15,13 @@ import sys
 if __name__ == '__main__':
     user = sys.argv[1]
     url_user = 'https://jsonplaceholder.typicode.com/users/' + user
-    res = requests.get(url_user)
-    """ Whatever you want to do with the response """
+    response = requests.get(url_user)
+    """ Whatever you want to do with the responseponse """
 
-    user_name = res.json().get('username')
+    user_name = response.json().get('username')
     task = url_user + '/todos'
-    res = requests.get(task)
-    tasks = res.json()
+    response = requests.get(task)
+    tasks = response.json()
 
     with open('{}.csv'.format(user), 'w') as csvfile:
         for task in tasks:
