@@ -12,18 +12,18 @@ import csv
 import requests
 import sys
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     user = sys.argv[1]
-    url_user = "https://jsonplaceholder.typicode.com/users/" + user
-    response = requests.get(url_user)
-    username = response.json().get("username")
-    task = url_user + "/todos"
-    response = requests.get(task)
-    tasks = response.json()
+    url_user = 'https://jsonplaceholder.typicode.com/users/' + user
+    res = requests.get(url_user)
+    user_name = res.json().get('username')
+    task = url_user + '/todos'
+    res = requests.get(task)
+    tasks = res.json()
 
-    with open("{}.csv".format(user), "w") as csvfile:
+    with open('{}.csv'.format(user), 'w') as csvfile:
         for task in tasks:
-            complete = task.get("complete")
-            title_task = task.get("title")
+            complete = task.get('complete')
+            title_task = task.get('title')
             csvfile.write('"{}","{}","{}","{}"\n'.format(
-                user, username, complete, title_task))
+                user, user_name, complete, title_task))
