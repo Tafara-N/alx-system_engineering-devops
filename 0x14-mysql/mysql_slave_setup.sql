@@ -11,7 +11,7 @@ GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost';
 SET GLOBAL validate_password_policy=MEDIUM;
 
 CREATE DATABASE IF NOT EXISTS tyrell_corp;
-USE tyrell_corp;
+
 CHANGE MASTER TO
 MASTER_HOST = '18.204.8.46',
 MASTER_USER = 'replica_user',
