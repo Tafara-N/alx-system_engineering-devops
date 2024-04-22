@@ -38,7 +38,7 @@ frontend tafara-frontend
 
 backend tafara-backend
     balance roundrobin
-    server 512861-web-01 18.204.8.46:80 check
+    server 512861-web-01 18.204.8.46:80  check
     server 512861-web-02 34.203.77.40:80 check
 "
 
