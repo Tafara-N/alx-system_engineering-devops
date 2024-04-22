@@ -1,16 +1,6 @@
 #!/usr/bin/python3
 
 """
-Script that, for a given employee ID,
-returns information about his/her TODO list progresponses.
-
-First line: Employee EMPLOYEE_NAME is done with tasks
-(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):
-    :EMPLOYEE_NAME: name of the employee
-    :NUMBER_OF_DONE_TASKS: number of complete tasks
-        :TOTAL_NUMBER_OF_TASKS: total number of tasks, which is the sum
-        of complete and non-complete tasks\
-
 Records all tasks that are owned by this employee
 Format must be: { "USER_ID": [{"task": "TASK_TITLE",
                 "complete": TASK_complete_STATUS, "username": "USERNAME"},
