@@ -69,7 +69,7 @@ wintermancer@lapbox ~/reddit_api/project $ python3 0-main.py this_is_a_fake_subr
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x16-api_advanced`
-File: 0-subs.py
+- File: 0-subs.py
 
 1. Top Ten
 mandatory
@@ -111,7 +111,7 @@ wintermancer@lapbox ~/reddit_api/project $
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x16-api_advanced`
-File: 1-top_ten.py
+- File: 1-top_ten.py
 
 2. Recurse it!
 mandatory
@@ -152,7 +152,7 @@ None
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x16-api_advanced`
-File: 2-recurse.py
+- File: 2-recurse.py
 
 3. Count it!
 #advanced
@@ -202,4 +202,4 @@ bob@dylan $
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x16-api_advanced`
-File: 100-count.py
+- File: 100-count.py
