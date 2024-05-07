@@ -67,8 +67,8 @@ wintermancer@lapbox ~/reddit_api/project $ python3 0-main.py this_is_a_fake_subr
 0
 **Repo:**
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x16-api_advanced`
 File: 0-subs.py
 
 1. Top Ten
@@ -109,8 +109,8 @@ None
 wintermancer@lapbox ~/reddit_api/project $
 **Repo:**
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x16-api_advanced`
 File: 1-top_ten.py
 
 2. Recurse it!
@@ -150,8 +150,8 @@ wintermancer@lapbox ~/reddit_api/project $ python3 2-main.py this_is_a_fake_subr
 None
 **Repo:**
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x16-api_advanced`
 File: 2-recurse.py
 
 3. Count it!
@@ -200,6 +200,6 @@ bob@dylan $ python3 100-main.py not_a_valid_subreddit 'python java'
 bob@dylan $
 **Repo:**
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x16-api_advanced`
 File: 100-count.py
