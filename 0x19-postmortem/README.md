@@ -56,13 +56,13 @@ While postmortem format can vary, stick to this one so that you can get properly
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
-Add URLs here:
-Repo:
-
+**Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x19-postmortem`
-- File: `README.md`1. Make people want to read your postmortem
-#advanced
+- File: `README.md`
+
+### 1. Make people want to read your postmortem
+
 We are constantly stormed by a quantity of information, it’s tough to get people to read you.
 
 Make your post-mortem attractive by adding humour, a pretty diagram or anything that would catch your audience attention.
