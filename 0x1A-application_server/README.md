@@ -62,7 +62,7 @@ ubuntu@229-web-01:~/AirBnB_clone_v2$ python3 -m web_flask.0-hello_route
 Window 2:
 ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/
 Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -89,7 +89,7 @@ ubuntu@229-web-01:~/AirBnB_clone_v2$ gunicorn --bind 0.0.0.0:5000 web_flask.0-he
 Terminal 2:
 ubuntu@229-web-01:~$ curl 127.0.0.1:5000/airbnb-onepage/
 Hello HBNB!ubuntu@229-web-01:~$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -132,7 +132,7 @@ X-Served-By: 229-web-01
 
 vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-onepage/
 Hello HBNB!vagrant@ubuntu-xenial:~$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -193,7 +193,7 @@ vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-dynamic/number_odd_or_even/6
   </HEAD>
   <BODY><H1>Number: 6 is even</H1></BODY>
 </HTML>vagrant@ubuntu-xenial:~$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -225,7 +225,7 @@ Local Terminal:
 vagrant@ubuntu-xenial:~$ curl 35.231.193.217/api/v1/states
 [{"__class__":"State","created_at":"2019-05-10T00:39:27.032802","id":"7512f664-4951-4231-8de9-b18d940cc912","name":"California","updated_at":"2019-05-10T00:39:27.032965"},{"__class__":"State","created_at":"2019-05-10T00:39:36.021219","id":"b25625c8-8a7a-4c1f-8afc-257bf9f76bc8","name":"Arizona","updated_at":"2019-05-10T00:39:36.021281"}]
 vagrant@ubuntu-xenial:~$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -249,7 +249,7 @@ After loading, your website should look like this:
 
 
 
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -285,7 +285,7 @@ bob@dylan:~$ curl -s 12.13.14.15/ | tail -5
   </body>
 </html>
 bob@dylan:~$
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
@@ -328,7 +328,7 @@ In this example, you can see that my Bash script tells the master Gunicorn renew
 
 For testing it, please use the command $ sudo reboot to reboot your server (not shutdown!!)
 
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x1A-application_server`
