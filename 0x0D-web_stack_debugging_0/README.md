@@ -1,6 +1,15 @@
+# Concepts
+
+*For this project, we expect you to look at these concepts:*
+
+- [Network basics](https://intranet.alxswe.com/concepts/33)
+- [Docker](https://intranet.alxswe.com/concepts/65)
+- [Web stack debugging](https://intranet.alxswe.com/concepts/68)
+
 ![I Love Debugging](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/265/uWLzjc8.jpg)
 
 # Background Context
+
 The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
 
 Being able to debug a webstack is essential for a Full-Stack Software Engineer, and it takes practice to be a master of it.
