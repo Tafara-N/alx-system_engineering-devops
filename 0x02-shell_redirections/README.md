@@ -1,12 +1,15 @@
-# About Bash projects  
+# About `Bash` projects
+
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-### Concepts  
+# Concepts
+
 *For this project, we expect you to look at this concept:*
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
-# Resources  
+# Resources
+
 ## Read or watch:
 - [Shell, I/O Redirection](https://intranet.alxswe.com/rltoken/fGOQQXRKbvOcd1qLRxHzLQ)
 - [Special Characters](https://intranet.alxswe.com/rltoken/c1pz13vke3HPH0S8iALbtw)
@@ -26,7 +29,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `cut`
 - `passwd (5)` (i.e. `man 5 passwd`)
 
-# Learning Objectives  
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ayxcWT-Mmymhm03Z98LaWQ), **without the help of Google:**
 
 ## Shell, I/O Redirection
@@ -48,7 +51,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is the `/etc/passwd` file and what is its format
 - What is the `/etc/shadow` file and what is its format
 
-# Requirements  
+# Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -60,18 +64,103 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files must be executable
 - You are not allowed to use `sed` or `awk`
 
-# More Info  
+# More Info
 Read your `/etc/passwd` and `/etc/shadow` files.
 
 Note: You do not have to learn about `fmt`, `pr`, `du`, `gzip`, `tar`, `lpr`, `sed` and `awk` yet.
 
-## Tasks  
+## Quiz questions
+
+### Question #0
+
+Which symbol should I use to redirect the standard output to a file (overwrite the file)?
+
+- [ ] `&`
+
+- [ ] `>>`
+
+- [ ] `2>`
+
+- [ ] `>`
+
+### Question #1
+
+Which symbol should I use to start a comment?
+
+- [ ] `#`
+
+- [ ] `&`
+
+- [ ] `!`
+
+- [ ] `//`
+
+Question #2
+Which symbol should I use to redirect the standard output to a file (appending to the file)?
+
+
+- [ ] `&`
+
+- [ ] `>>`
+
+- [ ] `2>`
+
+- [ ] `>`
+
+### Question #3
+
+Which symbol should I use to redirect the error output to the standard output?
+
+- [ ] `2>&1`
+
+- [ ] `2>`
+
+- [ ] `1>&2`
+
+### Question #4
+
+Which command should I use to display the entire file content?
+
+- [ ] tail
+
+- [ ] grep
+
+- [ ] cat
+
+- [ ] head
+
+### Question #5
+
+Which symbol should I use to escape a special character?
+
+- [ ] `#`
+
+- [ ] `\`
+
+- [ ] `!`
+
+- [ ] `$`
+
+### Question #6
+
+Which command should I use to display the last 11 lines of a file?
+
+- [ ] tail 11 my_file
+
+- [ ] head -n 11 my_file
+
+- [ ] head 11 my_file
+
+- [ ] tail -n 11 my_file
+
+## Tasks
+
 ### 0. Hello World
 
 Write a script that prints “Hello, World”, followed by a new line to the standard output.
 
 ```
-julien@ubuntu:/tmp/h$ ./0-hello_world 
+julien@ubuntu:/tmp/h$ ./0-hello_world
 Hello, World
 julien@ubuntu:/tmp/h$ ./0-hello_world | cat -e
 Hello, World$
@@ -88,9 +177,9 @@ julien@ubuntu:/tmp/h$
 Write a script that displays a confused smiley `"(Ôo)'`.
 
 ```
-julien@ubuntu:/tmp/h$ ./1-confused_smiley 
+julien@ubuntu:/tmp/h$ ./1-confused_smiley
 "(Ôo)'
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -237,7 +326,7 @@ The file `iacta` will be in the working directory
 - You’re not allowed to use `sed`
 
 ```
-julien@ubuntu:/tmp/h$ cat iacta 
+julien@ubuntu:/tmp/h$ cat iacta
 Alea iacta est
 
 Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
@@ -252,7 +341,7 @@ German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many oth
 indicate that events have passed a point of no return.
 
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
-julien@ubuntu:/tmp/h$ ./6-third_line 
+julien@ubuntu:/tmp/h$ ./6-third_line
 Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
 julien@ubuntu:/tmp/h$
 ```
@@ -298,7 +387,7 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rwxrw-r--  1 julien julien   36 Sep 20 18:18 8-cwd_state
 -rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
 -rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
-julien@ubuntu:/tmp/h$ ./8-cwd_state 
+julien@ubuntu:/tmp/h$ ./8-cwd_state
 julien@ubuntu:/tmp/h$ ls -la
 total 24
 drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
@@ -307,7 +396,7 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
 -rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
 -rw-rw-r--  1 julien julien  329 Sep 20 18:18 ls_cwd_content
-julien@ubuntu:/tmp/h$ cat ls_cwd_content 
+julien@ubuntu:/tmp/h$ cat ls_cwd_content
 total 20
 drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
 drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
@@ -315,7 +404,7 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
 -rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta
 -rw-rw-r--  1 julien julien    0 Sep 20 18:18 ls_cwd_content
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -330,7 +419,7 @@ Write a script that duplicates the last line of the file `iacta`
 The file `iacta` will be in the working directory
 
 ```
-julien@ubuntu:/tmp/h$ cat iacta 
+julien@ubuntu:/tmp/h$ cat iacta
 Alea iacta est
 
 Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
@@ -345,8 +434,8 @@ German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many oth
 indicate that events have passed a point of no return.
 
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
-julien@ubuntu:/tmp/h$ ./9-duplicate_last_line 
-julien@ubuntu:/tmp/h$ cat iacta 
+julien@ubuntu:/tmp/h$ ./9-duplicate_last_line
+julien@ubuntu:/tmp/h$ cat iacta
 Alea iacta est
 
 Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
@@ -362,7 +451,7 @@ indicate that events have passed a point of no return.
 
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -392,7 +481,7 @@ total 0
 
 ./dir.js:
 total 0
-julien@ubuntu:/tmp/h$ ./10-no_more_js 
+julien@ubuntu:/tmp/h$ ./10-no_more_js
 julien@ubuntu:/tmp/h$ ls -lR
 .:
 total 24
@@ -408,7 +497,7 @@ total 0
 
 ./dir.js:
 total 0
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -496,7 +585,7 @@ total 7
 -rwxr-xr-x 1 501 dialout  36 Sep 28 00:34 8-cwd_state
 -rwxr-xr-x 1 501 dialout  35 Sep 28 00:35 9-duplicate_last_line
 -rw-r--r-- 1 501 dialout  19 Sep 27 23:51 README.md
-alex@ubuntu:/tmp$ ./12-newest_files 
+alex@ubuntu:/tmp$ ./12-newest_files
 12-newest_files
 11-directories
 10-no_more_js
@@ -524,7 +613,7 @@ Create a script that takes a list of words as input and prints only words that a
 - Words should be sorted
 
 ```
-julien@ubuntu:/tmp/0x02$ cat list 
+julien@ubuntu:/tmp/0x02$ cat list
 C#
 C
 Javascript
@@ -551,7 +640,7 @@ Javascript
 Javascript
 Javascript
 ASP
-julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
+julien@ubuntu:/tmp/0x02$ cat list | ./13-unique
 C
 C++
 Go
@@ -669,7 +758,7 @@ $
 Replace all characters `A` and `c` from input to `Z` and `e` respectively.
 
 ```
-julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ 
+julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 julien@ubuntu:/tmp/0x02$
 ```
@@ -684,9 +773,9 @@ julien@ubuntu:/tmp/0x02$
 Create a script that removes all letters `c` and `C` from input.
 
 ```
-julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago 
+julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago
 hiago
-julien@ubuntu:/tmp/0x02$ 
+julien@ubuntu:/tmp/0x02$
 ```
 
 **Repo:**
@@ -699,9 +788,9 @@ julien@ubuntu:/tmp/0x02$
 Write a script that reverse its input.
 
 ```
-julien@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse 
+julien@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse
 esreveR
-julien@ubuntu:/tmp/0x02$ 
+julien@ubuntu:/tmp/0x02$
 ```
 
 **Repo:**
@@ -760,7 +849,7 @@ julien:x:1000:1000:Julien Barbier,,,:/home/julien:/bin/bash
 guillaume:x:1001:1001:,,,:/home/guillaume:/bin/bash
 betty:x:1002:1002::/home/betty:
 julien@ubuntu:/tmp/0x02$
-julien@ubuntu:/tmp/0x02$ ./22-users_and_homes 
+julien@ubuntu:/tmp/0x02$ ./22-users_and_homes
 _apt:/nonexistent
 avahi-autoipd:/var/lib/avahi-autoipd
 avahi:/var/run/avahi-daemon
@@ -974,7 +1063,7 @@ Create a script that decodes acrostics that use the first letter of each line.
 - You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
 
 ```
-julien@ubuntu:/tmp/0x02$ cat An\ Acrostic 
+julien@ubuntu:/tmp/0x02$ cat An\ Acrostic
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
 In vain those words from thee or L.E.L.
@@ -984,9 +1073,9 @@ Breath it less gently forth—and veil thine eyes.
 Endymion, recollect, when Luna tried
 To cure his love—was cured of all beside—
 His follie—pride—and passion—for he died.
-julien@ubuntu:/tmp/0x02$ ./102-acrostic < An\ Acrostic 
+julien@ubuntu:/tmp/0x02$ ./102-acrostic < An\ Acrostic
 ELIZABETH
-julien@ubuntu:/tmp/0x02$ 
+julien@ubuntu:/tmp/0x02$
 ```
 
 **Repo:**
@@ -1039,7 +1128,7 @@ ix-esc-ca2-07.ix.netcom.com     -       807249609       GET     /images/launch-l
 uplherc.upl.com -       807249610       GET     /images/WORLD-logosmall.gif     304     0
 slppp6.intermind.net    -       807249610       GET     /history/skylab/skylab.html     200     1687
 piweba4y.prodigy.com    -       807249610       GET     /images/launchmedium.gif        200     11853
-julien@ubuntu:/tmp/0x02$ ./103-the_biggest_fan < nasa_19950801.tsv 
+julien@ubuntu:/tmp/0x02$ ./103-the_biggest_fan < nasa_19950801.tsv
 www-relay.pa-x.dec.com
 piweba3y.prodigy.com
 www.thyssen.com
