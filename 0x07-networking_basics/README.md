@@ -1,4 +1,5 @@
-# Resources  
+# Resources
+
 ## Read or watch:
 - [OSI model](https://intranet.alxswe.com/rltoken/k2uCsynicuNbu1cAQhXqVQ)
 - [Different types of network](https://intranet.alxswe.com/rltoken/XW3ZGm5Ya_a8XVDXcAKT_A)
@@ -19,7 +20,7 @@
 - `netstat`
 - `ping`
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/RowLuXQWMOPFHaboo_3odA), **without the help of Google:**
 
 ## OSI Model
@@ -49,18 +50,19 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Memorize SSH, HTTP and HTTPS port numbers
 - What tool/protocol is often used to check if a device is connected to a network
 
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your Bash script files will be interpreted on Ubuntu 20.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-Your Bash script must pass shellcheck without any error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
+# Requirements
 
-# More Info  
+## General
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your Bash script files will be interpreted on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- All your Bash script files must be executable
+- Your Bash script must pass `shellcheck` without any error
+- The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
+- The second line of all your Bash scripts should be a comment explaining what is the script doing
+
+# More Info
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
@@ -71,7 +73,7 @@ What is the most important position in a software company?
     2. Backend developer
     3. System administrator
 
-```
+```bash
 sylvain@ubuntu$ cat foo_answer_file
 3
 sylvain@ubuntu$
@@ -202,9 +204,9 @@ If we continue the comparison of a network device to your house, where IP addres
 
 While the full list of ports should not be memorized, it is important to know the most used ports, let’s start by remembering 3 of them:
 
-- 22 for SSH
-- 80 for HTTP
-- 443 for HTTPS
+- **22** for SSH
+- **80** for HTTP
+- **443** for HTTPS
 
 Note that a specific [IP + port = socket](https://intranet.alxswe.com/rltoken/tMKODilbDVpB8EgfIRDJVw).
 
@@ -215,7 +217,7 @@ Write a Bash script that displays listening ports:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ sudo ./4-TCP_and_UDP_ports
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
@@ -266,7 +268,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ./5-is_the_host_on_the_network 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=63 time=12.9 ms
