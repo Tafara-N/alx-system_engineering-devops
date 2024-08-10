@@ -2,7 +2,7 @@
 
 echo -e "Allowing Port 3306...\n"
 sudo ufw allow 3306
-sudo udw enable
+sudo ufw enable
 sudo ufw reload
 
 config_data=\
