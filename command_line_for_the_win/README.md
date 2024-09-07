@@ -18,7 +18,7 @@ In addition to completing the project tasks and submitting the required `screens
 
 ## References :
 - [SFTP Guide](https://man.openbsd.org/sftp)
-- [SFTP File Transfer Tutorial](https://intranet.alxswe.com/rltoken/aTKBzKWZ5EI-qZjJVblUzg)
+- [SFTP File Transfer Tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
 
 ## Here are the steps to follow:
 - Take the `screenshots` of the completed levels as mentioned in the `general` requirements.
