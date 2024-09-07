@@ -19,6 +19,7 @@ In addition to completing the project tasks and submitting the required `screens
 ## References :
 - [SFTP Guide](https://intranet.alxswe.com/rltoken/OwMT_ctWdMI7L6JFzLvVKQ)
 - [SFTP File Transfer Tutorial](https://intranet.alxswe.com/rltoken/aTKBzKWZ5EI-qZjJVblUzg)
+
 ## Here are the steps to follow:
 - Take the `screenshots` of the completed levels as mentioned in the `general` requirements.
 - Open a terminal or command prompt on your local machine.
