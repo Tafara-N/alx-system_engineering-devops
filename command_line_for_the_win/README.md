@@ -17,7 +17,7 @@
 In addition to completing the project tasks and submitting the required `screenshots` to `GitHub`, you are also required to demonstrate the use of the `SFTP` (Secure File Transfer Protocol) command-line tool to move your local screenshots to the sandbox environment.
 
 ## References :
-- [SFTP Guide](https://intranet.alxswe.com/rltoken/OwMT_ctWdMI7L6JFzLvVKQ)
+- [SFTP Guide](https://man.openbsd.org/sftp)
 - [SFTP File Transfer Tutorial](https://intranet.alxswe.com/rltoken/aTKBzKWZ5EI-qZjJVblUzg)
 
 ## Here are the steps to follow:
