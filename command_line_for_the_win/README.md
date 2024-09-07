@@ -1,9 +1,11 @@
 ![CMD Challenge](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png)
 
 # Background Context
+
 [CMD CHALLENGE](https://intranet.alxswe.com/rltoken/a83_NOBEtXgFr1Yqej0HYA) is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!
 
-## Requirements  
+# Requirements
+
 ## General
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - This project will be manually reviewed.
@@ -11,7 +13,7 @@
 - Create a screenshot, showing that you completed the required levels
 - Push this screenshot with the right name to GitHub, in either the PNG or JPEG format
 
-## Specific  
+## Specific
 In addition to completing the project tasks and submitting the required `screenshots` to `GitHub`, you are also required to demonstrate the use of the `SFTP` (Secure File Transfer Protocol) command-line tool to move your local screenshots to the sandbox environment.
 
 ## References :
@@ -30,7 +32,7 @@ In addition to completing the project tasks and submitting the required `screens
 ## NOTE:
 - The screenshoots of completed level should be inside the dir `/root/alx-system_engineering-devops/command_line_for_the_win/`
 
-## Tasks  
+## Tasks
 ### 0. First 九 tasks
 
 Complete the first 9 tasks.
