@@ -1,6 +1,7 @@
 # Background Context
 
 # Resources
+
 ## Read or watch:
 - [Network sniffing](https://intranet.alxswe.com/rltoken/eF4956aQFYnhS_i6IF9R-g)
 - [ARP spoofing](https://intranet.alxswe.com/rltoken/RK-4WtV0YCSETDSG9lr1hw)
