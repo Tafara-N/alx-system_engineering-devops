@@ -2,7 +2,7 @@
 
 *For this project, we expect you to look at these concepts:*
 
-- [Network basics]()
+- [Network basics](https://intranet.alxswe.com/concepts/33)
 - [Docker]()
 
 # Background Context
