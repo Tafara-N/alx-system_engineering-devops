@@ -34,7 +34,7 @@ Any information that is not encrypted and sniffed by an attacker can be seen by 
 
 In this project, we will not go over ARP spoofing, but we’ll start by sniffing unencrypted traffic and getting information out of it.
 
-[Sendgrid offers](https://intranet.alxswe.com/rltoken/3QMTkzwhiBQgRSLVpKwAyw) is an emailing service that provides state of the art secure system to send emails, but also supports a legacy unsecured way: `telnet`. You can create an account for free, which is what I did, and send an email using `telnet`:
+[Sendgrid offers](https://sendgrid.com/en-us) is an emailing service that provides state of the art secure system to send emails, but also supports a legacy unsecured way: `telnet`. You can create an account for free, which is what I did, and send an email using `telnet`:
 
 ```
 sylvain@ubuntu$ telnet smtp.sendgrid.net 587
