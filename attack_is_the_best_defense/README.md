@@ -9,7 +9,7 @@
 
 # Resources
 
-## Read or watch:
+**Read or watch:**
 - [Network sniffing](https://intranet.alxswe.com/rltoken/eF4956aQFYnhS_i6IF9R-g)
 - [ARP spoofing](https://intranet.alxswe.com/rltoken/RK-4WtV0YCSETDSG9lr1hw)
 - [Connect to SendGrid’s SMTP relay using telnet](https://intranet.alxswe.com/rltoken/twuD5E9_-V2z1zfW5nXyyg)
