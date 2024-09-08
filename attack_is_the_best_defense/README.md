@@ -12,7 +12,7 @@
 **Read or watch:**
 - [Network sniffing](https://www.lifewire.com/definition-of-sniffer-817996)
 - [ARP spoofing](https://www.veracode.com/security/arp-spoofing)
-- [Connect to SendGrid’s SMTP relay using telnet](https://intranet.alxswe.com/rltoken/twuD5E9_-V2z1zfW5nXyyg)
+- [Connect to SendGrid’s SMTP relay using telnet](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/troubleshooting-delays-and-latency)
 - [What is Docker and why is it popular?](https://intranet.alxswe.com/rltoken/56VrRmkBHFq2OKLM_FQA6w)
 - [Dictionary attack](https://intranet.alxswe.com/rltoken/dbAwbf71VVSCTOfeR1NRmg)
 
