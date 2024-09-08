@@ -36,7 +36,7 @@ In this project, we will not go over ARP spoofing, but we’ll start by sniffing
 
 [Sendgrid offers](https://sendgrid.com/en-us) is an emailing service that provides state of the art secure system to send emails, but also supports a legacy unsecured way: `telnet`. You can create an account for free, which is what I did, and send an email using `telnet`:
 
-```
+```bash
 sylvain@ubuntu$ telnet smtp.sendgrid.net 587
 Trying 167.89.121.145...
 Connected to smtp.sendgrid.net.
