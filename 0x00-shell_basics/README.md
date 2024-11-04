@@ -367,7 +367,7 @@ Delete the file `betty`.
 
 Example:
 
-```
+```bash
 $ ./8-firstdelete
 $ ls /tmp/my_first_directory/
 $
