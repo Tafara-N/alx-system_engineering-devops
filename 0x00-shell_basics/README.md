@@ -144,23 +144,19 @@ julien@ubuntu:/tmp$
 
 ## Quiz Questions
 
-Question #0
+### Question #0
+
 What command would you use to list files on Linux?
 
+- [ ] `which`
 
-which
+- [ ] `pwd`
 
+- [ ] `cd`
 
-pwd
+- [ ] `list`
 
-
-cd
-
-
-list
-
-
-ls
+- [ ] `ls`
 
 ### Question #1
 
