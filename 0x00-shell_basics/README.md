@@ -483,7 +483,7 @@ Create a script that moves all files beginning with an uppercase letter to the d
 
 You can assume that the directory `/tmp/u` will exist when we will run your script
 
-```
+```bash
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
 total 148
 drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
