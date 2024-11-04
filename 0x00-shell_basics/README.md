@@ -577,7 +577,7 @@ Write a command that lists all the files and directories of the current director
 - You can assume that all the files we will test with will have at least one letter or one digit
 - The listing should end with a new line
 
-```
+```bash
 ubuntu@ubuntu:~/$ ls -a
 
 .  ..  0-commas  0-commas-checks  1-empty_casks  2-gifs  3-directories  4-zeros  5-rot13  6-odd  7-sort_rot13  Makefile  quote  .test  test_dir  test.var
