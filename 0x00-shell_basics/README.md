@@ -20,7 +20,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [Reading Man pages]()
 - [Keyboard shortcuts for Bash]()
 - [LTS](https://wiki.ubuntu.com/LTS)
-- [Shebang](https://intranet.alxswe.com/rltoken/cE8ZA3kgEaFhB-IDNv31bQ)
+- [Shebang]()
 
 ## man or help:
 - `cd`
