@@ -162,17 +162,15 @@ list
 
 ls
 
-Question #1
+### Question #1
+
 What does RTFM stand for?
 
+- [ ] Remember The First Manipulation
 
-Remember The First Manipulation
+- [ ] Read, Teach, Forget, Migrate
 
-
-Read, Teach, Forget, Migrate
-
-
-Read The F** Manual
+- [ ] Read The F** Manual
 
 ### Question #2
 
