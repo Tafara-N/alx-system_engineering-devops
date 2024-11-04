@@ -215,7 +215,7 @@ Display the contents list of your current directory.
 
 Example:
 
-```
+```bash
 $ ./1-listit
 Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
