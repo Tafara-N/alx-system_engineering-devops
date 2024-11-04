@@ -255,7 +255,7 @@ Display current directory contents in a long format
 
 Example:
 
-```
+```bash
 $ ./3-listfiles
 total 32
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
