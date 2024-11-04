@@ -174,9 +174,9 @@ Read, Teach, Forget, Migrate
 
 Read The F** Manual
 
-Question #2
-What does LTS stand for?
+### Question #2
 
+What does LTS stand for?
 
 - [ ] Long Term Support
 
