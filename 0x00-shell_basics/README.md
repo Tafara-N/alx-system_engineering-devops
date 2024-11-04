@@ -6,7 +6,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
-![RTFM](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
+![RTFM](images/image.jpg)
 
 # Resources
 
