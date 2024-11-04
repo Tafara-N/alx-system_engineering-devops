@@ -384,7 +384,7 @@ Delete the directory `my_first_directory` that is in the `/tmp` directory.
 
 Example:
 
-```
+```bash
 $ ./9-firstdirdeletion
 $ file /tmp/my_first_directory
 /tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
