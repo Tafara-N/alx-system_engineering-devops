@@ -17,7 +17,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [A Guided Tour](https://linuxcommand.org/lc3_lts0040.php)
 - [Manipulating Files](https://linuxcommand.org/lc3_lts0050.php)
 - [Working With Commands]()
-- [Reading Man pages](https://intranet.alxswe.com/rltoken/rddGdsqLf8_kRzp12RaD4A)
+- [Reading Man pages]()
 - [Keyboard shortcuts for Bash](https://intranet.alxswe.com/rltoken/AGxMxuS5IeW8VmEvJyhwvw)
 - [LTS](https://wiki.ubuntu.com/LTS)
 - [Shebang](https://intranet.alxswe.com/rltoken/cE8ZA3kgEaFhB-IDNv31bQ)
