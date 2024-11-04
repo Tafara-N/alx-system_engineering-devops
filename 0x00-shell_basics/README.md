@@ -400,7 +400,7 @@ $
 
 Write a script that changes the working directory to the previous one.
 
-```
+```bash
 julien@ubuntu:/tmp$ pwd
 /tmp
 julien@ubuntu:/tmp$ cd /var
