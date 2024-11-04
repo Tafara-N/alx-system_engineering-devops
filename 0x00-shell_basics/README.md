@@ -110,7 +110,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # More Info
 *Example of line count and first line*
 
-```
+```bash
 julien@ubuntu:/tmp$ wc -l 12-file_type
 2 12-file_type
 julien@ubuntu:/tmp$ head -n 1 12-file_type
