@@ -304,7 +304,7 @@ Display current directory contents.
 
 Example:
 
-```
+```bash
 $ ./5-listfilesdigitonly
 total 32
 drwxr-xr-x@ 6 501 20 204 Jan 25 00:29 .
