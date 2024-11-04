@@ -598,7 +598,7 @@ ubuntu@ubuntu:~/$
 
 Create a magic file `school.mgc` that can be used with the command `file` to detect `School` data files. `School` data files always contain the string `SCHOOL` at offset 0.
 
-```
+```bash
 ubuntu@ip-172-31-63-244:/tmp/magic$ cp /bin/ls .
 ubuntu@ip-172-31-63-244:/tmp/magic$ ls -la
 total 268
