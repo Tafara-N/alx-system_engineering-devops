@@ -122,7 +122,7 @@ In order to test your scripts, you will need to use this command: `chmod u+x fil
 
 Example
 
-```
+```bash
 julien@ubuntu:/tmp$ ls
 12-file_type
 lll
