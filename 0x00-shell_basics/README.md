@@ -142,7 +142,64 @@ lll
 julien@ubuntu:/tmp$
 ```
 
+## Quiz Questions
+
+Question #0
+What command would you use to list files on Linux?
+
+
+which
+
+
+pwd
+
+
+cd
+
+
+list
+
+
+ls
+
+Question #1
+What does RTFM stand for?
+
+
+Remember The First Manipulation
+
+
+Read, Teach, Forget, Migrate
+
+
+Read The F** Manual
+
+Question #2
+What does LTS stand for?
+
+
+Long Term Support
+
+
+Long Time Support
+
+
+Last Terrible Service
+
+### Question #3
+
+How do you change directory on Linux?
+
+- [ ] which
+
+- [ ] pwd
+
+- [ ] cd
+
+- [ ] ls
+
 ## Tasks
+
 ### 0. Where am I?
 
 Write a script that prints the absolute path name of the current working directory.
