@@ -178,25 +178,23 @@ Question #2
 What does LTS stand for?
 
 
-Long Term Support
+- [ ] Long Term Support
 
+- [ ] Long Time Support
 
-Long Time Support
-
-
-Last Terrible Service
+- [ ] Last Terrible Service
 
 ### Question #3
 
 How do you change directory on Linux?
 
-- [ ] which
+- [ ] `which`
 
-- [ ] pwd
+- [ ] `pwd`
 
-- [ ] cd
+- [ ] `cd`
 
-- [ ] ls
+- [ ] `ls`
 
 ## Tasks
 
