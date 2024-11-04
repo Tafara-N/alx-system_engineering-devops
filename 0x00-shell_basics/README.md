@@ -448,7 +448,7 @@ Note that depending on the file, the output of your script will be different.
 
 Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
 
-```
+```bash
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
 total 144
 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
