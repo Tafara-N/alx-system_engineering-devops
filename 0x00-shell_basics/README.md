@@ -276,7 +276,7 @@ Display current directory contents, including hidden files (starting with `.`). 
 
 Example:
 
-```
+```bash
 $ ./4-listmorefiles
 total 32
 drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
