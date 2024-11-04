@@ -1,15 +1,16 @@
-# About Bash projects  
+# About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-### Concepts  
+### Concepts
 *For this project, we expect you to look at this concept:*
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
 ![RTFM](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
 
-# Resources  
-## Read or watch:
+# Resources
+
+**Read or watch:**
 - [What Is “The Shell”?](https://intranet.alxswe.com/rltoken/vwO91sqNBgRL03BLu-ueiA)
 - [Navigation](https://intranet.alxswe.com/rltoken/iblidp7yp6i-QpT8rDXHaA)
 - [Looking Around](https://intranet.alxswe.com/rltoken/xEKUCnQsMH0esQ6fJU5vLA)
@@ -37,7 +38,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `help`
 - `man`
 
-# Learning Objectives  
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/02rKNnoj4VMlA7BHYppIQg), **without the help of Google:**
 
 ## General
@@ -94,7 +95,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## LTS
 - What does `LTS` mean?
 
-# Requirements  
+# Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -106,15 +107,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You are not allowed to use backticks, `&&`, `||` or `;`
 - All your scripts must be executable. To make your file executable, use the `chmod` command: `chmod u+x file`. Later, we’ll learn more about how to utilize this command.
 
-# More Info  
+# More Info
 *Example of line count and first line*
 
 ```
-julien@ubuntu:/tmp$ wc -l 12-file_type 
+julien@ubuntu:/tmp$ wc -l 12-file_type
 2 12-file_type
-julien@ubuntu:/tmp$ head -n 1 12-file_type 
+julien@ubuntu:/tmp$ head -n 1 12-file_type
 #!/bin/bash
-julien@ubuntu:/tmp$ 
+julien@ubuntu:/tmp$
 ```
 
 In order to test your scripts, you will need to use this command: `chmod u+x file`. We will see later what does `chmod` mean and do, but you can have a look at `man chmod` if you are curious.
@@ -138,10 +139,10 @@ julien@ubuntu:/tmp$ ls -l lll
 julien@ubuntu:/tmp$ ./lll
 12-file_type
 lll
-julien@ubuntu:/tmp$ 
+julien@ubuntu:/tmp$
 ```
 
-## Tasks  
+## Tasks
 ### 0. Where am I?
 
 Write a script that prints the absolute path name of the current working directory.
@@ -494,13 +495,13 @@ You are only allowed to use two spaces (and lines) in your script, not more.
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 44 Sep 20 12:09 102-tree
-julien@ubuntu:/tmp/h$ wc -l 102-tree 
+julien@ubuntu:/tmp/h$ wc -l 102-tree
 2 102-tree
-julien@ubuntu:/tmp/h$ head -1 102-tree 
+julien@ubuntu:/tmp/h$ head -1 102-tree
 #!/bin/bash
 julien@ubuntu:/tmp/h$ tr -cd ' ' < 102-tree | wc -c # you do not have to understand this yet, but the result should be 2, 1 or 0
 2
-julien@ubuntu:/tmp/h$ ./102-tree 
+julien@ubuntu:/tmp/h$ ./102-tree
 julien@ubuntu:/tmp/h$ ls
 102-tree  welcome
 julien@ubuntu:/tmp/h$ ls welcome/
@@ -508,7 +509,7 @@ to
 julien@ubuntu:/tmp/h$ ls -l welcome/to
 total 4
 drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
