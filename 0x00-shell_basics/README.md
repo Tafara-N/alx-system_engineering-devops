@@ -13,7 +13,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 **Read or watch:**
 - [What Is “The Shell”?](https://linuxcommand.org/lc3_lts0010.php)
 - [Navigation](https://linuxcommand.org/lc3_lts0020.php)
-- [Looking Around](https://intranet.alxswe.com/rltoken/xEKUCnQsMH0esQ6fJU5vLA)
+- [Looking Around](https://linuxcommand.org/lc3_lts0030.php)
 - [A Guided Tour](https://intranet.alxswe.com/rltoken/HUhQ73fFR1GOC5nb4r-mDw)
 - [Manipulating Files](https://intranet.alxswe.com/rltoken/olv-1tj4d1LA57Z0PrLNvw)
 - [Working With Commands](https://intranet.alxswe.com/rltoken/zUtux3Pm0BkvtwXzbTtkmA)
