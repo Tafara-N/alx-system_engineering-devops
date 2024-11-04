@@ -11,7 +11,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 # Resources
 
 **Read or watch:**
-- [What Is “The Shell”?](https://intranet.alxswe.com/rltoken/vwO91sqNBgRL03BLu-ueiA)
+- [What Is “The Shell”?](https://linuxcommand.org/lc3_lts0010.php)
 - [Navigation](https://intranet.alxswe.com/rltoken/iblidp7yp6i-QpT8rDXHaA)
 - [Looking Around](https://intranet.alxswe.com/rltoken/xEKUCnQsMH0esQ6fJU5vLA)
 - [A Guided Tour](https://intranet.alxswe.com/rltoken/HUhQ73fFR1GOC5nb4r-mDw)
