@@ -540,7 +540,7 @@ Create a script that creates the directories `welcome/`, `welcome/to/` and `welc
 
 You are only allowed to use two spaces (and lines) in your script, not more.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 44 Sep 20 12:09 102-tree
