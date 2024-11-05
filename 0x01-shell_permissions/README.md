@@ -164,7 +164,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that prints the effective username of the current user.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ./1-who_am_i
 julien
 julien@ubuntu:/tmp/h$
