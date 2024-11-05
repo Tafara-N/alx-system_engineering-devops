@@ -499,7 +499,7 @@ Write a script that changes the owner and the group owner of `_hello` to `vincen
 - The file `_hello` is in the working directory
 - The file `_hello` is a symbolic link
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien julien   44 Sep 20 15:12 101-symbolic_link_permissions
