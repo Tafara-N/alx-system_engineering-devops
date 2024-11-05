@@ -377,7 +377,7 @@ Create a script that adds execute permission to all subdirectories of the **curr
 
 Regular files should not be changed.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 20
 -rwxrwxr-x 1 julien julien   24 Sep 20 14:53 11-directories_permissions
