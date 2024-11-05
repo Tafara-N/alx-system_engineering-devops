@@ -56,6 +56,110 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You are not allowed to use backticks, `&&`, `||` or `;`
 - All your files must be executable
 
+## Quiz questions
+
+Question #0
+Which command should I use for changing a file permission?
+
+
+chgrp
+
+
+su
+
+
+chmod
+
+
+chown
+
+Question #1
+What is the permission value for a file read only for the group owner?
+
+
+070
+
+
+040
+
+
+050
+
+
+060
+
+Question #2
+Which command should I use for changing a file owner?
+
+
+chgrp
+
+
+su
+
+
+chmod
+
+
+chown
+
+Question #3
+What is the permission value for a file without any restriction?
+
+
+600
+
+
+644
+
+
+777
+
+Question #4
+What is the numerical value for the rwx------ permission?
+
+
+700
+
+
+600
+
+
+621
+
+
+704
+
+Question #5
+What is the numerical value for the ----w---x permission?
+
+
+021
+
+
+123
+
+
+121
+
+
+221
+
+Question #6
+What is the numerical value for the r-xr--r-- permission?
+
+
+411
+
+
+522
+
+
+544
+
+
+644
+
 ## Tasks
 
 ### 0. My name is Betty
