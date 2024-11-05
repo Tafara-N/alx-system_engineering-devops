@@ -145,20 +145,17 @@ What is the numerical value for the ----w---x permission?
 
 221
 
-Question #6
+### Question #6
+
 What is the numerical value for the r-xr--r-- permission?
 
+- [ ] 411
 
-411
+- [ ] 522
 
+- [ ] 544
 
-522
-
-
-544
-
-
-644
+- [ ] 644
 
 ## Tasks
 
