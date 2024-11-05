@@ -255,7 +255,7 @@ Write a script that adds execute permission to the owner and the group owner, an
 
 - The file `hello` will be in the working directory
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 36 Sep 20 14:31 6-multiple_permissions
