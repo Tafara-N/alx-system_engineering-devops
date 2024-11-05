@@ -10,7 +10,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 # Resources
 
 **Read or watch:**
-- [Permissions](https://intranet.alxswe.com/rltoken/aQmRB6ms-SDHUhqY0Rsa3g)
+- [Permissions](https://linuxcommand.org/lc3_lts0090.php)
 
 ## man or help:
 - `chmod`
