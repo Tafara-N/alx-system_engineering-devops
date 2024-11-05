@@ -45,6 +45,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to print the effective userid
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -56,6 +57,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files must be executable
 
 ## Tasks
+
 ### 0. My name is Betty
 
 Create a script that switches the current user to the user betty.
