@@ -26,7 +26,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `addgroup`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ku9cNLQc4XzHnVXH6YFE7A), ***without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), ***without the help of Google:**
 
 ## Permissions
 - What do the commands `chmod`, `sudo`, `su`, `chown`, `chgrp` do
