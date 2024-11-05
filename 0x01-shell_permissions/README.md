@@ -130,20 +130,17 @@ What is the numerical value for the rwx------ permission?
 
 704
 
-Question #5
+### Question #5
+
 What is the numerical value for the ----w---x permission?
 
+- [ ] 021
 
-021
+- [ ] 123
 
+- [ ] 121
 
-123
-
-
-121
-
-
-221
+- [ ] 221
 
 ### Question #6
 
