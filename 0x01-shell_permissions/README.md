@@ -103,17 +103,15 @@ chmod
 
 chown
 
-Question #3
+### Question #3
+
 What is the permission value for a file without any restriction?
 
+- [ ] 600
 
-600
+- [ ] 644
 
-
-644
-
-
-777
+- [ ] 777
 
 ### Question #4
 
