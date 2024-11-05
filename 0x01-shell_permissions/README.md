@@ -115,20 +115,17 @@ What is the permission value for a file without any restriction?
 
 777
 
-Question #4
-What is the numerical value for the rwx------ permission?
+### Question #4
 
+What is the numerical value for the `rwx------` permission?
 
-700
+- [ ] 700
 
+- [ ] 600
 
-600
+- [ ] 621
 
-
-621
-
-
-704
+- [ ] 704
 
 ### Question #5
 
