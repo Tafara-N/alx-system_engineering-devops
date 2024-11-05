@@ -405,7 +405,7 @@ julien@ubuntu:/tmp/h$
 
 Create a script that creates a directory called `my_dir` with permissions 751 in the working directory.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 20
 -rwxrwxr-x 1 julien julien   39 Sep 20 14:59 12-directory_permissions
