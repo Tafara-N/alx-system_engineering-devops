@@ -308,7 +308,7 @@ Write a script that sets the permission to the file `hello` as follows:
 
 The file `hello` will be in the working directory You are not allowed to use commas for this script
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:40 8-James_Bond
