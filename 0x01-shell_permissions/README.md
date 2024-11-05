@@ -436,7 +436,7 @@ Write a script that changes the group owner to `school` for the file `hello`
 
 - The file `hello` will be in the working directory
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien julien   34 Sep 20 15:03 13-change_group
