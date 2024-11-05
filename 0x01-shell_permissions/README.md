@@ -196,7 +196,7 @@ Note: depending on the user, you will get a different output.
 
 Write a script that changes the owner of the file `hello` to the user `betty`.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
