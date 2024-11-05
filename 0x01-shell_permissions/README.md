@@ -147,7 +147,7 @@ What is the numerical value for the ----w---x permission?
 
 ### Question #6
 
-What is the numerical value for the r-xr--r-- permission?
+What is the numerical value for the `r-xr--r--` permission?
 
 - [ ] 411
 
