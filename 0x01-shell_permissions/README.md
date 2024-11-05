@@ -88,20 +88,17 @@ What is the permission value for a file read only for the group owner?
 
 060
 
-Question #2
+### Question #2
+
 Which command should I use for changing a file owner?
 
+- [ ] chgrp
 
-chgrp
+- [ ] su
 
+- [ ] chmod
 
-su
-
-
-chmod
-
-
-chown
+- [ ] chown
 
 ### Question #3
 
