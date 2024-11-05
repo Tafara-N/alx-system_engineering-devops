@@ -73,20 +73,17 @@ chmod
 
 chown
 
-Question #1
+### Question #1
+
 What is the permission value for a file read only for the group owner?
 
+- [ ] 070
 
-070
+- [ ] 040
 
+- [ ] 050
 
-040
-
-
-050
-
-
-060
+- [ ] 060
 
 ### Question #2
 
