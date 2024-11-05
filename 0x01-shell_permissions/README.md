@@ -349,7 +349,7 @@ Write a script that sets the mode of the file `hello` the same as `olleh`’s mo
 - The file `hello` will be in the working directory
 - The file `olleh` will be in the working directory
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 42 Sep 20 14:45 10-mirror_permissions
