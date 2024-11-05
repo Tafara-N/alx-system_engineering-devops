@@ -1,12 +1,13 @@
-# About Bash projects  
+# About Bash projects
+
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-### Concepts  
+## Concepts
 *For this project, we expect you to look at this concept:*
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
-# Resources  
+# Resources
 ## Read or watch:
 - [Permissions](https://intranet.alxswe.com/rltoken/aQmRB6ms-SDHUhqY0Rsa3g)
 
@@ -23,7 +24,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `useradd`
 - `addgroup`
 
-# Learning Objectives  
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ku9cNLQc4XzHnVXH6YFE7A), ***without the help of Google:**
 
 ## Permissions
@@ -42,7 +43,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to print the groups a user is in
 - How to print the effective userid
 
-# Requirements  
+# Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -53,7 +54,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You are not allowed to use backticks, `&&`, `||` or `;`
 - All your files must be executable
 
-## Tasks  
+## Tasks
 ### 0. My name is Betty
 
 Create a script that switches the current user to the user betty.
@@ -79,7 +80,7 @@ Write a script that prints the effective username of the current user.
 ```
 julien@ubuntu:/tmp/h$ ./1-who_am_i
 julien
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -113,7 +114,7 @@ julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
 -rw-rw-r-- 1 julien julien  0 Sep 20 14:18 hello
-julien@ubuntu:/tmp/h$ sudo ./3-new_owner 
+julien@ubuntu:/tmp/h$ sudo ./3-new_owner
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
@@ -148,12 +149,12 @@ total 8
 -rw-rw-r-- 1 julien julien 23 Sep 20 14:25 hello
 julien@ubuntu:/tmp/h$ ./hello
 bash: ./hello: Permission denied
-julien@ubuntu:/tmp/h$ ./5-execute 
+julien@ubuntu:/tmp/h$ ./5-execute
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:26 5-execute
 -rwxrw-r-- 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -172,12 +173,12 @@ julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 36 Sep 20 14:31 6-multiple_permissions
 -r--r----- 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ ./6-multiple_permissions 
+julien@ubuntu:/tmp/h$ ./6-multiple_permissions
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 36 Sep 20 14:31 6-multiple_permissions
 -r-xr-xr-- 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -197,12 +198,12 @@ julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:35 7-everybody
 -rw-r----- 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ ./7-everybody 
+julien@ubuntu:/tmp/h$ ./7-everybody
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:35 7-everybody
 -rwxr-x--x 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -225,12 +226,12 @@ julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:40 8-James_Bond
 -rwxr-x--x 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ ./8-James_Bond 
+julien@ubuntu:/tmp/h$ ./8-James_Bond
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 28 Sep 20 14:40 8-James_Bond
 -------rwx 1 julien julien 23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -267,7 +268,7 @@ total 8
 -rwxrw-r-- 1 julien julien 42 Sep 20 14:45 10-mirror_permissions
 -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 -rw-rw-r-- 1 julien julien  0 Sep 20 14:43 olleh
-julien@ubuntu:/tmp/h$ ./10-mirror_permissions 
+julien@ubuntu:/tmp/h$ ./10-mirror_permissions
 julien@ubuntu:/tmp/h$ ls -l
 total 8
 -rwxrw-r-- 1 julien julien 42 Sep 20 14:45 10-mirror_permissions
@@ -297,7 +298,7 @@ drwx------ 2 julien julien 4096 Sep 20 14:49 dir0
 drwx------ 2 julien julien 4096 Sep 20 14:49 dir1
 drwx------ 2 julien julien 4096 Sep 20 14:49 dir2
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ ./11-directories_permissions 
+julien@ubuntu:/tmp/h$ ./11-directories_permissions
 julien@ubuntu:/tmp/h$ ls -l
 total 20
 -rwxrwxr-x 1 julien julien   24 Sep 20 14:53 11-directories_permissions
@@ -305,7 +306,7 @@ drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir0
 drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
 drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -334,7 +335,7 @@ drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
 drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
 drwxr-x--x 2 julien julien 4096 Sep 20 14:59 my_dir
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -357,7 +358,7 @@ drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
 drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
 drwxr-x--x 2 julien julien 4096 Sep 20 14:59 my_dir
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ sudo ./13-change_group 
+julien@ubuntu:/tmp/h$ sudo ./13-change_group
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien julien      34 Sep 20 15:03 13-change_group
@@ -366,7 +367,7 @@ drwx--x--x 2 julien julien    4096 Sep 20 14:49 dir1
 drwx--x--x 2 julien julien    4096 Sep 20 14:49 dir2
 drwxr-x--x 2 julien julien    4096 Sep 20 14:59 my_dir
 -rw-rw-r-- 1 julien school   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
@@ -387,7 +388,7 @@ drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
 drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
 drwxr-x--x 2 julien julien 4096 Sep 20 14:59 my_dir
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ sudo ./100-change_owner_and_group 
+julien@ubuntu:/tmp/h$ sudo ./100-change_owner_and_group
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 vincent staff   36 Sep 20 15:06 100-change_owner_and_group
@@ -417,7 +418,7 @@ total 24
 -rwxrwxr-x 1 julien julien   44 Sep 20 15:12 101-symbolic_link_permissions
 -rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
 lrwxrwxrwx 1 julien julien    5 Sep 20 15:10 _hello -> hello
-julien@ubuntu:/tmp/h$ sudo ./101-symbolic_link_permissions 
+julien@ubuntu:/tmp/h$ sudo ./101-symbolic_link_permissions
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien julien      44 Sep 20 15:12 101-symbolic_link_permissions
@@ -440,14 +441,14 @@ Write a script that changes the owner of the file `hello` to `betty` only if it 
 ```
 julien@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 102-if_only 
+-rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 102-if_only
 -rw-rw-r-- 1 guillaume julien      23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ sudo ./102-if_only 
+julien@ubuntu:/tmp/h$ sudo ./102-if_only
 julien@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 julien julien      47 Sep 20 15:18 102-if_only 
+-rwxrwxr-x 1 julien julien      47 Sep 20 15:18 102-if_only
 -rw-rw-r-- 1 betty  julien      23 Sep 20 14:25 hello
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
 ```
 
 **Repo:**
