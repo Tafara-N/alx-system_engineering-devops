@@ -525,7 +525,7 @@ Write a script that changes the owner of the file `hello` to `betty` only if it 
 
 - The file `hello` will be in the working directory
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 102-if_only
