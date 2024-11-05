@@ -466,7 +466,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 julien julien   36 Sep 20 15:06 100-change_owner_and_group
