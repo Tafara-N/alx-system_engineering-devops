@@ -910,7 +910,7 @@ Write a command that finds all empty files and directories in the current direct
 - The listing should end with a new line
 - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 
-```
+```bash
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$ ls -laR
 .:
 total 64
