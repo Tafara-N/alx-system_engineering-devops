@@ -673,7 +673,7 @@ $
 
 Display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
-```
+```bash
 $ ./15-countthatword
 81
 $
