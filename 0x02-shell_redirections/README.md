@@ -11,7 +11,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 # Resources
 
 **Read or watch:**
-- [Shell, I/O Redirection](https://intranet.alxswe.com/rltoken/fGOQQXRKbvOcd1qLRxHzLQ)
+- [Shell, I/O Redirection](https://linuxcommand.org/lc3_lts0070.php)
 - [Special Characters](https://intranet.alxswe.com/rltoken/c1pz13vke3HPH0S8iALbtw)
 
 ## man or help:
