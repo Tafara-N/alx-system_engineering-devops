@@ -568,7 +568,7 @@ Requirements:
 - One file per line
 - Sorted from the newest to the oldest
 
-```
+```bash
 alex@ubuntu:/tmp$ ls -l
 total 7
 -rwxr-xr-x 1 501 dialout  32 Sep 27 23:51 0-hello_world
