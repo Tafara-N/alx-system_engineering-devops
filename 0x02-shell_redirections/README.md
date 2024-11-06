@@ -325,7 +325,7 @@ The file `iacta` will be in the working directory
 
 - You’re not allowed to use `sed`
 
-```
+```bash
 julien@ubuntu:/tmp/h$ cat iacta
 Alea iacta est
 
