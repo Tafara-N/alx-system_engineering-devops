@@ -463,7 +463,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ls -lR
 .:
 total 24
