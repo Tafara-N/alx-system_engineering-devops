@@ -1104,7 +1104,7 @@ bytes   Number of bytes in the reply
 
 Here is an example with one day of logs of the NASA website (1995).
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ wget https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
 --2022-03-08 11:08:26--  https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
 Resolving s3.amazonaws.com (s3.amazonaws.com)... 52.217.171.144
