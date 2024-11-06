@@ -772,7 +772,7 @@ julien@ubuntu:/tmp/0x02$
 
 Create a script that removes all letters `c` and `C` from input.
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago
 hiago
 julien@ubuntu:/tmp/0x02$
