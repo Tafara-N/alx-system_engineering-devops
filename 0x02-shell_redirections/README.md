@@ -1062,7 +1062,7 @@ Create a script that decodes acrostics that use the first letter of each line.
 - The ‘decoded’ message has to end with a new line
 - You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ cat An\ Acrostic
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
