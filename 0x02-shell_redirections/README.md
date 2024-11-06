@@ -612,7 +612,7 @@ Create a script that takes a list of words as input and prints only words that a
 - Output format: One line, one word
 - Words should be sorted
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ cat list
 C#
 C
