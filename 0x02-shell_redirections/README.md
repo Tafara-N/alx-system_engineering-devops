@@ -284,7 +284,7 @@ _astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
 _krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 ```
 
-Tips: “Thinks of it as a cat, what is at the end of it?”
+> Tips: “Thinks of it as a cat, what is at the end of it?”
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
