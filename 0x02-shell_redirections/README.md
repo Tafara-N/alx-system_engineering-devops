@@ -688,7 +688,7 @@ $
 
 Display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
 
-```
+```bash
 $ ./16-whatsnext
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
