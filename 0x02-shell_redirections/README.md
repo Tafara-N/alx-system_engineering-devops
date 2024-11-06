@@ -232,7 +232,7 @@ Display the content of `/etc/passwd` and `/etc/hosts`
 
 Example:
 
-```
+```bash
 $ ./3-twofiles
 ##
 # User Database
