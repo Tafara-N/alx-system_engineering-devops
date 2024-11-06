@@ -1003,7 +1003,7 @@ Write a script that lists all the files with a `.gif` extension in the current d
 - The listing should end with a new line
 - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 
-```
+```bash
     julien@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
     .:
     total 28
