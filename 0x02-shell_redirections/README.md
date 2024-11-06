@@ -297,7 +297,7 @@ Display the first 10 lines of `/etc/passwd`
 
 Example:
 
-```
+```bash
 $ ./5-firstlines
 ##
 # User Database
