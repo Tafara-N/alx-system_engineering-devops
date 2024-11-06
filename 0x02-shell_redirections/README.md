@@ -804,7 +804,7 @@ Write a script that displays all users and their home directories, sorted by use
 
 Based on the the `/etc/passwd` file
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
