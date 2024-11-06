@@ -757,7 +757,7 @@ $
 
 Replace all characters `A` and `c` from input to `Z` and `e` respectively.
 
-```
+```bash
 julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 julien@ubuntu:/tmp/0x02$
