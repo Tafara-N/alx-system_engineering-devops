@@ -12,7 +12,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 **Read or watch:**
 - [Shell, I/O Redirection](https://linuxcommand.org/lc3_lts0070.php)
-- [Special Characters](https://intranet.alxswe.com/rltoken/c1pz13vke3HPH0S8iALbtw)
+- [Special Characters](https://mywiki.wooledge.org/BashGuide/SpecialCharacters)
 
 ## man or help:
 - `echo`
