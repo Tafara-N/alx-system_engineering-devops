@@ -656,7 +656,7 @@ julien@ubuntu:/tmp/0x02$
 
 Display lines containing the pattern “root” from the file `/etc/passwd`
 
-```
+```bash
 $ ./14-findthatword
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
