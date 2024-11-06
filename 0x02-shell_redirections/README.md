@@ -193,7 +193,7 @@ Display the content of the `/etc/passwd` file.
 
 Example:
 
-```
+```bash
 $ ./2-hellofile
 ##
 # User Database
