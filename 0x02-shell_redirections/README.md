@@ -30,7 +30,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `passwd (5)` (i.e. `man 5 passwd`)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ayxcWT-Mmymhm03Z98LaWQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## Shell, I/O Redirection
 - What do the commands `head`, `tail`, `find`, `wc`, `sort`, `uniq`, `grep`, `tr` do
