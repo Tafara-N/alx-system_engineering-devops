@@ -512,7 +512,7 @@ Write a script that counts the number of directories and sub-directories in the 
 - The current and parent directories should not be taken into account
 - Hidden directories should be counted
 
-```
+```bash
 julien@production-503e7013:~/shell/fun_with_the_shell$ ls -lRa
 .:
 total 32
