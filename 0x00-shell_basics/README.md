@@ -1,7 +1,7 @@
 # About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-### Concepts
+# Concepts
 *For this project, we expect you to look at this concept:*
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
@@ -96,6 +96,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What does `LTS` mean?
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
