@@ -176,7 +176,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that displays a confused smiley `"(Ôo)'`.
 
-```
+```bash
 julien@ubuntu:/tmp/h$ ./1-confused_smiley
 "(Ôo)'
 julien@ubuntu:/tmp/h$
