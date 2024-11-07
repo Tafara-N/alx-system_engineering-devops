@@ -6,7 +6,8 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host]()
 
-## Resources
+# Resources
+
 ## Read or watch:
 - [Expansions](https://intranet.alxswe.com/rltoken/oXnzBjLBA9t9dr7WuftdmQ)
 - [Shell Arithmetic](https://intranet.alxswe.com/rltoken/PLSUQnBcKKU5eEgRfRDlug)
