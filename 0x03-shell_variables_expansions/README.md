@@ -8,7 +8,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 # Resources
 
-## Read or watch:
+**Read or watch:**
 - [Expansions](https://intranet.alxswe.com/rltoken/oXnzBjLBA9t9dr7WuftdmQ)
 - [Shell Arithmetic](https://intranet.alxswe.com/rltoken/PLSUQnBcKKU5eEgRfRDlug)
 - [Variables](https://intranet.alxswe.com/rltoken/SvdGNZJjKsPghzZEhaWu4Q)
