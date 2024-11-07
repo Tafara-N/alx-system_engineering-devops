@@ -568,7 +568,7 @@ Write a shell script that adds the two numbers stored in the environment variabl
 - `STIR` is in base `stir.`
 - The result should be in base `bestchol`
 
-```
+```bash
 julien@production-503e7013:~$ export WATER="ewwatratewa"
 julien@production-503e7013:~$ export STIR="ti.itirtrtr"
 julien@production-503e7013:~$ ./103-water_and_stir
