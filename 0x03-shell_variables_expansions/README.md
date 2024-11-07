@@ -440,7 +440,7 @@ Write a script that prints a number with two decimal places, followed by a new l
 
 The number will be stored in the environment variable `NUM`.
 
-```
+```bash
 ubuntu@ip-172-31-63-244:~/0x03$ export NUM=0
 ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 0.00
