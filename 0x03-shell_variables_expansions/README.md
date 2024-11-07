@@ -83,6 +83,71 @@ Note: You do not have to learn about `awk`, `tar`, `bzip2`, `date`, `scp`, `ulim
 
 ## Quiz questions
 
+Question #0
+Which command should I use to display a variable?
+
+
+echo $MYVAR
+
+
+ls $MYVAR
+
+
+cd $MYVAR
+
+
+export $MYVAR
+
+Question #1
+Which command should I use to define a new command push for pushing in Github?
+
+Example:
+
+$ push
+Everything up-to-date
+$
+
+export push=git push
+
+
+alias push="git push"
+
+
+export push="git push"
+
+
+alias push=git push
+
+Question #2
+What is the variable name who contains the previous working directory path?
+
+
+PREVDIR
+
+
+OLDPWD
+
+
+PREVPWD
+
+
+OLDDIR
+
+Question #3
+Which command should I use to display the exit code of the previous command?
+
+
+echo $CODE
+
+
+echo ?
+
+
+echo $EXITCODE
+
+
+echo $?
+
 ## Tasks
 
 ### 0. <o>
