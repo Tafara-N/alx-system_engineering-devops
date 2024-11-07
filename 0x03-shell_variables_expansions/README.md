@@ -133,20 +133,17 @@ PREVPWD
 
 OLDDIR
 
-Question #3
+### Question #3
+
 Which command should I use to display the exit code of the previous command?
 
+- [ ] `echo $CODE
 
-echo $CODE
+- [ ] `echo ?
 
+- [ ] `echo $EXITCODE
 
-echo ?
-
-
-echo $EXITCODE
-
-
-echo $?
+- [ ] `echo $?
 
 ## Tasks
 
