@@ -201,7 +201,7 @@ julien@ubuntu:/tmp/0x03$
 
 Create a script that counts the number of directories in the `PATH`.
 
-```
+```bash
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 julien@ubuntu:/tmp/0x03$ . ./3-paths
