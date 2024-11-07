@@ -507,7 +507,7 @@ julien@production-503e7013:~/shell/fun_with_the_shell$
 
 Write a script that prints every other line from the input, starting with the first line.
 
-```
+```bash
 ubuntu@ip-172-31-63-244:/$ \ls -1
 bin
 boot
