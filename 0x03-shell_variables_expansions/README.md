@@ -81,6 +81,8 @@ Look at some files in the `/etc/profile.d` directory.
 
 Note: You do not have to learn about `awk`, `tar`, `bzip2`, `date`, `scp`, `ulimit`, `umask`, or shell scripting, yet.
 
+## Quiz questions
+
 ## Tasks
 
 ### 0. <o>
