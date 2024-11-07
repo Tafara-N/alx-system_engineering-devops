@@ -221,7 +221,7 @@ julien@ubuntu:/tmp/0x03$
 
 Create a script that lists environment variables.
 
-```
+```bash
 julien@ubuntu:/tmp/0x03$ source ./4-global_variables
 CC=gcc
 CDPATH=.:~:/usr/local:/usr:/
