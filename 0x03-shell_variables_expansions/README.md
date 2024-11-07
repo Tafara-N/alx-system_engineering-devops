@@ -271,7 +271,7 @@ julien@ubuntu:/tmp/0x03$
 
 Create a script that lists all local variables and environment variables, and functions.
 
-```
+```bash
 julien@ubuntu:/tmp/0x03$ . ./5-local_variables
 BASH=/bin/bash
 BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
