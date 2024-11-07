@@ -488,7 +488,7 @@ julien@production-503e7013:~/$
 
 Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
-```
+```bash
 julien@production-503e7013:~/shell/fun_with_the_shell$ cat quote
 "Everyone is a proponent of strong encryption."
 - Dorothy E. Denning
