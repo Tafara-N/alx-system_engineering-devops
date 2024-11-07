@@ -1,12 +1,12 @@
-# About Bash projects  
+# About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-### Concepts  
+# Concepts
 *For this project, we expect you to look at this concept:*
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host]()
 
-## Resources  
+## Resources
 ## Read or watch:
 - [Expansions](https://intranet.alxswe.com/rltoken/oXnzBjLBA9t9dr7WuftdmQ)
 - [Shell Arithmetic](https://intranet.alxswe.com/rltoken/PLSUQnBcKKU5eEgRfRDlug)
@@ -26,10 +26,10 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `source`
 - `printf`
 
-# Learning Objectives  
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/d8LWxAXk9_gsvpPw3ICdwQ), **without the help of Google:**
 
-## General  
+## General
 - What happens when you type `$ ls -l *.txt`
 
 ## Shell Initialization Files
@@ -60,7 +60,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Other `help` pages
 How to execute commands from a file in the current shell
 
-# Requirements  
+# Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -72,7 +72,7 @@ How to execute commands from a file in the current shell
 - You are not allowed to use `bc`, `sed` or `awk`
 - All your files must be executable
 
-# More Info  
+# More Info
 Read your `/etc/profile`, `/etc/inputrc` and `~/.bashrc` files.
 
 Look at some files in the `/etc/profile.d` directory.
@@ -91,10 +91,10 @@ Create a script that creates an alias.
 ```
 julien@ubuntu:/tmp/0x03$ ls
 0-alias  file1  file2
-julien@ubuntu:/tmp/0x03$ source ./0-alias 
+julien@ubuntu:/tmp/0x03$ source ./0-alias
 julien@ubuntu:/tmp/0x03$ ls
 julien@ubuntu:/tmp/0x03$ \ls
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 ```
 
 **Repo:**
@@ -109,9 +109,9 @@ Create a script that prints `hello user`, where user is the current Linux user.
 ```
 julien@ubuntu:/tmp/0x03$ id
 uid=1000(julien) gid=1000(julien) groups=1000(julien),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
-julien@ubuntu:/tmp/0x03$ ./1-hello_you 
+julien@ubuntu:/tmp/0x03$ ./1-hello_you
 hello julien
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 ```
 
 **Repo:**
@@ -126,10 +126,10 @@ Add `/action` to the `PATH`. `/action` should be the last directory the shell lo
 ```
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-julien@ubuntu:/tmp/0x03$ source ./2-path 
+julien@ubuntu:/tmp/0x03$ source ./2-path
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/action
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 ```
 
 **Repo:**
@@ -144,12 +144,12 @@ Create a script that counts the number of directories in the `PATH`.
 ```
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-julien@ubuntu:/tmp/0x03$ . ./3-paths 
+julien@ubuntu:/tmp/0x03$ . ./3-paths
 11
 julien@ubuntu:/tmp/0x03$ PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:::::/hello
-julien@ubuntu:/tmp/0x03$ . ./3-paths 
+julien@ubuntu:/tmp/0x03$ . ./3-paths
 12
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 ```
 
 **Repo:**
@@ -354,7 +354,7 @@ julien@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
 675
 julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
 675
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 julien@ubuntu:/tmp/0x03$ ./12-combinations | tail -303 | head -10
 oi
 oj
@@ -366,7 +366,7 @@ op
 oq
 or
 os
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
 ```
 
 **Repo:**
