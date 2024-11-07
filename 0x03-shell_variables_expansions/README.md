@@ -347,7 +347,7 @@ Write a script that prints the result of `POWER` divided by `DIVIDE`, followed b
 
 - `POWER` and `DIVIDE` are environment variables
 
-```
+```bash
 julien@production-503e7013:~$ export POWER=42784
 julien@production-503e7013:~$ export DIVIDE=32
 julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
