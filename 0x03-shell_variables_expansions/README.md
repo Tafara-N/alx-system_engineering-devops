@@ -122,7 +122,6 @@ alias push=git push
 
 What is the variable name who contains the previous working directory path?
 
-
 - [ ] `PREVDIR`
 
 - [ ] `OLDPWD`
