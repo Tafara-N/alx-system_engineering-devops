@@ -137,13 +137,13 @@ OLDDIR
 
 Which command should I use to display the exit code of the previous command?
 
-- [ ] `echo $CODE
+- [ ] `echo $CODE`
 
-- [ ] `echo ?
+- [ ] `echo ?`
 
-- [ ] `echo $EXITCODE
+- [ ] `echo $EXITCODE`
 
-- [ ] `echo $?
+- [ ] `echo $?`
 
 ## Tasks
 
