@@ -98,7 +98,8 @@ cd $MYVAR
 
 export $MYVAR
 
-Question #1
+### Question #1
+
 Which command should I use to define a new command push for pushing in Github?
 
 Example:
