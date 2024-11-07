@@ -9,7 +9,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 # Resources
 
 **Read or watch:**
-- [Expansions](https://intranet.alxswe.com/rltoken/oXnzBjLBA9t9dr7WuftdmQ)
+- [Expansions](https://linuxcommand.org/lc3_lts0080.php)
 - [Shell Arithmetic](https://intranet.alxswe.com/rltoken/PLSUQnBcKKU5eEgRfRDlug)
 - [Variables](https://intranet.alxswe.com/rltoken/SvdGNZJjKsPghzZEhaWu4Q)
 - [Shell initialization files](https://intranet.alxswe.com/rltoken/tqud57kjsSYgDfeZDlwl3g)
