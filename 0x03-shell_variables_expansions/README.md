@@ -28,7 +28,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `printf`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/d8LWxAXk9_gsvpPw3ICdwQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - What happens when you type `$ ls -l *.txt`
