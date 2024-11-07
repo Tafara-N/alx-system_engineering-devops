@@ -87,16 +87,13 @@ Question #0
 Which command should I use to display a variable?
 
 
-echo $MYVAR
+- [ ] `echo $MYVAR`
 
+- [ ] `ls $MYVAR`
 
-ls $MYVAR
+- [ ] `cd $MYVAR`
 
-
-cd $MYVAR
-
-
-export $MYVAR
+- [ ] `export $MYVAR`
 
 ### Question #1
 
