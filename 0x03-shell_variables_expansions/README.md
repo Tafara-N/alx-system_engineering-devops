@@ -100,24 +100,23 @@ export $MYVAR
 
 ### Question #1
 
-Which command should I use to define a new command push for pushing in Github?
+Which command should I use to define a new command `push` for pushing in Github?
 
 Example:
 
+```bash
 $ push
 Everything up-to-date
 $
+```
 
-export push=git push
+- [ ] `export push=git push`
 
+- [ ] `alias push="git push"`
 
-alias push="git push"
+- [ ] `export push="git push"`
 
-
-export push="git push"
-
-
-alias push=git push
+- [ ] `alias push=git push`
 
 ### Question #2
 
