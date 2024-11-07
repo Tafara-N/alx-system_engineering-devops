@@ -14,7 +14,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [Variables](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
 - [Shell initialization files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
 - [The alias Command](https://www.linfo.org/alias.html)
-- [Technical Writing](https://intranet.alxswe.com/rltoken/wYrZr3t3DeAE8PpYHYWGiw)
+- [Technical Writing](resources/technical_writing.pdf)
 
 ## man or help:
 - `printenv`
