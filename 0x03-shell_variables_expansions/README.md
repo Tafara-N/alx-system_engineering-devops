@@ -83,9 +83,9 @@ Note: You do not have to learn about `awk`, `tar`, `bzip2`, `date`, `scp`, `ulim
 
 ## Quiz questions
 
-Question #0
-Which command should I use to display a variable?
+### Question #0
 
+Which command should I use to display a variable?
 
 - [ ] `echo $MYVAR`
 
