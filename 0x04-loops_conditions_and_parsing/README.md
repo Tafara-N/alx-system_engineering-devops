@@ -450,7 +450,7 @@ Requirements:
     - if the file is a regular file: `school is a regular file`
     - if the file is not a regular file: (nothing)
 
-```
+```bash
 sylvain@ubuntu$ file school
 school: cannot open `school' (No such file or directory)
 sylvain@ubuntu$ ./9-to_file_or_not_to_file
