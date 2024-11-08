@@ -265,7 +265,7 @@ Requirements:
 - You must use the `while` loop (`for` and `until` are forbidden)
 - You must use the `case` statement
 
-```
+```bash
 sylvain@ubuntu$ ./6-superstitious_numbers
 1
 2
