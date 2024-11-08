@@ -11,7 +11,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
 - [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
 - [File test operators](https://tldp.org/LDP/abs/html/fto.html)
-- [Make your scripts portable](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
+- [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
 
 **man or help**:
 
