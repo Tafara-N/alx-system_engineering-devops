@@ -69,7 +69,7 @@ For every feedback, Shellcheck will provide a code that you can use to get more 
 
 Read for this task:
 
-- [Linux and Mac OS users](https://intranet.alxswe.com/rltoken/Cy1plV2eR3VphjPqliXB8A)
+- [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
 - [Windows users](https://intranet.alxswe.com/rltoken/074M_gTsD34x3Q6MX55PDw)
 
 man: `ssh-keygen`
