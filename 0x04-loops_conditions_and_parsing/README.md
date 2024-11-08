@@ -1,10 +1,11 @@
-# About **Bash** projects  
+# About **Bash** projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 # Background Context
 
-## Resources  
-## Read or watch:
+## Resources
+
+**Read or watch:**
 
 - [Loops sample](https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw)
 - [Variable assignment and arithmetic](https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA)
@@ -21,7 +22,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `until`
 - `if`
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/UnkzDNdH09TFJ0-Y56azyg), **without the help of Google:**
 
 ## General
@@ -32,7 +33,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to use the `cut` command
 - What are files and other comparison operators, and how to use them
 
-## Requirements  
+## Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
@@ -44,8 +45,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
-# More Info  
-## Shellcheck  
+# More Info
+## Shellcheck
 [Shellcheck](https://intranet.alxswe.com/rltoken/joK6l_yEZ9N7T0GQ1RDjLA) is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. `Shellcheck` is your friend! **All your Bash scripts must pass `Shellcheck` without any error or you will not get any points on the task.**
 
 `Shellcheck` is available on the school’s computers. If you want to use it on your own computer, here is how to [install it](https://intranet.alxswe.com/rltoken/jbz0_-i3TV3WpKgxhyrtpA).
@@ -62,7 +63,7 @@ Passing `Shellcheck`:
 
 For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse https://github.com/koalaman/shellcheck/wiki/SC2034.
 
-## Tasks  
+## Tasks
 ### 0. Create a SSH RSA key pair
 
 Read for this task:
@@ -99,10 +100,10 @@ Requirement:
 You must use the `for` loop (`while` and `until` are forbidden)
 
 ```
-sylvain@ubuntu$ head -n 2 1-for_best_school 
+sylvain@ubuntu$ head -n 2 1-for_best_school
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-sylvain@ubuntu$ ./1-for_best_school 
+sylvain@ubuntu$ ./1-for_best_school
 Best School
 Best School
 Best School
@@ -113,7 +114,7 @@ Best School
 Best School
 Best School
 Best School
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 Note that:
@@ -288,7 +289,7 @@ bad luck from Italy
 18
 19
 20
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 **Repo:**
@@ -451,21 +452,21 @@ Requirements:
 ```
 sylvain@ubuntu$ file school
 school: cannot open `school' (No such file or directory)
-sylvain@ubuntu$ ./9-to_file_or_not_to_file 
+sylvain@ubuntu$ ./9-to_file_or_not_to_file
 school file does not exist
 sylvain@ubuntu$ touch school
-sylvain@ubuntu$ ./9-to_file_or_not_to_file 
+sylvain@ubuntu$ ./9-to_file_or_not_to_file
 school file exists
 school file is empty
 school is a regular file
-sylvain@ubuntu$ echo 'betty' > school 
-sylvain@ubuntu$ ./9-to_file_or_not_to_file 
+sylvain@ubuntu$ echo 'betty' > school
+sylvain@ubuntu$ ./9-to_file_or_not_to_file
 school file exists
 school file is not empty
 school is a regular file
-sylvain@ubuntu$ rm school 
+sylvain@ubuntu$ rm school
 sylvain@ubuntu$ mkdir school
-sylvain@ubuntu$ ./9-to_file_or_not_to_file 
+sylvain@ubuntu$ ./9-to_file_or_not_to_file
 school file exists
 school file is not empty
 sylvain@ubuntu$
@@ -598,7 +599,7 @@ statd:107:/var/lib/nfs
 sylvain:99:/bin/bash
 puppet:108:/var/lib/puppet
 ubuntu:1001:/home/ubuntu
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 **Repo:**
@@ -643,15 +644,15 @@ The user list is part of the 38 gang, lives in /var/list and rides /usr/sbin/nol
 The user irc is part of the 39 gang, lives in /var/run/ircd and rides /usr/sbin/nologin. 39's place is protected by the passcode x, more info about the user here: ircd
 The user gnats is part of the 41 gang, lives in /var/lib/gnats and rides /usr/sbin/nologin. 41's place is protected by the passcode x, more info about the user here: Gnats Bug-Reporting System (admin)
 The user nobody is part of the 65534 gang, lives in /nonexistent and rides /usr/sbin/nologin. 65534's place is protected by the passcode x, more info about the user here: nobody
-The user libuuid is part of the 101 gang, lives in /var/lib/libuuid and rides . 100's place is protected by the passcode x, more info about the user here: 
-The user syslog is part of the 104 gang, lives in /home/syslog and rides /bin/false. 101's place is protected by the passcode x, more info about the user here: 
-The user messagebus is part of the 106 gang, lives in /var/run/dbus and rides /bin/false. 102's place is protected by the passcode x, more info about the user here: 
-The user landscape is part of the 109 gang, lives in /var/lib/landscape and rides /bin/false. 103's place is protected by the passcode x, more info about the user here: 
-The user sshd is part of the 65534 gang, lives in /var/run/sshd and rides /usr/sbin/nologin. 104's place is protected by the passcode x, more info about the user here: 
-The user pollinate is part of the 1 gang, lives in /var/cache/pollinate and rides /bin/false. 105's place is protected by the passcode x, more info about the user here: 
-The user vagrant is part of the 1000 gang, lives in /home/vagrant and rides /bin/bash. 1000's place is protected by the passcode x, more info about the user here: 
+The user libuuid is part of the 101 gang, lives in /var/lib/libuuid and rides . 100's place is protected by the passcode x, more info about the user here:
+The user syslog is part of the 104 gang, lives in /home/syslog and rides /bin/false. 101's place is protected by the passcode x, more info about the user here:
+The user messagebus is part of the 106 gang, lives in /var/run/dbus and rides /bin/false. 102's place is protected by the passcode x, more info about the user here:
+The user landscape is part of the 109 gang, lives in /var/lib/landscape and rides /bin/false. 103's place is protected by the passcode x, more info about the user here:
+The user sshd is part of the 65534 gang, lives in /var/run/sshd and rides /usr/sbin/nologin. 104's place is protected by the passcode x, more info about the user here:
+The user pollinate is part of the 1 gang, lives in /var/cache/pollinate and rides /bin/false. 105's place is protected by the passcode x, more info about the user here:
+The user vagrant is part of the 1000 gang, lives in /home/vagrant and rides /bin/bash. 1000's place is protected by the passcode x, more info about the user here:
 The user colord is part of the 112 gang, lives in /var/lib/colord and rides /bin/false. 106's place is protected by the passcode x, more info about the user here: colord colour management daemon,,,
-The user statd is part of the 65534 gang, lives in /var/lib/nfs and rides /bin/false. 107's place is protected by the passcode x, more info about the user here: 
+The user statd is part of the 65534 gang, lives in /var/lib/nfs and rides /bin/false. 107's place is protected by the passcode x, more info about the user here:
 The user puppet is part of the 114 gang, lives in /var/lib/puppet and rides /bin/false. 108's place is protected by the passcode x, more info about the user here: Puppet configuration management daemon,,,
 The user ubuntu is part of the 1001 gang, lives in /home/ubuntu and rides /bin/bash. 1001's place is protected by the passcode x, more info about the user here: Ubuntu
 sylvain@ubuntu$
