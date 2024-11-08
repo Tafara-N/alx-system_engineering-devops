@@ -186,7 +186,7 @@ sylvain@ubuntu$
 
 ### 4. If 9, say Hi!
 
-Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line.
+Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` *and then* `Hi` on a new line.
 
 Requirements:
 
