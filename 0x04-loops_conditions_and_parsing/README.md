@@ -685,7 +685,7 @@ Requirement:
 - You are not allowed to use `while`, `for`, `until` and `cut`
 - Download and commit the [apache-access.log file](logs/apache-access.log) along with your answers files
 
-```
+```bash
 sylvain@ubuntu$ ./102-lets_parse_apache_logs | tail -n 10
 185.130.5.207 301
 185.130.5.207 301
