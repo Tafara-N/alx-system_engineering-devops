@@ -670,7 +670,7 @@ sylvain@ubuntu$
 
 Apache is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
 
-As a Full-Stack Software Engineer, you have to master the art of parsing log files. Today we will do a simple parsing of [Apache log access files](http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log).
+As a Full-Stack Software Engineer, you have to master the art of parsing log files. Today we will do a simple parsing of [Apache log access files](logs/apache-access.log).
 
 Today the Customer Support department reported that a user reported that the site is being “buggy”. Not being a detailed description, you want to have a look at the Apache logs and gather data about the traffic.
 
@@ -683,7 +683,7 @@ Requirement:
     - See example
 - You must use `awk`
 - You are not allowed to use `while`, `for`, `until` and `cut`
-- Download and commit the [apache-access.log file](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log) along with your answers files
+- Download and commit the [apache-access.log file](logs/apache-access.log) along with your answers files
 
 ```
 sylvain@ubuntu$ ./102-lets_parse_apache_logs | tail -n 10
