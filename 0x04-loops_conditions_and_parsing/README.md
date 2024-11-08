@@ -31,7 +31,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to use the `cut` command
 - What are files and other comparison operators, and how to use them
 
-## Requirements
+# Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
