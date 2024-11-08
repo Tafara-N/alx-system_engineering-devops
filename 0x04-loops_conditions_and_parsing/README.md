@@ -614,7 +614,7 @@ sylvain@ubuntu$
 
 Read:
 - [IFS (internal field separator)](https://tldp.org/LDP/abs/html/internalvariables.html)
-- [Understanding /etc/passwd](https://intranet.alxswe.com/rltoken/jm2-sSa3VlvI4zgRdreAsg)
+- [Understanding /etc/passwd](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/)
 
 The file `/etc/passwd` has already been covered in a [previous project](https://intranet.alxswe.com/rltoken/5Y_b9prAxb_Y-l8xCaZwgQ) and you should be familiar with it. Today we will make up a story based on it.
 
