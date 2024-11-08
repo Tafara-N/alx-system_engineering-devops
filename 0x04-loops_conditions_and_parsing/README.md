@@ -10,7 +10,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
 - [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
 - [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
-- [File test operators](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
+- [File test operators](https://tldp.org/LDP/abs/html/fto.html)
 - [Make your scripts portable](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
 
 **man or help**:
