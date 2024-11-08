@@ -7,7 +7,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 **Read or watch:**
 
-- [Loops sample](https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw)
+- [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
 - [Variable assignment and arithmetic](https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA)
 - [Comparison operators]()
 - [File test operators](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
