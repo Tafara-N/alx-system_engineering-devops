@@ -490,7 +490,7 @@ Requirements:
 - Otherwise, displays the number
 - In a list format
 
-```
+```bash
 sylvain@ubuntu$ ./10-fizzbuzz | head -20
 1
 2
