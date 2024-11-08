@@ -666,7 +666,7 @@ sylvain@ubuntu$
 
 ### 13. Let's parse Apache logs
 
-![SUCH AWK](https://intranet.alxswe.com/images/contents/sysadmin/projects/80/such_awk.jpg)
+![SUCH AWK](images/such_awk.jpg)
 
 Apache is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
 
