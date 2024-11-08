@@ -721,7 +721,7 @@ Requirements:
 - You must use `awk`
 - You are not allowed to use `while`, `for`, `until` and `cut`
 
-```
+```bash
 sylvain@ubuntu$ ./103-dig_the-data | head -n 10
     141 130.0.236.153 200
     140 62.210.250.66 200
