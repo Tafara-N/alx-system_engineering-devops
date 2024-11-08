@@ -613,7 +613,7 @@ sylvain@ubuntu$
 ![Passwd](images/passwd.jpg)
 
 Read:
-- [IFS (internal field separator)](https://intranet.alxswe.com/rltoken/8VeAz2XHCtuECDJ0PfMNIg)
+- [IFS (internal field separator)](https://tldp.org/LDP/abs/html/internalvariables.html)
 - [Understanding /etc/passwd](https://intranet.alxswe.com/rltoken/jm2-sSa3VlvI4zgRdreAsg)
 
 The file `/etc/passwd` has already been covered in a [previous project](https://intranet.alxswe.com/rltoken/5Y_b9prAxb_Y-l8xCaZwgQ) and you should be familiar with it. Today we will make up a story based on it.
