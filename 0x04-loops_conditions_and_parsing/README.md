@@ -13,7 +13,6 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
 
 **man or help**:
-
 - `env`
 - `cut`
 - `for`
