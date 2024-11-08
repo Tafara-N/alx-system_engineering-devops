@@ -616,7 +616,7 @@ Read:
 - [IFS (internal field separator)](https://tldp.org/LDP/abs/html/internalvariables.html)
 - [Understanding /etc/passwd](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/)
 
-The file `/etc/passwd` has already been covered in a [previous project](https://intranet.alxswe.com/rltoken/5Y_b9prAxb_Y-l8xCaZwgQ) and you should be familiar with it. Today we will make up a story based on it.
+The file `/etc/passwd` has already been covered in a [previous project](https://intranet.alxswe.com/projects/208) and you should be familiar with it. Today we will make up a story based on it.
 
 Write a Bash script that displays the content of the file `/etc/passwd`, using the `while` loop + IFS.
 
