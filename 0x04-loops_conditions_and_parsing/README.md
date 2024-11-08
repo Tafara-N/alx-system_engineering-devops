@@ -610,7 +610,7 @@ sylvain@ubuntu$
 
 ### 12. Tell the story of passwd
 
-![Passwd](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/images/passwd.jpg)
+![Passwd](images/passwd.jpg)
 
 Read:
 - [IFS (internal field separator)](https://intranet.alxswe.com/rltoken/8VeAz2XHCtuECDJ0PfMNIg)
