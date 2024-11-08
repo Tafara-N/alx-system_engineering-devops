@@ -244,7 +244,7 @@ sylvain@ubuntu$
 
 For the most curious:
 
-- [8 in the Chinese culture](https://intranet.alxswe.com/rltoken/3DKWikCCFAmt7JJt7Bv12w)
+- [8 in the Chinese culture](https://www.chcp.org/Chinese-Numerology)
 - [4 in the Chinese culture](https://intranet.alxswe.com/rltoken/WwpjD57ABmwWSfdUVcBhNg)
 
 **Repo:**
