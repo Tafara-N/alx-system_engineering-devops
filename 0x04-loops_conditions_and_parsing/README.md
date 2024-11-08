@@ -404,7 +404,7 @@ Requirements:
 - You must use the `for` loop (`while` and `until` are forbidden)
 - Do not display hidden files
 
-```
+```bash
 sylvain@ubuntu$ ls
 100-read_and_cut              1-for_best_school         6-superstitious_numbers
 101-tell_the_story_of_passwd  2-while_best_school       7-clock
