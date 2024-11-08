@@ -74,7 +74,7 @@ Read for this task:
 
 man: `ssh-keygen`
 
-You will soon have to manage your own **servers** concept page hosted on remote [data centers](https://intranet.alxswe.com/rltoken/nDPzEm5SYxcdGxP_OpVYXQ). We need to set them up with your RSA public key so that you can access them via SSH.
+You will soon have to manage your own **servers** concept page hosted on remote [data centers](https://intranet.alxswe.com/users/my_profile). We need to set them up with your RSA public key so that you can access them via SSH.
 
 Create a RSA key pair.
 
