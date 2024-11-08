@@ -625,7 +625,7 @@ Format: `The user USERNAME is part of the GROUP_ID gang, lives in HOME_DIRECTORY
 Requirements:
 - You must use the `while`loop (`for` and `until` are forbidden)
 
-```
+```bash
 sylvain@ubuntu$ ./101-tell_the_story_of_passwd
 The user root is part of the 0 gang, lives in /root and rides /bin/bash. 0's place is protected by the passcode x, more info about the user here: root
 The user daemon is part of the 1 gang, lives in /usr/sbin and rides /usr/sbin/nologin. 1's place is protected by the passcode x, more info about the user here: daemon
