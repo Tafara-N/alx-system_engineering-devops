@@ -6,7 +6,6 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 ## Resources
 
 **Read or watch:**
-
 - [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
 - [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
 - [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
