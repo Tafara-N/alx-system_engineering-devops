@@ -100,7 +100,7 @@ Requirement:
 
 You must use the `for` loop (`while` and `until` are forbidden)
 
-```
+```bash
 sylvain@ubuntu$ head -n 2 1-for_best_school
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
