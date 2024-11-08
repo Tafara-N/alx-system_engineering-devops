@@ -311,7 +311,7 @@ Requirements:
 
 Note that in this example, we only display the first 70 lines using the `head` command.
 
-```
+```bash
 sylvain@ubuntu$ ./7-clock | head -n 70
 Hour: 0
 1
