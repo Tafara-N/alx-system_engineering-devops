@@ -3,7 +3,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
 # Background Context
 
-## Resources
+# Resources
 
 **Read or watch:**
 - [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
