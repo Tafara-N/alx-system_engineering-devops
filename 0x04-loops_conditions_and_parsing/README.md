@@ -55,7 +55,7 @@ Examples:
 
 Not passing `Shellcheck`:
 
-![Not passing Shellcheck]()
+![Not passing Shellcheck](images/not_passing.png)
 
 Passing `Shellcheck`:
 
