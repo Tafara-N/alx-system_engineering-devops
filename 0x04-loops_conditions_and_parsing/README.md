@@ -245,7 +245,7 @@ sylvain@ubuntu$
 For the most curious:
 
 - [8 in the Chinese culture](https://www.chcp.org/Chinese-Numerology)
-- [4 in the Chinese culture](https://intranet.alxswe.com/rltoken/WwpjD57ABmwWSfdUVcBhNg)
+- [4 in the Chinese culture](https://en.wikipedia.org/wiki/Chinese_numerology#Four)
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
