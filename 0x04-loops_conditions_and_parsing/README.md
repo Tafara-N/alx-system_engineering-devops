@@ -227,7 +227,7 @@ Requirements:
 - You must use the `while` loop (`for` and `until` are forbidden)
 - You must use the `if`, `elif` and `else` statements
 
-```
+```bash
 sylvain@ubuntu$ ./5-4_bad_luck_8_is_your_chance
 Best School
 Best School
