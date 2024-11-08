@@ -61,9 +61,10 @@ Passing `Shellcheck`:
 
 ![Passing Shellcheck](images/pass.png)
 
-For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse https://github.com/koalaman/shellcheck/wiki/SC2034.
+For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse [https://github.com/koalaman/shellcheck/wiki/SC2034](https://github.com/koalaman/shellcheck/wiki/SC2034).
 
 ## Tasks
+
 ### 0. Create a SSH RSA key pair
 
 Read for this task:
