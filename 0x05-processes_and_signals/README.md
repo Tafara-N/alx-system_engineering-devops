@@ -501,7 +501,7 @@ sylvain@ubuntu$
 
 ![Zombie Process](https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/zombie-seahorse-lauren-b.jpg)
 
-Read [what a zombie process is](https://intranet.alxswe.com/rltoken/Tb86ZoSxR6ORCKYlZaYzHw).
+Read [what a zombie process is](https://zombieprocess.wordpress.com/what-is-a-zombie-process/).
 
 Write a C program that creates 5 zombie processes.
 
