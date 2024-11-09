@@ -283,7 +283,7 @@ sylvain@ubuntu$ ./6-stop_me_if_you_can
 sylvain@ubuntu$
 ```
 
-I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `6-stop_me_if_you_can`. We can then see in terminal #0 that my process has been terminated.
+I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `6-stop_me_if_you_can`. We can then see in **terminal #0** that my process has been terminated.
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
