@@ -300,7 +300,7 @@ Write a Bash script that displays:
 
 Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
 
-Terminal #0
+**Terminal #0**
 
 ```bash
 sylvain@ubuntu$ ./7-highlander
