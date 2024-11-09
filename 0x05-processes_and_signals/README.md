@@ -540,7 +540,7 @@ sylvain@ubuntu$
 
 Terminal #1
 
-```
+```bash
 sylvain@ubuntu$ ps aux | grep -e 'Z+.*<defunct>'
 sylvain  13527  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13528  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
