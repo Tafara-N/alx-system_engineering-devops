@@ -524,7 +524,7 @@ int infinite_while(void)
 
 Example:
 
-Terminal #0
+**Terminal #0**
 
 ```bash
 sylvain@ubuntu$ gcc 102-zombie.c -o zombie
