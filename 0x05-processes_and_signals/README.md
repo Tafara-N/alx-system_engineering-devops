@@ -526,7 +526,7 @@ Example:
 
 Terminal #0
 
-```
+```bash
 sylvain@ubuntu$ gcc 102-zombie.c -o zombie
 sylvain@ubuntu$ ./zombie
 Zombie process created, PID: 13527
