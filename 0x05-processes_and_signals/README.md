@@ -28,7 +28,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is a signal
 - What are the 2 signals that cannot be ignored
 
-## Requirements
+# Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
