@@ -374,7 +374,7 @@ Write a Bash script that:
 - Displays `Y U no love me?!` when receiving a SIGINT signal
 - Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-![Process and PID](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x05-processes_and_signals/images/100-process_and_pid_file.jpg)
+![Process and PID](images/task_9.jpg)
 
 ```bash
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
