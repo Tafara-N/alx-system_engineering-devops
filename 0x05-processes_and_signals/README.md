@@ -1,7 +1,8 @@
-# About Bash projects  
+# About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-## Resources  
+# Resources
+
 **Read or watch:**
 - [Linux PID](https://intranet.alxswe.com/rltoken/qVGxUt1QMIV4B4oVrQBlQg)
 - [Linux process](https://intranet.alxswe.com/rltoken/px2TdWSjVO8i9SB5gHchAw)
@@ -16,7 +17,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `exit`
 - `trap`
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ), **without the help of Google:**
 
 ## General
@@ -27,7 +28,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is a signal
 - What are the 2 signals that cannot be ignored
 
-## Requirements  
+## Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
@@ -38,7 +39,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
-# More Info  
+# More Info
 For those who want to know more and learn about all signals, check out [this article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
 
 ## Tasks
@@ -165,7 +166,7 @@ sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4557 bash
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 Here we can see that:
@@ -230,13 +231,13 @@ To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 Terminated
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 Terminal #1
 
 ```
-sylvain@ubuntu$ ./5-dont_stop_me_now 
+sylvain@ubuntu$ ./5-dont_stop_me_now
 sylvain@ubuntu$
 ```
 
@@ -319,7 +320,7 @@ sylvain@ubuntu$
 Terminal #1
 
 ```
-sylvain@ubuntu$ ./67-stop_me_if_you_can 
+sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$
@@ -339,7 +340,7 @@ Write a Bash script that kills the process `7-highlander`.
 Terminal #0
 
 ```
-sylvain@ubuntu$ ./7-highlander 
+sylvain@ubuntu$ ./7-highlander
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
@@ -462,7 +463,7 @@ sylvain@ubuntu$ sudo ./101-manage_my_process
 Usage: manage_my_process {start|stop|restart}
 sylvain@ubuntu$ sudo ./101-manage_my_process start
 manage_my_process started
-sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process
 I am alive!
 I am alive!
 I am alive!
@@ -470,19 +471,19 @@ I am alive!
 ^C
 sylvain@ubuntu$ sudo ./101-manage_my_process stop
 manage_my_process stopped
-sylvain@ubuntu$ cat /var/run/my_process.pid 
+sylvain@ubuntu$ cat /var/run/my_process.pid
 cat: /var/run/my_process.pid: No such file or directory
-sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process
 ^C
 sylvain@ubuntu$ sudo ./101-manage_my_process start
 manage_my_process started
-sylvain@ubuntu$ cat /var/run/my_process.pid 
+sylvain@ubuntu$ cat /var/run/my_process.pid
 11864
 sylvain@ubuntu$ sudo ./101-manage_my_process restart
 manage_my_process restarted
-sylvain@ubuntu$ cat /var/run/my_process.pid 
+sylvain@ubuntu$ cat /var/run/my_process.pid
 11918
-sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process
 I am alive!
 I am alive!
 I am alive!
@@ -526,7 +527,7 @@ Terminal #0
 
 ```
 sylvain@ubuntu$ gcc 102-zombie.c -o zombie
-sylvain@ubuntu$ ./zombie 
+sylvain@ubuntu$ ./zombie
 Zombie process created, PID: 13527
 Zombie process created, PID: 13528
 Zombie process created, PID: 13529
@@ -546,7 +547,7 @@ sylvain  13529  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defun
 sylvain  13530  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13531  0.0  0.0      0     0 pts/0    Z+   01:19   0:00 [zombie] <defunct>
 sylvain  13533  0.0  0.1  10460   964 pts/2    S+   01:19   0:00 grep --color=auto -e Z+.*<defunct>
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 In Terminal #0, I start by compiling `102-zombie.c` and executing `zombie` which creates 5 zombie processes. In Terminal #1, I display the list of processes and look for lines containing `Z+.*<defunct>` which catches zombie process.
