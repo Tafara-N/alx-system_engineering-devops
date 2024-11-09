@@ -302,7 +302,7 @@ Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_ca
 
 Terminal #0
 
-```
+```bash
 sylvain@ubuntu$ ./7-highlander
 To infinity and beyond
 To infinity and beyond
