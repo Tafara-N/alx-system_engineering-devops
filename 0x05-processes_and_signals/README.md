@@ -235,7 +235,7 @@ Terminated
 sylvain@ubuntu$
 ```
 
-Terminal #1
+**Terminal #1**
 
 ```bash
 sylvain@ubuntu$ ./5-dont_stop_me_now
