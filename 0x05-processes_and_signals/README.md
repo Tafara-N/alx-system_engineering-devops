@@ -17,7 +17,7 @@ Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 - `exit`
 - `trap`
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ), **without the help of Google:**
 
 ## General
