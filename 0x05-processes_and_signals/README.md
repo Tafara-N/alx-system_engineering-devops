@@ -49,7 +49,7 @@ For those who want to know more and learn about all signals, check out [this art
 
 Write a Bash script that displays its own PID.
 
-```
+```bash
 sylvain@ubuntu$ ./0-what-is-my-pid
 4120
 sylvain@ubuntu$
