@@ -426,7 +426,7 @@ Read:
 - [&](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
 - [init.d](https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/)
 - [Daemon](https://en.wikipedia.org/wiki/Daemon_%28computing%29)
-- [Positional parameters](https://intranet.alxswe.com/rltoken/TJ2rxUwRsnM1mJQHSCnOQA)
+- [Positional parameters](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html)
 
 man: `sudo`
 
