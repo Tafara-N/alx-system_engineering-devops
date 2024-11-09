@@ -425,7 +425,7 @@ Starting `100-process_and_pid_file` in the **terminal #0** and then killing it i
 Read:
 - [&](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
 - [init.d](https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/)
-- [Daemon](https://intranet.alxswe.com/rltoken/kCoQ5aYO3towdDQFVPcfNg)
+- [Daemon](https://en.wikipedia.org/wiki/Daemon_%28computing%29)
 - [Positional parameters](https://intranet.alxswe.com/rltoken/TJ2rxUwRsnM1mJQHSCnOQA)
 
 man: `sudo`
