@@ -538,7 +538,7 @@ Zombie process created, PID: 13531
 sylvain@ubuntu$
 ```
 
-Terminal #1
+**Terminal #1**
 
 ```bash
 sylvain@ubuntu$ ps aux | grep -e 'Z+.*<defunct>'
