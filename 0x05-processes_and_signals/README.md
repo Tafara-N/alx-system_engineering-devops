@@ -257,7 +257,7 @@ Requirements:
 
 - You cannot use `kill` or `killall`
 
-Terminal #0
+**Terminal #0**
 
 ```bash
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
