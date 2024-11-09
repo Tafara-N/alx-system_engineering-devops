@@ -420,7 +420,7 @@ Starting `100-process_and_pid_file` in the **terminal #0** and then killing it i
 
 ### 10. Manage my process
 
-![Manage my process](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x05-processes_and_signals/images/101-manage_my_process.jpg)
+![Manage my process](images/task_10.jpg)
 
 Read:
 - [&](https://intranet.alxswe.com/rltoken/R4YSgPT1k0PhWCrB0TYzoQ)
