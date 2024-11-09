@@ -499,7 +499,7 @@ sylvain@ubuntu$
 
 ### 11. Zombie
 
-![Zombie Process](https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/zombie-seahorse-lauren-b.jpg)
+![Zombie Process](images/task_11.jpg)
 
 Read [what a zombie process is](https://zombieprocess.wordpress.com/what-is-a-zombie-process/).
 
