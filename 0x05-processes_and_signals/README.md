@@ -404,9 +404,9 @@ I hate the kill command
 sylvain@ubuntu$
 ```
 
-Terminal #1
+**Terminal #1**
 
-```
+```bash
 sylvain@ubuntu$ sudo pkill -f 100-process_and_pid_file
 sylvain@ubuntu$
 ```
