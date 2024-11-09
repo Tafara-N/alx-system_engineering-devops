@@ -186,7 +186,7 @@ Write a Bash script that displays `To infinity and beyond` indefinitely.
 Requirements:
 - In between each iteration of the loop, add a `sleep 2`
 
-```
+```bash
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
