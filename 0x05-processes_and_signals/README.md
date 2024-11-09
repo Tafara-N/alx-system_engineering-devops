@@ -423,7 +423,7 @@ Starting `100-process_and_pid_file` in the **terminal #0** and then killing it i
 ![Manage my process](images/task_10.jpg)
 
 Read:
-- [&](https://intranet.alxswe.com/rltoken/R4YSgPT1k0PhWCrB0TYzoQ)
+- [&](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
 - [init.d](https://intranet.alxswe.com/rltoken/sVqN4oNYYO6ojS4ctT02Jw)
 - [Daemon](https://intranet.alxswe.com/rltoken/kCoQ5aYO3towdDQFVPcfNg)
 - [Positional parameters](https://intranet.alxswe.com/rltoken/TJ2rxUwRsnM1mJQHSCnOQA)
