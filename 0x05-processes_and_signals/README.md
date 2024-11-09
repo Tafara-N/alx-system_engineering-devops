@@ -318,7 +318,7 @@ To infinity and beyond
 sylvain@ubuntu$
 ```
 
-Terminal #1
+**Terminal #1**
 
 ```bash
 sylvain@ubuntu$ ./67-stop_me_if_you_can
