@@ -338,9 +338,9 @@ I started `7-highlander` in Terminal #0 and then run `67-stop_me_if_you_can` in 
 
 Write a Bash script that kills the process `7-highlander`.
 
-Terminal #0
+**Terminal #0**
 
-```
+```bash
 sylvain@ubuntu$ ./7-highlander
 To infinity and beyond
 To infinity and beyond
