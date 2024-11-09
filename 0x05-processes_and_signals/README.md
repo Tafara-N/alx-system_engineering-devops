@@ -411,7 +411,7 @@ sylvain@ubuntu$ sudo pkill -f 100-process_and_pid_file
 sylvain@ubuntu$
 ```
 
-Starting `100-process_and_pid_file` in the terminal #0 and then killing it in the terminal #1.
+Starting `100-process_and_pid_file` in the **terminal #0** and then killing it in the terminal #1.
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
