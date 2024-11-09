@@ -160,7 +160,7 @@ Write a Bash script that displays the PID, along with the process name, of proce
 Requirements:
 - You cannot use `ps`
 
-```
+```bash
 sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4555 bash
