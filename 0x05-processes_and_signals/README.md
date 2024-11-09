@@ -278,7 +278,7 @@ sylvain@ubuntu$
 
 Terminal #1
 
-```
+```bash
 sylvain@ubuntu$ ./6-stop_me_if_you_can
 sylvain@ubuntu$
 ```
