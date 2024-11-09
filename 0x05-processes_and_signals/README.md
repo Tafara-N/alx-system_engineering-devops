@@ -215,7 +215,7 @@ Requirements:
 
 Terminal #0
 
-```
+```bash
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
