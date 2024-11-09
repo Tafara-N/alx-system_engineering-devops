@@ -350,9 +350,9 @@ Killed
 sylvain@ubuntu$
 ```
 
-Terminal #1
+**Terminal #1**
 
-```
+```bash
 sylvain@ubuntu$ ./8-beheaded_process
 sylvain@ubuntu$
 ```
