@@ -376,7 +376,7 @@ Write a Bash script that:
 
 ![Process and PID](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x05-processes_and_signals/images/100-process_and_pid_file.jpg)
 
-```
+```bash
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
 To infinity and beyond
 To infinity and beyond
