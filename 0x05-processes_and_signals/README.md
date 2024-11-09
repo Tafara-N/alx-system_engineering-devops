@@ -69,7 +69,7 @@ Requirements:
 - Display in a user-oriented format
 - Show process hierarchy
 
-```
+```bash
 sylvain@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
