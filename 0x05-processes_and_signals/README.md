@@ -41,7 +41,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 # More Info
-For those who want to know more and learn about all signals, check out [this article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
+For those who want to know more and learn about all signals, check out [this article](https://www.computerhope.com/unix/signals.htm).
 
 ## Tasks
 
