@@ -70,14 +70,11 @@ school
 Question #2
 What is the /Scho*l/ regexp matching?
 
+- [ ] Schoool
 
-Schoool
+- [ ] Scho.l
 
-
-Scho.l
-
-
-Schoo.l
+- [ ] Schoo.l
 
 ## Tasks
 
