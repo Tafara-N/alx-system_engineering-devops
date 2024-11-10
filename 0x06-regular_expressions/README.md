@@ -69,7 +69,7 @@ school
 
 ### Question #2
 
-What is the /Scho*l/ regexp matching?
+What is the `/Scho*l/` regexp matching?
 
 - [ ] Schoool
 
