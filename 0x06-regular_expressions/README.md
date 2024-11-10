@@ -77,7 +77,7 @@ What is the `/Scho*l/` regexp matching?
 
 ### 0. Simply matching School
 
-![Simply matching School](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/0-simply_match_school.png)
+![Simply matching School](images/0-simply_match_school.png)
 
 Requirements:
 
@@ -104,7 +104,7 @@ $
 
 ### 1. Repetition Token #0
 
-![Repetition Token #0](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/1-repetition_token_0.png)
+![Repetition Token #0](images/1-repetition_token_0.png)
 
 Requirements:
 
@@ -118,7 +118,7 @@ Requirements:
 
 ### 2. Repetition Token #1
 
-![Repetition Token #1](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/2-repetition_token_1.png)
+![Repetition Token #1](images/2-repetition_token_1.png)
 
 Requirements:
 
@@ -132,7 +132,7 @@ Requirements:
 
 ### 3. Repetition Token #2
 
-![Repetition Token #2](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/3-repetition_token_2.png)
+![Repetition Token #2](images/3-repetition_token_2.png)
 
 Requirements:
 
@@ -146,7 +146,7 @@ Requirements:
 
 ### 4. Repetition Token #3
 
-![Repetition Token #3](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x06-regular_expressions/images/4-repetition_token_3.png)
+![Repetition Token #3](images/4-repetition_token_3.png)
 
 Requirements:
 
@@ -168,7 +168,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ./5-beginning_and_end.rb 'hn' | cat -e
 $
 sylvain@ubuntu$ ./5-beginning_and_end.rb 'hbn' | cat -e
