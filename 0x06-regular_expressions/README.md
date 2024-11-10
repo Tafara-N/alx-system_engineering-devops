@@ -57,7 +57,7 @@ school
 
 ### Question #1
 
-What is the /Scho.l/ regexp matching?
+What is the `/Scho.l/` regexp matching?
 
 - [ ] Scho.l
 
