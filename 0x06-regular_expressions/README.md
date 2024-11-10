@@ -55,17 +55,15 @@ School
 
 school
 
-Question #1
+### Question #1
+
 What is the /Scho.l/ regexp matching?
 
+- [ ] Scho.l
 
-Scho.l
+- [ ] School
 
-
-School
-
-
-school
+- [ ] school
 
 ### Question #2
 
