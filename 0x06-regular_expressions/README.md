@@ -188,7 +188,7 @@ $
 
 ### 6. Call me maybe
 
-This task is brought to you by a professional advisor [Neha Jain](https://intranet.alxswe.com/rltoken/GqwvXAvTXR_JXqyTvZ4AzQ), Senior Software Engineer at LinkedIn.
+This task is brought to you by a professional advisor [Neha Jain](https://x.com/_nehajain), Senior Software Engineer at LinkedIn.
 
 Requirement:
 
