@@ -27,7 +27,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 - [Regular expressions - basics](https://www.slideshare.net/slideshow/introducing-regular-expressions/63676155)
 - [Regular expressions - advanced](https://www.slideshare.net/slideshow/advanced-regular-expressions-80296518/80296518)
 - [Rubular is your best friend](https://rubular.com/)
-- [Use a regular expression against a problem: now you have 2 problems](https://intranet.alxswe.com/rltoken/Vwm8lpMUGa4x_FBtlyUQ8g)
+- [Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 - [Learn Regular Expressions with simple, interactive exercises](https://intranet.alxswe.com/rltoken/XsQ6rzS1uy-E6bnswUqIKg)
 
 # Requirements
