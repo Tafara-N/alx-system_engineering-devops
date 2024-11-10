@@ -1,9 +1,9 @@
-### Concepts  
+# Concepts
 *For this project, we expect you to look at this concept:*
 
 - [Regular Expression](https://intranet.alxswe.com/concepts/29)
 
-# Background Context  
+# Background Context
 For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties.
 
 Because the focus of this exercise is to play with regular expressions (regex), here is the Ruby code that you should use, just replace the regexp part, meaning the code in between the `//`:
@@ -20,7 +20,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.1
 sylvain@ubuntu$ ./example.rb 127.0.0.a
 ```
 
-# Resources  
+# Resources
 ## Read or watch:
 - [Regular expressions - basics](https://intranet.alxswe.com/rltoken/6VeaVMaugIxcFAwA27TBdQ)
 - [Regular expressions - advanced](https://intranet.alxswe.com/rltoken/rntjh3-3S86zt0Qy28L10w)
@@ -28,7 +28,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 - [Use a regular expression against a problem: now you have 2 problems](https://intranet.alxswe.com/rltoken/Vwm8lpMUGa4x_FBtlyUQ8g)
 - [Learn Regular Expressions with simple, interactive exercises](https://intranet.alxswe.com/rltoken/XsQ6rzS1uy-E6bnswUqIKg)
 
-# Requirements  
+# Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
