@@ -251,7 +251,7 @@ Requirements:
     - The receiver phone number or name (including country code if present)
     - The flags that were used
 
-You can find a [[log file here]](http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/78/text_messages.log).
+You can find a [[log file here]](logs/text_messages.log).
 
 Example:
 
