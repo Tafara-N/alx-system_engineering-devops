@@ -22,7 +22,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 ```
 
 # Resources
-## Read or watch:
+
+**Read or watch:**
 - [Regular expressions - basics](https://intranet.alxswe.com/rltoken/6VeaVMaugIxcFAwA27TBdQ)
 - [Regular expressions - advanced](https://intranet.alxswe.com/rltoken/rntjh3-3S86zt0Qy28L10w)
 - [Rubular is your best friend](https://intranet.alxswe.com/rltoken/RGkVuw1lZ_hoCCbLsiOAhg)
