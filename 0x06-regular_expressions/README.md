@@ -24,7 +24,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 # Resources
 
 **Read or watch:**
-- [Regular expressions - basics](https://intranet.alxswe.com/rltoken/6VeaVMaugIxcFAwA27TBdQ)
+- [Regular expressions - basics](https://www.slideshare.net/slideshow/introducing-regular-expressions/63676155)
 - [Regular expressions - advanced](https://intranet.alxswe.com/rltoken/rntjh3-3S86zt0Qy28L10w)
 - [Rubular is your best friend](https://intranet.alxswe.com/rltoken/RGkVuw1lZ_hoCCbLsiOAhg)
 - [Use a regular expression against a problem: now you have 2 problems](https://intranet.alxswe.com/rltoken/Vwm8lpMUGa4x_FBtlyUQ8g)
