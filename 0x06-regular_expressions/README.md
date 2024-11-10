@@ -196,7 +196,7 @@ Requirement:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ./6-phone_number.rb 4155049898 | cat -e
 4155049898$
 sylvain@ubuntu$ ./6-phone_number.rb " 4155049898" | cat -e
