@@ -215,7 +215,7 @@ sylvain@ubuntu$
 
 ### 7. OMG WHY ARE YOU SHOUTING?
 
-![OMG WHY ARE YOU SHOUTING](https://intranet.alxswe.com/images/contents/sysadmin/projects/78/shouting.jpg)
+![OMG WHY ARE YOU SHOUTING](images/shouting.jpg)
 
 Requirement:
 
@@ -223,7 +223,7 @@ Requirement:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
 ILOVESYSADMIN$
 sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "WHAT do you SAY?" | cat -e
