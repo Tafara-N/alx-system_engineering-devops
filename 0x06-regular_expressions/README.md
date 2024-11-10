@@ -8,7 +8,7 @@ For this project, you have to build your regular expression using Oniguruma, a r
 
 Because the focus of this exercise is to play with regular expressions (regex), here is the Ruby code that you should use, just replace the regexp part, meaning the code in between the `//`:
 
-```
+```bash
 sylvain@ubuntu$ cat example.rb
 #!/usr/bin/env ruby
 puts ARGV[0].scan(/127.0.0.[0-9]/).join
