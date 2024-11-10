@@ -67,7 +67,8 @@ School
 
 school
 
-Question #2
+### Question #2
+
 What is the /Scho*l/ regexp matching?
 
 - [ ] Schoool
