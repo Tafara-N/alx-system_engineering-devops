@@ -41,6 +41,43 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env ruby`
 - All your regex must be built for the Oniguruma library
 
+## Quiz questions
+
+Question #0
+What is the /school/ regexp matching?
+
+
+schoOl
+
+
+School
+
+
+school
+
+Question #1
+What is the /Scho.l/ regexp matching?
+
+
+Scho.l
+
+
+School
+
+
+school
+
+Question #2
+What is the /Scho*l/ regexp matching?
+
+
+Schoool
+
+
+Scho.l
+
+
+Schoo.l
 
 ## Tasks
 
