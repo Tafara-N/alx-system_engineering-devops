@@ -43,17 +43,15 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ## Quiz questions
 
-Question #0
-What is the /school/ regexp matching?
+### Question #0
 
+What is the `/school/` regexp matching?
 
-schoOl
+- [ ] schoOl
 
+- [ ] School
 
-School
-
-
-school
+- [ ] school
 
 ### Question #1
 
