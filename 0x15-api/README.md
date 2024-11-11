@@ -121,7 +121,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ python3 1-export_to_CSV.py 2
 sylvain@ubuntu$ cat 2.csv
 "2","Antonette","False","suscipit repellat esse quibusdam voluptatem incidunt"
