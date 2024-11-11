@@ -58,7 +58,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### 0. Gather data from an API
 
-Write a Python script that, using this [REST API](https://intranet.alxswe.com/rltoken/7cr7aLYdaWAZWBKrBKS12A), for a given employee ID, returns information about his/her TODO list progress.
+Write a Python script that, using this [REST API](https://jsonplaceholder.typicode.com/), for a given employee ID, returns information about his/her TODO list progress.
 
 Requirements:
 
