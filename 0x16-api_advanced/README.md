@@ -13,7 +13,7 @@ A great API to use for some practice is the Reddit API. There’s a lot of endpo
 - [Query String](https://en.wikipedia.org/wiki/Query_string)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/uDfkZ_HQ_YnelvPnhnBOnw), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - How to read API documentation to find the endpoints you’re looking for
