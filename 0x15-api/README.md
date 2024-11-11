@@ -19,7 +19,7 @@ This is a perfect example of a task that is not suited for Bash scripting, so le
 - [What is an API? In English, please](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 - [What is a REST API](https://www.sitepoint.com/rest-api/)
 - [What are microservices](https://smartbear.com/learn/api-design/microservices/)
-- [PEP8 Python style - having a clean code respecting style guide is really appreciated in the industry](https://intranet.alxswe.com/rltoken/b7V1ROY6kSRxDDKnsJoqxg)
+- [PEP8 Python style - having a clean code respecting style guide is really appreciated in the industry](https://peps.python.org/pep-0008/)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/03Evn5VsICwJUAiTdu0zHA), **without the help of Google:**
