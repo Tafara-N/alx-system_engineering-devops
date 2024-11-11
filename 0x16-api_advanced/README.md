@@ -7,8 +7,9 @@ Questions involving APIs are common for interviews. Sometimes they’re as simpl
 A great API to use for some practice is the Reddit API. There’s a lot of endpoints available, many that don’t require any form of authentication, and there’s tons of information to be parsed out and presented. Getting comfortable with API calls now can save you some face during technical interviews and even outside of the job market, you might find personal use cases to make your life a little bit easier.
 
 # Resources
-## Read or watch:
-- [Reddit API Documentation](https://intranet.alxswe.com/rltoken/b-4nD6hwEeNYTwYl5yWNwA)
+
+**Read or watch:**
+- [Reddit API Documentation](https://www.reddit.com/dev/api/)
 - [Query String](https://intranet.alxswe.com/rltoken/luFn_zrgmAQ0OAO_PEI9bA)
 
 # Learning Objectives
