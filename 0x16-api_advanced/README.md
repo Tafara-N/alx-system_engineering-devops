@@ -123,7 +123,7 @@ wintermancer@lapbox ~/reddit_api/project $
 
 ### 2. Recurse it!
 
-Write a recursive function that queries the [Reddit API](https://intranet.alxswe.com/rltoken/b-4nD6hwEeNYTwYl5yWNwA) and returns a list containing the titles of all hot articles for a given subreddit. If no results are found for the given subreddit, the function should return None.
+Write a recursive function that queries the [Reddit API](https://www.reddit.com/dev/api/) and returns a list containing the titles of all hot articles for a given subreddit. If no results are found for the given subreddit, the function should return None.
 
 Hint: The Reddit API uses pagination for separating pages of responses.
 
