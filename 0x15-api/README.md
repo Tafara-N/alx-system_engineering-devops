@@ -73,7 +73,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ python3 0-gather_data_from_an_API.py 2
 Employee Ervin Howell is done with tasks(8/20):
      distinctio vitae autem nihil ut molestias quo
