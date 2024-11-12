@@ -8,7 +8,7 @@
 - [Internet](https://en.wikipedia.org/wiki/Internet)
 - [MAC address](https://whatismyipaddress.com/mac-address)
 - [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
-- [Private and public address](https://intranet.alxswe.com/rltoken/OPJCZYuWSEXLIZOqU9Uc0A)
+- [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
 - [IPv4 and IPv6](https://intranet.alxswe.com/rltoken/M8g-egWLlldTl6Y0QECdwA)
 - [Localhost](https://intranet.alxswe.com/rltoken/7lj-zoZQ7xFTkj4MTyos_g)
 - [TCP and UDP](https://intranet.alxswe.com/rltoken/uJbs8E9-FyATfsELpmtTIg)
