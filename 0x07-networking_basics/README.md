@@ -9,7 +9,7 @@
 - [MAC address](https://whatismyipaddress.com/mac-address)
 - [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
 - [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
-- [IPv4 and IPv6](https://intranet.alxswe.com/rltoken/M8g-egWLlldTl6Y0QECdwA)
+- [IPv4 and IPv6](https://www.webopedia.com/insights/ipv6-ipv4-difference/)
 - [Localhost](https://intranet.alxswe.com/rltoken/7lj-zoZQ7xFTkj4MTyos_g)
 - [TCP and UDP](https://intranet.alxswe.com/rltoken/uJbs8E9-FyATfsELpmtTIg)
 - [TCP/UDP ports List](https://intranet.alxswe.com/rltoken/4PYkqDfOvIZZb9aUPGOOzQ)
