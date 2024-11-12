@@ -3,7 +3,7 @@
 **Read or watch:**
 - [OSI model](https://en.wikipedia.org/wiki/OSI_model)
 - [Different types of network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
-- [LAN network](https://intranet.alxswe.com/rltoken/en370-Hrwgi_GUvFcg3bKg)
+- [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
 - [WAN network](https://intranet.alxswe.com/rltoken/Ah1EKqnINR85lM4P2WnLSw)
 - [Internet](https://intranet.alxswe.com/rltoken/Lwh9xQxFD4dWh5sIApXI1g)
 - [MAC address](https://intranet.alxswe.com/rltoken/j-Wp-YRvFTVP04SpIeRzHQ)
