@@ -20,7 +20,7 @@
 - `netstat`
 - `ping`
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/RowLuXQWMOPFHaboo_3odA), **without the help of Google:**
 
 ## OSI Model
