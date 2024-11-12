@@ -11,7 +11,7 @@
 - [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
 - [IPv4 and IPv6](https://www.webopedia.com/insights/ipv6-ipv4-difference/)
 - [Localhost](https://en.wikipedia.org/wiki/Localhost)
-- [TCP and UDP](https://intranet.alxswe.com/rltoken/uJbs8E9-FyATfsELpmtTIg)
+- [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
 - [TCP/UDP ports List](https://intranet.alxswe.com/rltoken/4PYkqDfOvIZZb9aUPGOOzQ)
 - [What is ping /ICMP](https://intranet.alxswe.com/rltoken/3zBgO6r2M1Q8lUVt9g8aJw)
 - [Positional parameters](https://intranet.alxswe.com/rltoken/U5CMxsErz85edWap3fNEoQ)
