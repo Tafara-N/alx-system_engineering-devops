@@ -79,7 +79,7 @@ sylvain@ubuntu$ cat foo_answer_file
 sylvain@ubuntu$
 ```
 
-Source for question 1 [here](https://intranet.alxswe.com/rltoken/iEZZ6SemL1HJHjaJOjlPYQ)
+Source for question 1 [here](https://x.com/devopsreact/status/831922429215662080)
 
 ## Tasks
 
