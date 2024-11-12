@@ -14,7 +14,7 @@
 - [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
 - [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 - [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
-- [Positional parameters](https://intranet.alxswe.com/rltoken/U5CMxsErz85edWap3fNEoQ)
+- [Positional parameters](https://www.adminschoice.com/bash-positional-parameters)
 
 ## man or help:
 - `netstat`
