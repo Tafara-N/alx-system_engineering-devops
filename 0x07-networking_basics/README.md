@@ -13,7 +13,7 @@
 - [Localhost](https://en.wikipedia.org/wiki/Localhost)
 - [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
 - [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [What is ping /ICMP](https://intranet.alxswe.com/rltoken/3zBgO6r2M1Q8lUVt9g8aJw)
+- [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
 - [Positional parameters](https://intranet.alxswe.com/rltoken/U5CMxsErz85edWap3fNEoQ)
 
 ## man or help:
