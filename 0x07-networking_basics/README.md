@@ -6,7 +6,7 @@
 - [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
 - [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
 - [Internet](https://en.wikipedia.org/wiki/Internet)
-- [MAC address](https://intranet.alxswe.com/rltoken/j-Wp-YRvFTVP04SpIeRzHQ)
+- [MAC address](https://whatismyipaddress.com/mac-address)
 - [What is an IP address](https://intranet.alxswe.com/rltoken/HaZZvrmGaQ3U7ZLDYgZb6w)
 - [Private and public address](https://intranet.alxswe.com/rltoken/OPJCZYuWSEXLIZOqU9Uc0A)
 - [IPv4 and IPv6](https://intranet.alxswe.com/rltoken/M8g-egWLlldTl6Y0QECdwA)
