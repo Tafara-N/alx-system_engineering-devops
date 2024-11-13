@@ -49,7 +49,7 @@ What is localhost?
 
 ## Question #1
 
-What is 0.0.0.0?
+What is `0.0.0.0`?
 
 - [ ] All IPv4 addresses on the local machine
 
