@@ -126,7 +126,7 @@ Write a Bash script that displays all active IPv4 IPs on the machine it’s exec
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
 10.0.2.15$
 127.0.0.1$
