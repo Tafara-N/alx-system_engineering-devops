@@ -8,7 +8,7 @@
 - [What is the hosts file](https://intranet.alxswe.com/rltoken/4_MBpFTulKliFM69jCPzOQ)
 - [Netcat examples](https://intranet.alxswe.com/rltoken/OR0lOEwAw9I1Rj4aGp1Ljg)
 
-## man or help:
+**man or help:**
 - `ifconfig`
 - `telnet`
 - `nc`
