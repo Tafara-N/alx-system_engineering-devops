@@ -154,11 +154,11 @@ Starting my script.
 sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
 ```
 
-Terminal 1
+**Terminal 1**
 
 Connecting to `localhost` on port `98` using `telnet` and typing some text.
 
-```
+```bash
 sylvain@ubuntu$ telnet localhost 98
 Trying 127.0.0.2...
 Connected to localhost.
