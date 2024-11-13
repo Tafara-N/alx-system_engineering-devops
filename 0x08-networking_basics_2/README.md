@@ -171,7 +171,7 @@ test
 
 Receiving the text on the other side.
 
-```
+```bash
 sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
 Hello world
 test
