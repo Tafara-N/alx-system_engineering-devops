@@ -41,9 +41,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 What is `localhost`?
 
-- [ ] A hostname that means this IP
+- [ ] A hostname that means *this IP*
 
-- [ ] A hostname that means this computer
+- [ ] A hostname that means *this computer*
 
 - [ ] An IP attached to a computer
 
