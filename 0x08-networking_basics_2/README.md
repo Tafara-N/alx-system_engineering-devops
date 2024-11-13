@@ -71,7 +71,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ping localhost
 PING localhost (127.0.0.1) 56(84) bytes of data.
 64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.012 ms
