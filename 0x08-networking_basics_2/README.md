@@ -23,7 +23,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is `/etc/hosts`
 - How to display your machine’s active network interfaces
 
-## Requirements
+# Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
