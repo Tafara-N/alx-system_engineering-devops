@@ -150,7 +150,7 @@ Write a Bash script that listens on port `98` on `localhost`.
 
 Starting my script.
 
-```
+```bash
 sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
 ```
 
