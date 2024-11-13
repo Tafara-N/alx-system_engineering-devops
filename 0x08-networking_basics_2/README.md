@@ -39,7 +39,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Question #0
 
-What is localhost?
+What is `localhost`?
 
 - [ ] A hostname that means this IP
 
