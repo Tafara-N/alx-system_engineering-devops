@@ -1,6 +1,7 @@
 ![Ip Address](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png)
 
-# Resources  
+# Resources
+
 ## Read or watch:
 - [What is localhost](https://intranet.alxswe.com/rltoken/Odcc_tyAQlcANCCrtmxo6A)
 - [What is 0.0.0.0](https://intranet.alxswe.com/rltoken/fUb9IpnxrNaddMljzwbhJQ)
@@ -13,7 +14,7 @@
 - `nc`
 - `cut`
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/IpTKeVwlKHT4ZVva_T891w), **without the help of Google:**
 
 ## General
@@ -22,7 +23,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is `/etc/hosts`
 - How to display your machine’s active network interfaces
 
-## Requirements  
+## Requirements
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS
