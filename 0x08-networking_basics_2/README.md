@@ -15,7 +15,7 @@
 - `cut`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/IpTKeVwlKHT4ZVva_T891w), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - What is localhost/127.0.0.1
