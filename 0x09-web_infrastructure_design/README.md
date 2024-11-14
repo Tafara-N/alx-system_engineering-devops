@@ -9,7 +9,8 @@
 - [Server](https://intranet.alxswe.com/concepts/67)
 
 # Resources
-## Read or watch:
+
+**Read or watch:**
 - **Network** basics concept page
 - **Server** concept page
 - **Web server** concept page
