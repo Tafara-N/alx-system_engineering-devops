@@ -28,7 +28,7 @@
 - [What is HTTPS](https://www.instantssl.com/http-vs-https)
 - [What is a firewall](https://www.webopedia.com/definitions/firewall/)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/FPJvEE-DRJDvmVTNWeFR8A), **without the help of Google:**
 
 ## General
