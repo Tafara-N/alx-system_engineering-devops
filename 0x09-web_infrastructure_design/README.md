@@ -227,7 +227,7 @@ Please, remember that everything must be written in English to further your tech
 
 Readme
 
-- [Application server vs web server](https://intranet.alxswe.com/rltoken/toFi_SdFHyi2MaELB8ekqw)
+- [Application server vs web server](https://www.f5.com/glossary)
 
 Requirements:
 
