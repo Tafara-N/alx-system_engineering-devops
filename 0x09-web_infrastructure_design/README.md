@@ -54,7 +54,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Similarly in a job interview, you should answer what the interviewer asked for, be careful about being too verbose - always ask the interviewer if going into details is necessary - speaking too much can play against you
 - In this project, again, avoid going in details if not asked
 
-### Quiz questions
+## Quiz questions
 
 ## Question #0
 
