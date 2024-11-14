@@ -8,7 +8,7 @@
 - [Load balancer](https://intranet.alxswe.com/concepts/46)
 - [Server](https://intranet.alxswe.com/concepts/67)
 
-[YouTube video](https://youtu.be/lQNEW76KdYg)
+- [YouTube video](https://youtu.be/lQNEW76KdYg)
 
 # Resources
 
