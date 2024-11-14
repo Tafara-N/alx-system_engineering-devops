@@ -21,7 +21,7 @@
 - **Monitoring** concept page
 - [What is a database](https://www.oracle.com/ke/database/what-is-database/)
 - [What’s the difference between a web server and an app server?](https://www.infoworld.com/article/2171154/app-server-web-server-what-s-the-difference.html)
-- [DNS record types](https://intranet.alxswe.com/rltoken/Pl3UoEfAO7K_jUKRLMmnAQ)
+- [DNS record types](https://www.site24x7.com/learn/dns-record-types.html)
 - [Single point of failure](https://intranet.alxswe.com/rltoken/uxpx2YhXs10TFLIDg78chA)
 - [How to avoid downtime when deploying new code](https://intranet.alxswe.com/rltoken/4ansLu2gtHnoFrNThqyObA)
 - [High availability cluster (active-active/active-passive)](https://intranet.alxswe.com/rltoken/TAJeVYy9U9iLaEDd6XkbRA)
