@@ -116,7 +116,7 @@ What is TCP/IP?
 
 - [ ] Transmission Control Protocol/Internet Protocol, is a suite of communications protocols used to interconnect network devices on private network.
 
-## Question #6
+### Question #6
 
 What is HTTPS?
 
