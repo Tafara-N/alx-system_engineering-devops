@@ -1,5 +1,6 @@
-### Concepts  
+# Concepts
 *For this project, we expect you to look at these concepts:*
+
 - [DNS](https://intranet.alxswe.com/concepts/12)
 - [Monitoring](https://intranet.alxswe.com/concepts/13)
 - [Web Server](https://intranet.alxswe.com/concepts/17)
@@ -7,7 +8,7 @@
 - [Load balancer](https://intranet.alxswe.com/concepts/46)
 - [Server](https://intranet.alxswe.com/concepts/67)
 
-# Resources  
+# Resources
 ## Read or watch:
 - **Network** basics concept page
 - **Server** concept page
@@ -24,7 +25,7 @@
 - [What is HTTPS](https://intranet.alxswe.com/rltoken/c0zs2MxrmxFLsCPOizxq6g)
 - [What is a firewall](https://intranet.alxswe.com/rltoken/j6idMcUTyNEDj1oYDQFmUw)
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/FPJvEE-DRJDvmVTNWeFR8A), **without the help of Google:**
 
 ## General
