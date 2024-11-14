@@ -37,7 +37,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You must be able to explain system redundancy
 - Know all the mentioned acronyms: LAMP, SPOF, QPS
 
-## Requirements
+# Requirements
 
 ## General
 - A `README.md` file, at the root of the folder of the project, is mandatory
