@@ -76,7 +76,7 @@ What is a database?
 
 - [ ] Is a collection of information that is stored and organized so that it can be easily accessed, updated and managed.
 
-## Question #2
+### Question #2
 
 What is a web server?
 
