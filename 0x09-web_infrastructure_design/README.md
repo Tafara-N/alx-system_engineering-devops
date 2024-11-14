@@ -66,7 +66,7 @@ What is a server?
 
 - [ ] A server is returning information to other computers when asked.
 
-## Question #1
+### Question #1
 
 What is a database?
 
