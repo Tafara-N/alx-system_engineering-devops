@@ -25,7 +25,7 @@
 - [Single point of failure](https://search.brave.com/search?q=single+point+of+failure&source=desktop)
 - [How to avoid downtime when deploying new code](https://softwareengineering.stackexchange.com/questions/35063/how-do-you-update-your-production-codebase-database-schema-without-causing-downt#answers-header)
 - [High availability cluster (active-active/active-passive)](https://docs.oracle.com/cd/E17904_01/core.1111/e10106/intro.htm#ASHIA712)
-- [What is HTTPS](https://intranet.alxswe.com/rltoken/c0zs2MxrmxFLsCPOizxq6g)
+- [What is HTTPS](https://www.instantssl.com/http-vs-https)
 - [What is a firewall](https://intranet.alxswe.com/rltoken/j6idMcUTyNEDj1oYDQFmUw)
 
 ## Learning Objectives
