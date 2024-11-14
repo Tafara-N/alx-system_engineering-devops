@@ -29,7 +29,7 @@
 - [What is a firewall](https://www.webopedia.com/definitions/firewall/)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/FPJvEE-DRJDvmVTNWeFR8A), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects
