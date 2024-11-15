@@ -266,9 +266,9 @@ Hello World!
 root@sy-web-01$
 ```
 
-Local terminal:
+**Local terminal:**
 
-```
+```bash
 sylvain@ubuntu$ curl 34.198.248.145/
 Hello World!
 sylvain@ubuntu$ curl -sI 34.198.248.145/
