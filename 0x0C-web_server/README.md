@@ -1,4 +1,4 @@
-![Web Servers](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png)
+![Web Servers](images/web_server.png)
 
 Background Context
 
