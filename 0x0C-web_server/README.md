@@ -94,14 +94,13 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz questions
 
-Question #0
+### Question #0
+
 A DNS CNAME record translates to
 
+- [ ] a domain
 
-a domain
-
-
-an IP
+- [ ] an IP
 
 ### Question #1
 
