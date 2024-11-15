@@ -377,7 +377,7 @@ When your domain name is setup, please verify the Registrar here: [https://whois
 ### 3. Redirection
 
 Readme:
-- [Replace a line with multiple lines with sed](https://intranet.alxswe.com/rltoken/RRP9hX3MlQdABaKZD-Y_cA)
+- [Replace a line with multiple lines with sed](https://stackoverflow.com/questions/26041088/sed-replace-line-with-multiline-variable)
 
 Configure your Nginx server so that /redirect_me is redirecting to another page.
 
