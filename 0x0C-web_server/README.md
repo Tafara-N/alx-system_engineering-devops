@@ -31,7 +31,7 @@ As you can tell, I am not using `emacs` to perform the task in my answer file. T
 
 A good Software Engineer is a [lazy Software Engineer](https://www.techwell.com/techwell-insights/2013/12/why-best-programmers-are-lazy-and-act-dumb).
 
-![Nice Try](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/82VsYEC.jpg)
+![Nice Try](images/nice_try.jpg)
 
 Tips: to test your answer Bash script, feel free to reproduce the checker environment:
 
