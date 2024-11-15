@@ -115,17 +115,15 @@ a time period when DNS is not answering requests
 
 a time period for DNS maintenance
 
-Question #2
+### Question #2
+
 The main role of a web server is to
 
+- [ ] serve dynamic content
 
-serve dynamic content
+- [ ] serve static content
 
-
-serve static content
-
-
-host files
+- [ ] host files
 
 ### Question #3
 
