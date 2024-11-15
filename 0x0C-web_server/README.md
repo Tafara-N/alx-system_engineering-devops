@@ -47,7 +47,7 @@ Tips: to test your answer Bash script, feel free to reproduce the checker enviro
 - [How to Configure Nginx](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
 - [Child process concept page](https://intranet.alxswe.com/concepts/110)
 - [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
-- [HTTP requests](https://intranet.alxswe.com/rltoken/sBrrP4EAmI3NoYjIgZrUhw)
+- [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
 - [HTTP redirection](https://intranet.alxswe.com/rltoken/Eaa4ZuKvye941hTkP8VlBQ)
 - [Not found HTTP response code](https://intranet.alxswe.com/rltoken/eJSp2QFTY6jqqNtz8OVDEw)
 - [Logs files on Linux](https://intranet.alxswe.com/rltoken/7WMNY5CWD-CBrxmQrdmfPg)
