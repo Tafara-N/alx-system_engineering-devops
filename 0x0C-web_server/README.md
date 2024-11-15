@@ -184,14 +184,13 @@ submit data
 
 delete data
 
-Question #8
+### Question #8
+
 A DNS A record translates to
 
+- [ ] a domain
 
-a domain
-
-
-an IP
+- [ ] an IP
 
 ### Question #9
 
