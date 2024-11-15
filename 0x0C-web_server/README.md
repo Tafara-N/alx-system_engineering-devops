@@ -49,7 +49,7 @@ Tips: to test your answer Bash script, feel free to reproduce the checker enviro
 - [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
 - [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
 - [HTTP redirection](https://moz.com/learn/seo/redirection)
-- [Not found HTTP response code](https://intranet.alxswe.com/rltoken/eJSp2QFTY6jqqNtz8OVDEw)
+- [Not found HTTP response code](https://en.wikipedia.org/wiki/HTTP_404)
 - [Logs files on Linux](https://intranet.alxswe.com/rltoken/7WMNY5CWD-CBrxmQrdmfPg)
 
 ## For reference:
