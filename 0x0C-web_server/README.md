@@ -127,17 +127,15 @@ serve static content
 
 host files
 
-Question #3
+### Question #3
+
 What was one of the most important reason for which DNS was created
 
+- [ ] because humans are not good at remembering long sequences of numbers (IP address)
 
-because humans are not good at remembering long sequences of numbers (IP address)
+- [ ] to connect the Internet
 
-
-to connect the Internet
-
-
-to index the web
+- [ ] to index the web
 
 ### Question #4
 
