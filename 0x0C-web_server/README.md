@@ -379,7 +379,7 @@ When your domain name is setup, please verify the Registrar here: [https://whois
 Readme:
 - [Replace a line with multiple lines with sed](https://stackoverflow.com/questions/26041088/sed-replace-line-with-multiline-variable)
 
-Configure your Nginx server so that /redirect_me is redirecting to another page.
+Configure your Nginx server so that `/redirect_me` is redirecting to another page.
 
 Requirements:
 - The redirection must be a “301 Moved Permanently”
@@ -388,7 +388,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ curl -sI 34.198.248.145/redirect_me/
 HTTP/1.1 301 Moved Permanently
 Server: nginx/1.4.6 (Ubuntu)
@@ -417,7 +417,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ curl -sI 34.198.248.145/xyz
 HTTP/1.1 404 Not Found
 Server: nginx/1.4.6 (Ubuntu)
