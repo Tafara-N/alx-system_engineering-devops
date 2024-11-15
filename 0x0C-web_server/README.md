@@ -92,6 +92,119 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 - You can’t use `systemctl` for restarting a process
 
+## Quiz questions
+
+Question #0
+A DNS CNAME record translates to
+
+
+a domain
+
+
+an IP
+
+Question #1
+What is TTL within the context of DNS
+
+
+a time period when DNS query results are cached
+
+
+a time period when DNS is not answering requests
+
+
+a time period for DNS maintenance
+
+Question #2
+The main role of a web server is to
+
+
+serve dynamic content
+
+
+serve static content
+
+
+host files
+
+Question #3
+What was one of the most important reason for which DNS was created
+
+
+because humans are not good at remembering long sequences of numbers (IP address)
+
+
+to connect the Internet
+
+
+to index the web
+
+Question #4
+A web server is
+
+
+a software
+
+
+a physical machine
+
+Question #5
+Why web servers usually use child processes?
+
+
+That’s just a subjective technical choice from the developers who created the software
+
+
+So that the web server can dynamically change the number of child process to accommodate the volume of requests to be processed
+
+
+To prevent memory leak
+
+Question #6
+The main role of DNS is to
+
+
+translate domain name into IP address
+
+
+translate domain name into port
+
+
+name websites
+
+Question #7
+A HTTP GET request is to
+
+
+request data
+
+
+submit data
+
+
+delete data
+
+Question #8
+A DNS A record translates to
+
+
+a domain
+
+
+an IP
+
+Question #9
+A HTTP POST request is to
+
+
+request data
+
+
+submit data
+
+
+delete data
+
 ## Tasks
 
 ### 0. Transfer a file to your server
