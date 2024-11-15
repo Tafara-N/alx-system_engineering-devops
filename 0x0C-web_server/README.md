@@ -103,17 +103,15 @@ a domain
 
 an IP
 
-Question #1
+### Question #1
+
 What is TTL within the context of DNS
 
+- [ ] a time period when DNS query results are cached
 
-a time period when DNS query results are cached
+- [ ] a time period when DNS is not answering requests
 
-
-a time period when DNS is not answering requests
-
-
-a time period for DNS maintenance
+- [ ] a time period for DNS maintenance
 
 ### Question #2
 
