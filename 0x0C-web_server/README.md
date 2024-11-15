@@ -193,17 +193,15 @@ a domain
 
 an IP
 
-Question #9
+### Question #9
+
 A HTTP POST request is to
 
+- [ ] request data
 
-request data
+- [ ] submit data
 
-
-submit data
-
-
-delete data
+- [ ] delete data
 
 ## Tasks
 
