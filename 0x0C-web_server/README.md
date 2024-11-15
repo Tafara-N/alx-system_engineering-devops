@@ -148,17 +148,15 @@ a software
 
 a physical machine
 
-Question #5
+### Question #5
+
 Why web servers usually use child processes?
 
+- [ ] That’s just a subjective technical choice from the developers who created the software
 
-That’s just a subjective technical choice from the developers who created the software
+- [ ] So that the web server can dynamically change the number of child process to accommodate the volume of requests to be processed
 
-
-So that the web server can dynamically change the number of child process to accommodate the volume of requests to be processed
-
-
-To prevent memory leak
+- [ ] To prevent memory leak
 
 ### Question #6
 
