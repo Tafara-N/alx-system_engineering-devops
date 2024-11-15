@@ -160,29 +160,26 @@ So that the web server can dynamically change the number of child process to acc
 
 To prevent memory leak
 
-Question #6
+### Question #6
+
 The main role of DNS is to
 
+- [ ] translate domain name into IP address
 
-translate domain name into IP address
+- [ ] translate domain name into port
 
+- [ ] name websites
 
-translate domain name into port
-
-
-name websites
-
+###
 Question #7
+
 A HTTP GET request is to
 
+- [ ] request data
 
-request data
+- [ ] submit data
 
-
-submit data
-
-
-delete data
+- [ ] delete data
 
 ### Question #8
 
