@@ -1,3 +1,8 @@
+# Concepts
+*For this project, we expect you to look at this concept:*
+
+- [What is a Child Process?](https://intranet.alxswe.com/concepts/110)
+
 ![Web Servers](images/web_server.png)
 
 Background Context
