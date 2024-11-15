@@ -16,7 +16,7 @@ For example, if I need to create a file `/tmp/test` containing the string `hello
 
 But my answer file would contain:
 
-```
+```bash
 sylvain@ubuntu cat 88-script_example
 #!/usr/bin/env bash
 # Configuring a server with specification XYZ
