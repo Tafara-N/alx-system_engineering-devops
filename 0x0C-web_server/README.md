@@ -256,9 +256,9 @@ Requirements:
 - As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements (this script will be run on the server itself)
 - You can’t use `systemctl` for restarting `nginx`
 
-Server terminal:
+**Server terminal:**
 
-```
+```bash
 root@sy-web-01$ ./1-install_nginx_web_server > /dev/null 2>&1
 root@sy-web-01$
 root@sy-web-01$ curl localhost
