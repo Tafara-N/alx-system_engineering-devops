@@ -139,14 +139,13 @@ to connect the Internet
 
 to index the web
 
-Question #4
+### Question #4
+
 A web server is
 
+- [ ] a software
 
-a software
-
-
-a physical machine
+- [ ] a physical machine
 
 ### Question #5
 
