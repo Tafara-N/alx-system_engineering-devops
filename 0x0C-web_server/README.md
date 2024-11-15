@@ -309,13 +309,22 @@ root@ubuntu#
 - Access the [tools space](https://intranet.alxswe.com/dashboards/my_tools)
 - Unlock the **GitHub student pack**: WARNING - this invitation link is unique to you and can’t be reclaimed! If you have any issue, please contact [GitHub education support](https://support.github.com/request/landing)
 
+![GitHub Student Pack]()
+
 - When registered, access your [benefits](https://github.com/login?client_id=de7e3b6548f2ed9bbceb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dde7e3b6548f2ed9bbceb%26redirect_uri%3Dhttps%253A%252F%252Feducation.github.com%252Fauth%252Fgithubber%252Fcallback%26response_type%3Dcode%26scope%3Dread%253Auser%26state%3D3cbd7536e1f790e9f372dce1d64193884e9b0a0903eb9bba):
+
+![GitHub Student Pack Benefits]()
 
 - And scroll to **.Tech domain:**
 
+![.Tech Domain]()
 
 - Start to register your domain and checkout
 - At the Checkout step, please click on “Login with GitHub”:
+
+![Login with GitHub]()
+
+![Authprize .Tech Domains]()
 - The cost of the domain should be now at **$0**
 - You can finalize it by creating an account in [.Tech domains](https://get.tech/)
 - And manage your domain there!
@@ -326,9 +335,10 @@ Requirement:
 - provide the domain name only (example: `foobar.tech`), no subdomain (example: `www.foobar.tech`)
 - configure your DNS records with an A entry so that your root domain points to your `web-01` IP address **Warning: the propagation of your records can take time (~1-2 hours)**
 - go to [your profile](https://intranet.alxswe.com/users/my_profile) and enter your domain in the `Project website url` field
+
 Example:
 
-```
+```bash
 sylvain@ubuntu$ cat 2-setup_a_domain_name
 myschool.tech
 sylvain@ubuntu$
