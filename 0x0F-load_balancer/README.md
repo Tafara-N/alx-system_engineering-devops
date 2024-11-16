@@ -1,6 +1,7 @@
 ![Load Balancer](images/load_balancer.png)
 
 # Background Context
+
 You have been given 2 additional servers:
 - gc-[STUDENT_ID]-web-02-XXXXXXXXXX
 - gc-[STUDENT_ID]-lb-01-XXXXXXXXXX
