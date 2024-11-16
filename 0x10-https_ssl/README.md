@@ -1,3 +1,10 @@
+# Concepts
+
+*For this project, we expect you to look at these concepts:*
+
+- [DNS]()
+- [Web stack debugging]()
+
 ![HTTPS/SSL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/276/FlhGPEK.png)
 
 # Background Context
