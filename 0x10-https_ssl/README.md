@@ -198,7 +198,7 @@ The file `100-redirect_http_to_https` must be your HAproxy configuration file
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ curl -sIL http://www.holberton.online
 HTTP/1.1 301 Moved Permanently
 Content-length: 0
