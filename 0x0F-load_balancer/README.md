@@ -1,3 +1,9 @@
+# Concepts
+For this project, we expect you to look at these concepts:
+
+Load balancer
+Web stack debugging
+
 ![Load Balancer](images/load_balancer.png)
 
 # Background Context
