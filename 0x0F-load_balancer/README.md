@@ -62,7 +62,7 @@ X-Served-By: 03-web-02
 sylvain@ubuntu$
 ```
 
-If your server’s hostnames are not properly configured (`[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02.`), follow this [tutorial](https://intranet.alxswe.com/rltoken/qSor8ulAHl4HedrO6KJEoQ).
+If your server’s hostnames are not properly configured (`[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02.`), follow this [tutorial](https://repost.aws/knowledge-center/linux-static-hostname).
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
