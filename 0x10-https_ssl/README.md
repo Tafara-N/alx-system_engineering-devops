@@ -45,6 +45,44 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
+## Quiz questions
+
+### Question #0
+What is HTTPS?
+
+
+A secure version of HTTP
+
+
+A faster version of HTTP
+
+
+A superior version of HTTP
+
+Question #1
+Why do you need HTTPS?
+
+
+To encrypt credit card and social security number information going between the client and the website servers
+
+
+To encrypt all communication between the client and the website servers
+
+
+To accelerate the communication between the client and the website servers
+
+Question #2
+You want to setup HTTPS on your website, where shall you place the certificate?
+
+
+In a secure location where nobody can access it
+
+
+You can host it anywhere but you have to share the link to it on your website
+
+
+On your website web server(s)
+
 ## Tasks
 
 ### 0. World wide web
