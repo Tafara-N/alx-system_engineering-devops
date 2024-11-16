@@ -34,6 +34,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What SSL termination means
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 16.04 LTS
