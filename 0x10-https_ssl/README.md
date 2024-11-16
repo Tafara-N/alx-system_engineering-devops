@@ -112,7 +112,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ dig www.holberton.online | grep -A1 'ANSWER SECTION:'
 ;; ANSWER SECTION:
 www.holberton.online.   87  IN  A   54.210.47.110
