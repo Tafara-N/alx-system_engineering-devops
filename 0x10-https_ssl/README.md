@@ -3,7 +3,7 @@
 *For this project, we expect you to look at these concepts:*
 
 - [DNS](https://intranet.alxswe.com/concepts/12)
-- [Web stack debugging]()
+- [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
 ![HTTPS/SSL](images/https_ssl.png)
 
