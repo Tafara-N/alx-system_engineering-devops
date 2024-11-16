@@ -17,7 +17,7 @@
 **Read or watch:**
 - [What is HTTPS?](https://www.instantssl.com/http-vs-https)
 - [What are the 2 main elements that SSL is providing](https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html)
-- [HAProxy SSL termination on Ubuntu16.04](https://intranet.alxswe.com/rltoken/asrMHTWJxWQ2x-Sn6snHow)
+- [HAProxy SSL termination on Ubuntu16.04](https://docs.ionos.com/cloud)
 - [SSL termination](https://intranet.alxswe.com/rltoken/CKUICfppIWI6UC0coEMB8g)
 - [Bash function](https://intranet.alxswe.com/rltoken/zPjZ7-eSSQsLFsGA16C1HQ)
 
