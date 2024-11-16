@@ -15,7 +15,7 @@
 # Resources
 
 **Read or watch:**
-- [What is HTTPS?](https://intranet.alxswe.com/rltoken/XT1BAiBL3Jpq1bn1q6IYXQ)
+- [What is HTTPS?](https://www.instantssl.com/http-vs-https)
 - [What are the 2 main elements that SSL is providing](https://intranet.alxswe.com/rltoken/STj5WkAPACBxOvwB77Ycrw)
 - [HAProxy SSL termination on Ubuntu16.04](https://intranet.alxswe.com/rltoken/asrMHTWJxWQ2x-Sn6snHow)
 - [SSL termination](https://intranet.alxswe.com/rltoken/CKUICfppIWI6UC0coEMB8g)
@@ -26,7 +26,7 @@
 - `dig`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/fJ20wsMngb_yNAhGgBwzlQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - What is HTTPS SSL 2 main roles
