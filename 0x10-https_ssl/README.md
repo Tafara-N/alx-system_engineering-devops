@@ -158,11 +158,11 @@ Requirements:
 
 The file `1-haproxy_ssl_termination` must be your HAproxy configuration file
 
-Make sure to install HAproxy 1.5 or higher, [SSL termination](https://intranet.alxswe.com/rltoken/CKUICfppIWI6UC0coEMB8g) is not available before v1.5.
+Make sure to install HAproxy 1.5 or higher, [SSL termination](https://en.wikipedia.org/wiki/TLS_termination_proxy) is not available before v1.5.
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ curl -sI https://www.holberton.online
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
