@@ -2,13 +2,14 @@
 
 *For this project, we expect you to look at these concepts:*
 
-- [DNS]()
+- [DNS](https://intranet.alxswe.com/concepts/12)
 - [Web stack debugging]()
 
-![HTTPS/SSL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/276/FlhGPEK.png)
+![HTTPS/SSL](images/https_ssl.png)
 
 # Background Context
-### What happens when you don’t secure your website traffic?
+
+## What happens when you don’t secure your website traffic?
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/276/xCmOCgw.gif)
 
 # Resources
