@@ -83,7 +83,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ curl -Is 54.210.47.110
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
