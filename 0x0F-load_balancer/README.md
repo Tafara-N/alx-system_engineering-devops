@@ -78,7 +78,7 @@ Requirements:
 - Configure HAproxy so that it send traffic to web-01 and web-02
 - Distribute requests using a roundrobin algorithm
 - Make sure that HAproxy can be managed via an init script
-- Make sure that your servers are configured with the right hostnames: `[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02`. If not, follow this [tutorial](https://intranet.alxswe.com/rltoken/qSor8ulAHl4HedrO6KJEoQ).
+- Make sure that your servers are configured with the right hostnames: `[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02`. If not, follow this [tutorial](https://docs.aws.amazon.com/linux/al2/ug/set-hostname.html).
 - For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements
 
 Example:
