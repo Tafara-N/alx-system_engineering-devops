@@ -158,9 +158,9 @@ Having a replica member on for your MySQL database has 2 advantages:
 
 Example:
 
-# `web-01`
+**`web-01`**
 
-```
+```bash
 ubuntu@web-01:~$ mysql -uholberton_user -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
