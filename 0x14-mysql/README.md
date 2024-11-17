@@ -1,3 +1,10 @@
+# Concepts
+*For this project, we expect you to look at these concepts:*
+
+[How to : ] Fresh Reset and Install mysql 5.7
+Database administration
+Web stack debugging
+
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
 
 # Resources
