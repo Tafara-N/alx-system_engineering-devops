@@ -1,7 +1,7 @@
 # Concepts
 *For this project, we expect you to look at these concepts:*
 
-- [[How to : ] Fresh Reset and Install mysql 5.7]()
+- [[How to : ] Fresh Reset and Install mysql 5.7](https://intranet.alxswe.com/concepts/100002)
 - [Database administration]()
 - [Web stack debugging]()
 
