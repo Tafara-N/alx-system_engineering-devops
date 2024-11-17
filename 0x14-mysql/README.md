@@ -5,7 +5,7 @@
 - [Database administration](https://intranet.alxswe.com/concepts/49)
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
+![mySQL](images/mysql.png)
 
 # Resources
 
