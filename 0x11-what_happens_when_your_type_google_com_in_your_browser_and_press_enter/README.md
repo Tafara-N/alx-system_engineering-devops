@@ -57,7 +57,7 @@ The diagram should show:
 - that the application server generates the web page
 - that the application server request data from the database
 
-[Gliffy](https://intranet.alxswe.com/rltoken/0KvO5Zd6t2GfDUiUHvNJjQ) is free and what I personally use, but feel free to use what fits you best.
+[Gliffy](https://www.gliffy.com/) is free and what I personally use, but feel free to use what fits you best.
 
 Some unrelated examples:
 
