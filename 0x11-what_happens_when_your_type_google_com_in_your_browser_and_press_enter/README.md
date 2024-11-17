@@ -78,7 +78,7 @@ Please, remember that these blogs must be written in English to further your tec
 
 Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.
 
-[https://github.com/alex/what-happens-when#the-g-key-is-pressed](https://intranet.alxswe.com/rltoken/Y6AFxnDhJBV4uz58gFOO4g)
+[https://github.com/alex/what-happens-when#the-g-key-is-pressed](https://github.com/alex/what-happens-when#the-g-key-is-pressed)
 
 Requirements:
 
