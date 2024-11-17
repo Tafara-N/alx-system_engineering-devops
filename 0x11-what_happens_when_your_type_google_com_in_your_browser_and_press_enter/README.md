@@ -61,8 +61,9 @@ The diagram should show:
 
 Some unrelated examples:
 
-![](http://i.imgur.com/i9ivkdo.png)
-![](http://i.imgur.com/R8R3sqC.png)
+![Example 1](images/example_1.png)
+
+![Example 2](images/example_2.png)
 
 Share the URL of your diagram image in your answer file and il the field below.
 
