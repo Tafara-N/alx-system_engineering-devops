@@ -271,7 +271,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 ubuntu@03-web-01:~$ ls
 5-mysql_backup
 ubuntu@03-web-01:~$ ./5-mysql_backup mydummypassword
