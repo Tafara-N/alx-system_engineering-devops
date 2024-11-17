@@ -2,7 +2,7 @@
 *For this project, we expect you to look at these concepts:*
 
 - [[How to : ] Fresh Reset and Install mysql 5.7](https://intranet.alxswe.com/concepts/100002)
-- [Database administration]()
+- [Database administration](https://intranet.alxswe.com/concepts/49)
 - [Web stack debugging]()
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
