@@ -46,7 +46,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 First things first, let’s get MySQL installed on **both** your web-01 and web-02 servers.
 
 - MySQL distribution must be 5.7.x
-- Make sure that [task #3](https://intranet.alxswe.com/tasks/1372) of your SSH [project](https://intranet.alxswe.com/rltoken/Wx_BrR5Sk8s3Ywl44-33wg) is completed for `web-01` and `web-02`. The checker will connect to your servers to check MySQL status
+- Make sure that [task #3](https://intranet.alxswe.com/tasks/1372) of your [SSH project](https://github.com/Tafara-N/alx-system_engineering-devops/tree/985fbc498bea2a6bf241e556ca5298d29d44b298/0x0B-ssh) is completed for `web-01` and `web-02`. The checker will connect to your servers to check MySQL status
 - Please make sure you have your `README.md` pushed to GitHub.
 
 Example:
