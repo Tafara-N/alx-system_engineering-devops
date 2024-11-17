@@ -138,14 +138,14 @@ ubuntu@229-web-01:~$
 
 ### 4. Setup a Primary-Replica infrastructure using MySQL
 
-![](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x14-mysql/images/mysql.gif)
+![MySQL Gif](images/mysql.gif)
 
 Having a replica member on for your MySQL database has 2 advantages:
 
 - Redundancy: If you lose one of the database servers, you will still have another working one and a copy of your data
 - Load distribution: You can split the read operations between the 2 servers, reducing the load on the primary member and improving query response speed
 
-# Requirements:
+## Requirements:
 - MySQL primary must be hosted on `web-01` - do not use the `bind-address`, just comment out this parameter
 - MySQL replica must be hosted on `web-02`
 - Setup replication for the MySQL database named `tyrell_corp`
