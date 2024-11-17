@@ -18,7 +18,7 @@
 - `mysqldump`
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/Lotf0yqq3mNeFHkrW67CZQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 # General
 - What is the main role of a database
