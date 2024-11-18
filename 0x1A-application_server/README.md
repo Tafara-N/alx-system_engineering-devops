@@ -18,7 +18,7 @@ Your web infrastructure is already serving web pages via `Nginx` that you instal
 - [Application server vs web server](https://www.f5.com/glossary)
 - [How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04) (As mentioned in the video, do **not** install Gunicorn using `virtualenv`, just install everything globally)
 - [Running Gunicorn](https://docs.gunicorn.org/en/latest/run.html)
-- [Be careful with the way Flask manages slash](https://intranet.alxswe.com/rltoken/zTCSTQxrH2za4hxbkt8K3g) in [route](https://intranet.alxswe.com/rltoken/n5A0nmah-Si78zbNvdb4GA) - `strict_slashes`
+- [Be careful with the way Flask manages slash](https://werkzeug.palletsprojects.com/en/stable/) in [route](https://intranet.alxswe.com/rltoken/n5A0nmah-Si78zbNvdb4GA) - `strict_slashes`
 - [Upstart documentation](https://intranet.alxswe.com/rltoken/cldrneY3Qr7LlDysygzRHw)
 
 # Requirements
