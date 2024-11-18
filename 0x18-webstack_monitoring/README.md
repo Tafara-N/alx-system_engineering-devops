@@ -16,11 +16,11 @@ Web stack monitoring can be broken down into 2 categories:
 - Application monitoring: getting data about your running software and making sure it is behaving as expected
 - Server monitoring: getting data about your virtual or physical server and making sure they are not overloaded (could be CPU, memory, disk or network overload)
 
-![Monitor All things](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/ktCXnhE.jpg)
+![Monitor All things](images/monitor_everything.jpg)
 
 # Resources
 
-## Read or watch:
+**Read or watch:**
 - [What is server monitoring](https://intranet.alxswe.com/rltoken/km_XUDAfXEBoXZQsIWEo5Q)
 - [What is application monitoring](https://intranet.alxswe.com/rltoken/z9jsikINjrsUo2QY5_Xz8g)
 - [System monitoring by Google](https://intranet.alxswe.com/rltoken/_8KIbIUNzMgKi_LiGMBWAw)
