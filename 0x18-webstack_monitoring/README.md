@@ -27,7 +27,7 @@ Web stack monitoring can be broken down into 2 categories:
 - [Nginx logging and monitoring](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/Bd9r8twsVT3S_8j7-kOLrg), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - Why is monitoring needed
