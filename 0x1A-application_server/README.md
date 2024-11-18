@@ -242,7 +242,7 @@ vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-dynamic/number_odd_or_even/6
 
 ### 4. Let's do this for your API
 
-Let’s serve what you built for [AirBnB clone v3 - RESTful API](https://intranet.alxswe.com/rltoken/QXJ9ryafcRfd_cARiugRiQ) on `web-01`.
+Let’s serve what you built for [AirBnB clone v3 - RESTful API](https://intranet.alxswe.com/projects/301) on `web-01`.
 
 Requirements:
 
