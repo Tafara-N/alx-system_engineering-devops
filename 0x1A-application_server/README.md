@@ -297,7 +297,7 @@ Requirements:
 
 After loading, your website should look like this:
 
-![HBnB page](hbnb.png)
+![HBnB page](images/hbnb.png)
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
