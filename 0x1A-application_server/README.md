@@ -40,7 +40,7 @@ Your web infrastructure is already serving web pages via `Nginx` that you instal
 
 ### 0. Set up development with Python
 
-Let’s serve what you built for [AirBnB clone v2 - Web framework](https://intranet.alxswe.com/rltoken/uEAW4JG-DyhtSjYNP9o1mQ) on `web-01`. This task is an exercise in setting up your development environment, which is used for testing and debugging your code before deploying it to production.
+Let’s serve what you built for [AirBnB clone v2 - Web framework](https://intranet.alxswe.com/projects/290) on `web-01`. This task is an exercise in setting up your development environment, which is used for testing and debugging your code before deploying it to production.
 
 Requirements:
 
