@@ -6,7 +6,7 @@
 - [Server](https://intranet.alxswe.com/concepts/67)
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![Application Server](application_server.jpg)
+![Application Server](images/application_server.jpg)
 
 # Background Context
 
@@ -15,7 +15,6 @@ Your web infrastructure is already serving web pages via `Nginx` that you instal
 # Resources
 
 **Read or watch:**
-
 - [Application server vs web server](https://intranet.alxswe.com/rltoken/meOqLRoAcbQENYWfzui7OQ)
 - [How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04](https://intranet.alxswe.com/rltoken/kpG6RwmwRJHzRmGUM_ERcA) (As mentioned in the video, do **not** install Gunicorn using `virtualenv`, just install everything globally)
 - [Running Gunicorn](https://intranet.alxswe.com/rltoken/2LF1j7xKJGYaUtD1HKgUeQ)
