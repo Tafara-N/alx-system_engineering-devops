@@ -24,7 +24,7 @@ Web stack monitoring can be broken down into 2 categories:
 - [What is server monitoring](https://www.sumologic.com/glossary/server-monitoring/)
 - [What is application monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [System monitoring by Google](https://sre.google/sre-book/monitoring-distributed-systems/)
-- [Nginx logging and monitoring](https://intranet.alxswe.com/rltoken/V3GsrDcMHPdgrizShj4RCg)
+- [Nginx logging and monitoring](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/Bd9r8twsVT3S_8j7-kOLrg), **without the help of Google:**
