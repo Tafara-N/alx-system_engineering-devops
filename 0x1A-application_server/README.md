@@ -182,7 +182,7 @@ Requirements:
 
 Tips:
 
-- Check out these articles/docs for clues on how to configure `Nginx`: [Understanding Nginx Server and Location Block Selection Algorithms](https://intranet.alxswe.com/rltoken/0xFZ6umndhIH19cSGFnexg), [Understanding Nginx Location Blocks Rewrite Rules](https://intranet.alxswe.com/rltoken/ogjtMopkJjRSToliXzemGQ), [Nginx Reverse Proxy](https://intranet.alxswe.com/rltoken/8O-01TMh2X22EmYNps0X-Q).
+- Check out these articles/docs for clues on how to configure `Nginx`: [Understanding Nginx Server and Location Block Selection Algorithms](https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms#matching-location-blocks), [Understanding Nginx Location Blocks Rewrite Rules](https://intranet.alxswe.com/rltoken/ogjtMopkJjRSToliXzemGQ), [Nginx Reverse Proxy](https://intranet.alxswe.com/rltoken/8O-01TMh2X22EmYNps0X-Q).
 - In order to spin up a Gunicorn instance as a detached process you can use the terminal multiplexer utility `tmux`. Enter the command `tmux new-session -d 'gunicorn --bind 0.0.0.0:5001 web_flask.6-number_odd_or_even:app'` and if successful you should see no output to the screen. You can verify that the process has been created by running `pgrep gunicorn` to see its PID. Once you’re ready to end the process you can either run `tmux a` to reattach to the processes, or you can run `kill <PID>` to terminate the background process by ID.
 
 Example:
