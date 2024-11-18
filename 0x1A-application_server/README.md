@@ -250,7 +250,7 @@ Requirements:
 - Setup `Nginx` so that the route `/api/` points to a `Gunicorn` instance listening on port `5002`
 - `Nginx` must serve this page both locally and on its public IP on port `80`
 - To test your setup you should bind `Gunicorn` to `api/v1/app.py`
-- It may be helpful to import your data (and environment variables) from [this project](https://intranet.alxswe.com/rltoken/ZSQFQJPNTKrRdXynG6PWEw)
+- It may be helpful to import your data (and environment variables) from [this project](https://intranet.alxswe.com/projects/289)
 - Upload your `Nginx` config file as `4-app_server-nginx_config`
 
 Example:
