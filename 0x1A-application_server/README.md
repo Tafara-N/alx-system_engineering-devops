@@ -282,7 +282,7 @@ vagrant@ubuntu-xenial:~$
 
 ### 5. Serve your AirBnB clone
 
-Let’s serve what you built for [AirBnB clone - Web dynamic](https://intranet.alxswe.com/rltoken/RxqcMPx7OaDUPPtQfGJDUg) on `web-01`.
+Let’s serve what you built for [AirBnB clone - Web dynamic](https://intranet.alxswe.com/projects/309) on `web-01`.
 
 Requirements:
 
