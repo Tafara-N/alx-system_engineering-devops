@@ -86,7 +86,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 sylvain@ubuntu$ ls
 1-create_ssh_key_pair
 sylvain@ubuntu$ ./1-create_ssh_key_pair
