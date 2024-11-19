@@ -24,7 +24,7 @@ You can access your server information in the [my servers](https://intranet.alxs
 - [Secure Shell Wiki](https://en.wikipedia.org/wiki/Secure_Shell)
 - [IETF RFC 4251 (Description of the SSH Protocol)](https://www.ietf.org/rfc/rfc4251.txt)
 - [Internet Engineering Task Force](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)
-- [Request for Comments](https://intranet.alxswe.com/rltoken/jb-IrnQnUh-PsEDlbAU0Kw)
+- [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 
 **man or help:**
 - `ssh`
