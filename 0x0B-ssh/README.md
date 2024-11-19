@@ -1,4 +1,5 @@
-# Background Context  
+# Background Context
+
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/244/zPVRKhPsUP5lK.gif)
 
 Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using `ssh`. But contrary to level 2, you will not connect using a password but an RSA key. We’ve configured your server with the public key you created in the first task of a [previous project](https://intranet.alxswe.com/rltoken/UQIQV4HJGvBv0qrHhlDFaQ) shared in your [intranet profile](https://intranet.alxswe.com/rltoken/8ZlNV0J-sa-dijhmhJolOg).
@@ -65,14 +66,14 @@ Requirements:
 sylvain@ubuntu$ ./0-use_a_private_key
 ubuntu@server01:~$ exit
 Connection to 8.8.8.8 closed.
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0B-ssh`
 - File: `0-use_a_private_key`
-    
+
 ### 1. Create an SSH key pair
 
 Write a Bash script that creates an RSA key pair.
@@ -107,14 +108,14 @@ The key's randomart image is:
 +-----------------+
 sylvain@ubuntu$ ls
 1-create_ssh_key_pair school  school.pub
-sylvain@ubuntu$ 
+sylvain@ubuntu$
 ```
 
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0B-ssh`
 - File: `1-create_ssh_key_pair`
-    
+
 ### 2. Client configuration file
 
 Your machine has an SSH configuration file for the local SSH client, let’s configure it to our needs so that you can connect to a server without typing a password. Share your SSH client configuration in your answer file.
@@ -176,7 +177,7 @@ In the example above, we can see that `ssh` tries to authenticate using `school`
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0B-ssh`
 - File: `2-ssh_config`
-   
+
 ### 3. Let me in!
 
 Now that you have successfully connected to your server, we would also like to join the party.
@@ -190,7 +191,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId
 **Repo:**
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0B-ssh`
-   
+
 ### 4. Client configuration file (w/ Puppet)
 
 Let’s practice using Puppet to make changes to our configuration file. Just as in the previous configuration file task, we’d like you to set up your client SSH configuration file so that you can connect to a server without typing a password.
