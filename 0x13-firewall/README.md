@@ -71,17 +71,15 @@ A hardware or software security system
 
 A software security system
 
-Question #2
+### Question #2
+
 What are the 2 types of firewall?
 
+- [ ] Soft and hard firewall
 
-Soft and hard firewall
+- [ ] Incoming and outgoing firewall
 
-
-Incoming and outgoing firewall
-
-
-Network and host-based firewall
+- [ ] Network and host-based firewall
 
 ### Question #3
 
