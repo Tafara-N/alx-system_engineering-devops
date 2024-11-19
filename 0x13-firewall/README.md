@@ -35,7 +35,7 @@ We can see for this example that the connection is successful: `Connected to web
 
 Now let’s try connecting to port 2222:
 
-```bashh
+```bash
 sylvain@ubuntu$ telnet web-02.holberton.online 2222
 Trying 54.89.38.100...
 ^C
