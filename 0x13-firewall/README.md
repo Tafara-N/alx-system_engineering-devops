@@ -5,7 +5,8 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/155/holbertonschool-firewall.gif)
 
 # Resources
-## Read or watch:
+
+**Read or watch:**
 - [What is a firewall](https://intranet.alxswe.com/rltoken/vjB4LyHRdtEImzZcuD89ZQ)
 
 # More Info
