@@ -83,17 +83,15 @@ Incoming and outgoing firewall
 
 Network and host-based firewall
 
-Question #3
+### Question #3
+
 What is the main function of a firewall?
 
+- [ ] To filter incoming and outgoing network traffic
 
-To filter incoming and outgoing network traffic
+- [ ] To filter incoming and outgoing TCP traffic
 
-
-To filter incoming and outgoing TCP traffic
-
-
-To filter outgoing traffic
+- [ ] To filter outgoing traffic
 
 ### Question #4
 
