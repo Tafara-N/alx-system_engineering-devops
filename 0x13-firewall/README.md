@@ -59,17 +59,15 @@ A hardware or software security system
 
 A software security system
 
-Question #1
+### Question #1
+
 What is a firewall?
 
+- [ ] A hardware security system
 
-A hardware security system
+- [ ] A hardware or software security system
 
-
-A hardware or software security system
-
-
-A software security system
+- [ ] A software security system
 
 ### Question #2
 
