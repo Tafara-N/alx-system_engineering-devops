@@ -74,7 +74,7 @@ Requirements:
 
 Terminal in `web-01`:
 
-```
+```bash
 root@03-web-01:~# netstat -lpn
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address Foreign Address State PID/Program name
