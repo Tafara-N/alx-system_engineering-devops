@@ -110,7 +110,7 @@ root@03-web-01:~#
 
 Terminal in `web-02`:
 
-```
+```bash
 ubuntu@03-web-02:~$ curl -sI web-01.holberton.online:80
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
