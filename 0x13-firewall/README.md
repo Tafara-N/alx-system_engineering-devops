@@ -111,14 +111,11 @@ Network and host-based firewall
 
 What is the main function of a firewall?
 
+- [ ] To filter incoming and outgoing network traffic
 
-To filter incoming and outgoing network traffic
+- [ ] To filter incoming and outgoing TCP traffic
 
-
-To filter incoming and outgoing TCP traffic
-
-
-To filter outgoing traffic
+- [ ] To filter outgoing traffic
 
 ## Tasks
 
