@@ -95,17 +95,15 @@ To filter incoming and outgoing TCP traffic
 
 To filter outgoing traffic
 
-Question #4
+### Question #4
+
 What are the 2 types of firewall:
 
+- [ ] Soft and hard firewall
 
-Soft and hard firewall
+- [ ] Incoming and outgoing firewall
 
-
-Incoming and outgoing firewall
-
-
-Network and host-based firewall
+- [ ] Network and host-based firewall
 
 ### Question #5
 
