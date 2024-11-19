@@ -9,7 +9,8 @@ You can access your server information in the [my servers](https://intranet.alxs
 **Note:** Your server is configured with an Ubuntu 20.04 LTS environment.
 
 # Resources
-## Read or watch:
+
+**Read or watch:**
 - [What is a (physical) server - text](https://intranet.alxswe.com/rltoken/dkgW9lKiBRiUZHfq0MDJuw)
 - [What is a (physical) server - video](https://intranet.alxswe.com/rltoken/AxFcTdcXUCsrVp01X_EbFA)
 - [SSH essentials](https://intranet.alxswe.com/rltoken/ux0eM1QU9reNyG45b0erAQ)
