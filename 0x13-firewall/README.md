@@ -47,17 +47,15 @@ Note that the school network is filtering outgoing connections (via a network-ba
 
 ## Quiz questions
 
-Question #0
+### Question #0
+
 What is a firewall?
 
+- [ ] A hardware security system
 
-A hardware security system
+- [ ] A hardware or software security system
 
-
-A hardware or software security system
-
-
-A software security system
+- [ ] A software security system
 
 ### Question #1
 
