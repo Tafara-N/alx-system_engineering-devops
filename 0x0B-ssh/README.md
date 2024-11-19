@@ -203,7 +203,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 vagrant@ubuntu:~$ sudo puppet apply 100-puppet_ssh_config.pp
 Notice: Compiled catalog for ubuntu-xenial in environment production in 0.11 seconds
 Notice: /Stage[main]/Main/File_line[Turn off passwd auth]/ensure: created
