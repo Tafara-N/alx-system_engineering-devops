@@ -108,7 +108,7 @@ root@03-web-01:~#
 - My web server `nginx` is only listening on port `80`
 - `netstat` shows that nothing is listening on `8080`
 
-Terminal in `web-02`:
+**Terminal in `web-02`:**
 
 ```bash
 ubuntu@03-web-02:~$ curl -sI web-01.holberton.online:80
