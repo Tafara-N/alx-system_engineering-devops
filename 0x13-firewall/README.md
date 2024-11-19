@@ -3,12 +3,13 @@
 
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![Firewall](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/284/V1HjQ1Y.png)
+![Firewall](images/firewall.png)
 
 # Background Context
 
 **Your servers without a firewall…**
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/155/holbertonschool-firewall.gif)
+
+![Holberton School Firewall](images/holbertonschool_firewall.gif)
 
 # Resources
 
