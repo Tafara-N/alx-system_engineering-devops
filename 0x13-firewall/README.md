@@ -11,7 +11,7 @@
 # More Info
 As explained in the **web stack debugging guide** concept page, `telnet` is a very good tool to check if sockets are open with `telnet IP PORT`. For example, if you want to check if port 22 is open on `web-02`:
 
-```
+```bash
 sylvain@ubuntu$ telnet web-02.holberton.online 22
 Trying 54.89.38.100...
 Connected to web-02.holberton.online.
