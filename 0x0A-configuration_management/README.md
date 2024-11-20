@@ -27,6 +27,7 @@ That was me ^_^‘: [https://twitter.com/devopsreact/status/836971570136375296](
 - [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
 
 # Requirements
+
 ## General
 - All your files will be interpreted on Ubuntu 20.04 LTS
 - All your files should end with a new line
