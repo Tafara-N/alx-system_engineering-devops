@@ -39,7 +39,7 @@ That was me ^_^‘: [https://twitter.com/devopsreact/status/836971570136375296](
 
 ## Install **`puppet`**
 
-```
+```bash
 apt-get install -y ruby=1:2.7+1 --allow-downgrades
 apt-get install -y ruby-augeas
 apt-get install -y ruby-shadow
