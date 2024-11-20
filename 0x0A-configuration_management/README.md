@@ -130,7 +130,7 @@ Example:
 
 Terminal #0 - starting my process
 
-```
+```bash
 root@d391259bf577:/# cat killmenow
 #!/bin/bash
 while [[ true ]]
