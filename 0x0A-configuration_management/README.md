@@ -71,7 +71,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 root@6712bef7a528:~# puppet-lint --version
 puppet-lint 2.5.2
 root@6712bef7a528:~# puppet-lint 0-create_a_file.pp
