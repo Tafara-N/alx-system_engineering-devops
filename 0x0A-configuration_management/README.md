@@ -128,7 +128,7 @@ Requirements:
 
 Example:
 
-Terminal #0 - starting my process
+**Terminal #0 - starting my process**
 
 ```bash
 root@d391259bf577:/# cat killmenow
@@ -141,9 +141,9 @@ done
 root@d391259bf577:/# ./killmenow
 ```
 
-Terminal #1 - executing my manifest
+**Terminal #1 - executing my manifest**
 
-```
+```bash
 root@d391259bf577:/# puppet apply 2-execute_a_command.pp
 Notice: Compiled catalog for d391259bf577.hsd1.ca.comcast.net in environment production in 0.01 seconds
 Notice: /Stage[main]/Main/Exec[killmenow]/returns: executed successfully
