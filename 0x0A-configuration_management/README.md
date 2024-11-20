@@ -18,9 +18,9 @@ Obviously writing Puppet code for your infrastructure requires an investment of 
 That was me ^_^‘: [https://twitter.com/devopsreact/status/836971570136375296](https://twitter.com/devopsreact/status/836971570136375296)
 
 # Resources
-## Read or watch:
 
-- [Intro to Configuration Management](https://intranet.alxswe.com/rltoken/GL30hu-aRcKzPOvK8JO-Bg)
+**Read or watch:**
+- [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
 - [Puppet resource type: file](https://intranet.alxswe.com/rltoken/WON0M4DNRabf88KAG_pDUA) (*check “Resource types” for all manifest types in the left menu*)
 - [Puppet’s Declarative Language: Modeling Instead of Scripting](https://intranet.alxswe.com/rltoken/0V2fBdafkfKPMxA1umea3Q)
 - [Puppet lint](https://intranet.alxswe.com/rltoken/CRUMeEMdcX-UtbWsUM9xLQ)
