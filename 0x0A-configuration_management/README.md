@@ -151,9 +151,9 @@ Notice: Finished catalog run in 0.10 seconds
 root@d391259bf577:/#
 ```
 
-Terminal #0 - process has been terminated
+**Terminal #0 - process has been terminated**
 
-```
+```bash
 root@d391259bf577:/# ./killmenow
 Terminated
 root@d391259bf577:/#
