@@ -16,6 +16,7 @@ A postmortem is a tool widely used in the tech industry. After any outage, the t
 - And to ensure that the root cause(s) of the outage has been discovered and that measures are taken to make sure it will be fixed.
 
 # Resources
+
 ## Read or watch:
 - [Incident Report, also referred to as a Postmortem](https://intranet.alxswe.com/rltoken/vkEjk-M6yBWW-wyB-7-I9Q)
 - [The importance of an incident postmortem process](https://intranet.alxswe.com/rltoken/QwvgCYt2zjKRT7qMRe7I8A)
