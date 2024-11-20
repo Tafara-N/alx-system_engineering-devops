@@ -102,7 +102,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 root@9665f0a47391:/# puppet apply 1-install_a_package.pp
 Notice: Compiled catalog for 9665f0a47391 in environment production in 0.14 seconds
 Notice: /Stage[main]/Main/Package[Flask]/ensure: created
