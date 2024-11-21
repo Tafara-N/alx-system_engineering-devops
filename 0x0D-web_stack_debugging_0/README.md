@@ -25,7 +25,7 @@ Let’s pretend that without these 2 elements, my web application cannot work.
 
 Let’s go through this example and fix the server.
 
-```
+```bash
 vagrant@vagrant:~$ docker run -d -ti ubuntu:14.04
 Unable to find image 'ubuntu:14.04' locally
 14.04: Pulling from library/ubuntu
