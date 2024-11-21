@@ -1,4 +1,4 @@
-![Web stack debugging #4](frdkCrb.jpg)
+![Web stack debugging #4](images/sky_is_the_limit.jpg)
 
 # Requirements
 
