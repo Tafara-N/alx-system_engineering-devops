@@ -98,7 +98,7 @@ In this first debugging project, you will need to get [Apache](https://en.wikipe
 
 Example:
 
-```
+```bash
 vagrant@vagrant:~$ docker run -p 8080:80 -d -it holbertonschool/265-0
 47ca3994a4910bbc29d1d8925b1c70e1bdd799f5442040365a7cb9a0db218021
 vagrant@vagrant:~$ docker ps
