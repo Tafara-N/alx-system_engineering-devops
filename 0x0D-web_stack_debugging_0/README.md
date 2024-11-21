@@ -94,7 +94,7 @@ For this project you will be given a container which you can use to solve the ta
 
 Be sure to read the **Docker** concept page
 
-In this first debugging project, you will need to get [Apache](https://intranet.alxswe.com/rltoken/HVGgLL51qmuulmw802M-Jg) to run on the container and to return a page containing `Hello Holberton` when querying the root of it.
+In this first debugging project, you will need to get [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) to run on the container and to return a page containing `Hello Holberton` when querying the root of it.
 
 Example:
 
