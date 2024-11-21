@@ -7,6 +7,7 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/287/99littlebugsinthecode-holberton.jpg)
 
 # Requirements
+
 ## General
 - All your files will be interpreted on Ubuntu 20.04 LTS
 - All your files should end with a new line
