@@ -76,6 +76,7 @@ For this project you will be given a container which you can use to solve the ta
 - `curl`
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 14.04 LTS
