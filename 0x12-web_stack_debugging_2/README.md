@@ -4,7 +4,7 @@
 
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/287/99littlebugsinthecode-holberton.jpg)
+![Fixing bugs](images/99littlebugsinthecode-holberton.jpg)
 
 # Requirements
 
@@ -22,7 +22,7 @@
 
 ### 0. Run software as another user
 
-![](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x12-web_stack_debugging_2/images/great_power.png)
+![Great Power](images/great_power.png)
 
 The user `root` is, on Linux, the “superuser”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the `root` user, as if you fat finger a command and for example run `rm -rf /`, there is no comeback. That’s why it is preferable to run as a privileged user, meaning that the user also has the ability to perform tasks that the `root` user can do, just need to use a specific command that you need to discover.
 
@@ -36,7 +36,7 @@ Requirements:
 
 Example:
 
-```
+```bash
 root@ubuntu:~# whoami
 root
 root@ubuntu:~# ./0-iamsomeoneelse www-data
