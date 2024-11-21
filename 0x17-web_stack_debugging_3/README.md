@@ -47,7 +47,7 @@ Using `strace`, find out why Apache is returning a 500 error. Once you find the 
 Hint:
 
 - `strace` can attach to a current running process
-- You can use [tmux](https://intranet.alxswe.com/rltoken/6GpArtwhw7thSyNub9s3qA) to run [strace](https://intranet.alxswe.com/rltoken/ueMevAif95DjyW2sqVCMoA) in one window and `curl` in another one
+- You can use [tmux](https://intranet.alxswe.com/rltoken/6GpArtwhw7thSyNub9s3qA) to run [`strace`](https://strace.io/) in one window and `curl` in another one
 
 Requirements:
 
