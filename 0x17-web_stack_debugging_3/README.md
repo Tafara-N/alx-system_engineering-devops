@@ -33,7 +33,7 @@ The web stack you are debugging today is a Wordpress website running on a LAMP s
 
 ## Install `puppet-lint`
 
-```
+```bash
 $ apt-get install -y ruby
 $ gem install puppet-lint -v 2.1.1
 ```
