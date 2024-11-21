@@ -51,7 +51,7 @@ vagrant@vagrant:~$
 
 Then my answer file would contain:
 
-```
+```bash
 sylvain@ubuntu:~$ cat answerfile
 #!/usr/bin/env bash
 # Fix my server with these magic 2 lines
