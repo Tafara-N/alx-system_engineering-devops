@@ -6,7 +6,7 @@
 - [Docker](https://intranet.alxswe.com/concepts/65)
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![I Love Debugging](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/265/uWLzjc8.jpg)
+![I Love Debugging](images/love_debugging.jpg)
 
 # Background Context
 
