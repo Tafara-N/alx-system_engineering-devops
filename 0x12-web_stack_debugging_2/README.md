@@ -18,6 +18,7 @@
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 ## Tasks
+
 ### 0. Run software as another user
 
 ![](https://github.com/Tafara-N/Project-Images/blob/main/alx-system_engineering-devops/0x12-web_stack_debugging_2/images/great_power.png)
