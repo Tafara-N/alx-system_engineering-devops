@@ -66,7 +66,7 @@ Requirements:
 
 After debugging:
 
-```
+```bash
 root@ab6f4542747e:~# ps auxff | grep ngin[x]
 nginx      884  0.0  0.0  77360  2744 ?        Ss   19:16   0:00 nginx: master process /usr/sbin/nginx
 nginx      885  0.0  0.0  77712  2772 ?        S    19:16   0:00  \_ nginx: worker process
