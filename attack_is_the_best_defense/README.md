@@ -5,8 +5,6 @@
 - [Network basics](https://intranet.alxswe.com/concepts/33)
 - [Docker](https://intranet.alxswe.com/concepts/65)
 
-# Background Context
-
 # Resources
 
 **Read or watch:**
